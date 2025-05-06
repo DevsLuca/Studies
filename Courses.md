@@ -1,6 +1,11 @@
 # Courses Tracker: 
 This is a personal repository to track all the courses I have taken, currently studying, or plan to study. It includes course details, notes, project links, and progress updates, organized by subject and status.
 
+1. [Machine Learning & AI](#Machine-Learning--AI)
+2. [Programming & Data Science Foundations](#Programming--Data-Science-Foundations)
+3. [Business & Economics](#Business--Economics)
+4. [Data Visualization](#Data-Visualization)
+
 ## 📜 Coursera Certifications
 ---
 ### 🧠 Machine Learning & AI
