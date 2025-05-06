@@ -4,7 +4,7 @@ This repository tracks the professional certifications I have obtained, includin
 ## Table of Contents
 1. [FRM (Financial Risk Manager)](#frm-financial-risk-manager) [GARP]
 2. [RAI (Risk and AI)](#rai-risk-and-ai) [GARP]
-3. 
+3. [Innovation and Artificial Intelligence](Innovation-and-Artificial-Intelligence) [INSEAD]
 
 ---
 
@@ -151,6 +151,11 @@ The **Risk and AI (RAI)** certification, also from GARP, focuses on knowledge ar
 - **Module 3**: Risks and Risk Factors
 - **Module 4**: Responsible and Ethical AI
 - **Module 5**: Data and AI Model Governance
+
+---
+
+## Innovation and Artificial Intelligence
+[View Certificate](https://garp.my.site.com/DigitalBadgeFRM?id=0031W00002gKKADQA4)
 
 ## How to Use This Repository
 
