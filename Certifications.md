@@ -7,7 +7,8 @@ This repository tracks the professional certifications I have obtained, includin
 
 ---
 
-## FRM (Financial Risk Manager)(#link)
+## FRM (Financial Risk Manager)
+[View Certificate](https://garp.my.site.com/DigitalBadgeFRM?id=0031W00002gKKADQA4)
 
 The **Financial Risk Manager (FRM)** certification, awarded by the Global Association of Risk Professionals (GARP), is a globally recognized designation for professionals in risk management. It demonstrates expertise in identifying, analyzing, and mitigating financial risks.
 
