@@ -6,8 +6,8 @@ This is a personal repository to track all the courses I have taken, currently s
 3. [Business & Economics](#Business--Economics)
 4. [Data Visualization](#Data-Visualization)
 
-## 📜 Coursera Certifications
 ---
+
 ### 🧠 Machine Learning & AI
 
 - **IBM Machine Learning**  
@@ -35,7 +35,7 @@ This is a personal repository to track all the courses I have taken, currently s
 ### 📊 Business & Economics
 
 - **Managerial Economics and Business Analysis**  
-  *University of Illinois Urbana-Champaign* — [View Certificate](#)  
+  *University of Illinois Urbana-Champaign* — [View Certificate]([#](https://coursera.org/share/7d39e68c81c226a50fbae0388b91a8f1))  
   Teaches economic frameworks and data-driven decision-making for business strategy.
 
 ---
@@ -43,6 +43,12 @@ This is a personal repository to track all the courses I have taken, currently s
 ### 📈 Data Visualization
 
 - **Tableau Business Intelligence Analyst**  
-  *Tableau Learning Partner* — [View Certificate](#)  
+  *Tableau Learning Partner* — [View Certificate](https://coursera.org/share/8e4a8cabc82db6b1b0037c2b4436b0cd)  
   Skill development in dashboarding, storytelling, and visual analytics using Tableau.
 
+---
+
+## How to Use This Repository
+
+- Browse through the course sections listed above, each with links to certificates and relevant resources.
+- Thanks for checking out my course tracker! This repository helps me stay organized and track my academic progress. I hope you find it useful!
