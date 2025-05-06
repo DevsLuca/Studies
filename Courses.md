@@ -1,13 +1,8 @@
-# Studies
-Courses Tracker: A personal repository to track all the courses I have taken, currently studying, or plan to study. It includes course details, notes, project links, and progress updates, organized by subject and status.
-
+# Courses Tracker: 
+This is a personal repository to track all the courses I have taken, currently studying, or plan to study. It includes course details, notes, project links, and progress updates, organized by subject and status.
 
 ## 📜 Coursera Certifications
-
-My completed Coursera specializations, grouped by topic:
-
 ---
-
 ### 🧠 Machine Learning & AI
 
 - **IBM Machine Learning**  
@@ -27,7 +22,7 @@ My completed Coursera specializations, grouped by topic:
 ### 🐍 Programming & Data Science Foundations
 
 - **Python for Everybody**  
-  *University of Michigan* — [View Certificate](#)  
+  *University of Michigan* — [View Certificate](https://coursera.org/share/1f41bf22a31f6f116c7b3265380545d7)  
   Intro to programming with Python, including data structures, web APIs, and databases.
 
 ---
@@ -37,6 +32,8 @@ My completed Coursera specializations, grouped by topic:
 - **Managerial Economics and Business Analysis**  
   *University of Illinois Urbana-Champaign* — [View Certificate](#)  
   Teaches economic frameworks and data-driven decision-making for business strategy.
+
+---
 
 ### 📈 Data Visualization
 
