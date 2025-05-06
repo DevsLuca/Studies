@@ -34,7 +34,7 @@
 ### 📊 Business & Economics
 
 - **Managerial Economics and Business Analysis**  
-  *University of Illinois Urbana-Champaign* — [View Certificate]([#](https://coursera.org/share/7d39e68c81c226a50fbae0388b91a8f1))  
+  *University of Illinois Urbana-Champaign* — [View Certificate](https://coursera.org/share/7d39e68c81c226a50fbae0388b91a8f1)  
   Teaches economic frameworks and data-driven decision-making for business strategy.
 
 ---
