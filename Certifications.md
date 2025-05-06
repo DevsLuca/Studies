@@ -3,7 +3,7 @@ This repository tracks the professional certifications I have obtained, includin
 
 ## Table of Contents
 1. [FRM (Financial Risk Manager)](#frm-financial-risk-manager)
-2. [RAI (Risk and Insurance)](#rai-risk-and-insurance)
+2. [RAI (Risk and AI)](#rai-risk-and-ai)
 
 ---
 
@@ -129,31 +129,26 @@ Covers the application of risk management tools to real-world situations. Topics
 
 ---
 
-## RAI (Risk and Insurance)
-
-The **Risk and Insurance (RAI)** certification, also from GARP, focuses on the specialized knowledge required for professionals working in risk management within the insurance industry.
+## RAI (Risk and AI)
+[View Certificate](https://garp.my.site.com/DigitalBadgeRAI?id=0031W00002gKKADQA4)
+The **Risk and AI (RAI)** certification, also from GARP, focuses on knowledge areas necessary for individuals and organizations to successfully manage the impact of AI on organizations
 
 ### RAI Modules:
-- **RAI Part I** — [View Certification](#)  
-  Introduction to insurance risk, regulations, underwriting, and claims management.
-
-- **RAI Part II** — [View Certification](#)  
-  In-depth analysis of insurance risk models, actuarial tools, and managing risk in different insurance sectors.
-
-### Study Materials:
-- **Books**:  
-  - "Risk Management in Insurance" by Robert W. Klein
-  - "Insurance Risk and Regulations" by Tony Tarifa
-
-- **Online Resources**:  
-  - GARP official website
-  - RAI certification prep courses (e.g., RAI Learning Hub)
-
-### Progress:
-- ✅ RAI Part I: Completed
-- 🕒 RAI Part II: In Progress
-
----
+- **Module 1**: AI and Risk, Introduction and Overview
+- **Module 2**: Tools and Techniques
+  - Chapter 1: Introduction to Tools and Techniques
+  - Chapter 2: Unsupervised Learning
+  - Chapter 3: Supervised Learning – Econometric Techniques
+  - Chapter 4: Supervised Learning – Machine Learning Techniques
+  - Chapter 5: Semi-Supervised Learning
+  - Chapter 6: Reinforcement Learning
+  - Chapter 7: Supervised Learning – Model Estimation
+  - Chapter 8: Supervised Learning – Model Performance Evaluation
+  - Chapter 9: Natural Language Processing
+  - Chapter 10: Generative AI and LLMs
+- **Module 3**: Risks and Risk Factors
+- **Module 4**: Responsible and Ethical AI
+- **Module 5**: Data and AI Model Governance
 
 ## How to Use This Repository
 
