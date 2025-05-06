@@ -66,10 +66,66 @@ Focuses on risk management tools, concepts, and the foundations of risk manageme
 ## FRM Part II  
 Covers the application of risk management tools to real-world situations. Topics include market risk, credit risk, operational risk, and risk management in banking and investment management.
 
-### Study Materials:
-- **Books**:  
-  - "FRM Part I & II Study Guide" by Wiley
-  - "Risk Management and Financial Institutions" by John C. Hull
+- **Market Risk Measurement and Management**
+  • VaR and other risk measures
+  • Parametric and non-parametric methods of estimation
+  • VaR mapping
+  • Backtesting VaR
+  • Expected shortfall (ES) and other coherent risk measures
+  • Extreme Value Theory (EVT)
+  • Modeling dependence: correlations and copulas
+  • Term structure models of interest rates
+  • Volatility: smiles and term structures
+  • Fundamental Review of the Trading Book (FRTB)
+
+- **Credit Risk Measurement and Management**
+  • Credit analysis
+  • Default risk: quantitative methodologies
+  • Expected and unexpected loss
+  • Credit VaR
+  • Counterparty risk
+  • Credit derivatives
+  • Structured finance and securitization
+
+- **Operational Risk and Resilience**
+  • Governance of operational risk management frameworks
+  • Identification, classification, and reporting of operational risks
+  • Measurement and assessment of operational risks
+  • Mitigation of operational risks
+  • Cyber-resilience and operational resilience
+  • Risks related to money laundering, financing of terrorism, financial crime, and fraud
+  • Third-party outsourcing
+  • Model risk and model validation
+  • Stress testing banks
+  • Risk-adjusted return on capital (RAROC)
+  • Economic capital frameworks and capital planning
+  • Regulation and the Basel Accords
+
+- **Liquidity and Treasury Risk Measurement and Management**
+  • Liquidity risk principles and metrics
+  • Liquidity portfolio management
+  • Cash-flow modeling, liquidity stress testing, and reporting
+  • Contingency funding plan
+  • Funding models
+  • Funds transfer pricing
+  • Cross-currency funding
+  • Balance sheet management
+  • Asset liquidity
+
+- **Risk Management and Investment Management**
+  • Factor theory
+  • Portfolio construction
+  • Portfolio risk measures
+  • Risk budgeting
+  • Risk monitoring and performance measurement
+  • Portfolio-based performance analysis
+  • Hedge funds
+
+- **Current Issues in Financial Markets**
+  • Machine learning (ML) and artificial intelligence (AI)
+  • Climate risk
+  • Inflation risk
+  • Blockchain, cryptocurrency, and decentralized finance
 
 ---
 
