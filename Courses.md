@@ -6,15 +6,15 @@ This is a personal repository to track all the courses I have taken, currently s
 ### 🧠 Machine Learning & AI
 
 - **IBM Machine Learning**  
-  *IBM* — [View Certificate](#)  
+  *IBM* — [View Certificate](https://coursera.org/share/6a3ebec5f4e302760e2ec59014351f22)  
   Covers supervised/unsupervised learning, model evaluation, and pipelines using real-world IBM case studies.
 
 - **Machine Learning**  
-  *DeepLearning.AI, Stanford University* — [View Certificate](#)  
+  *DeepLearning.AI, Stanford University* — [View Certificate](https://coursera.org/share/f240b13fb243e3503e202264bec23138)  
   Andrew Ng’s foundational ML course covering linear regression, neural networks, and best practices.
 
 - **Mathematics for Machine Learning**  
-  *Imperial College London* — [View Certificate](#)  
+  *Imperial College London* — [View Certificate](https://coursera.org/share/0ae1cd958cd41ab3d3494b773a53976f)  
   Focused on linear algebra, multivariate calculus, and PCA — core tools for understanding ML algorithms.
 
 ---
