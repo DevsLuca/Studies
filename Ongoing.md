@@ -1,8 +1,8 @@
 # Ongoing Courses
 
-## - [IBM Data Science Professional Certificate](ibm-data-science-professional-certificate)
-## - [Applied Data Science with Python Specialization](applied-data-science-with-python-specialization)
-## - [Statistics with Python Specialization](statistics-with-python-specialization)
+- ## [IBM Data Science Professional Certificate](ibm-data-science-professional-certificate)
+- ## [Applied Data Science with Python Specialization](applied-data-science-with-python-specialization)
+- ## [Statistics with Python Specialization](statistics-with-python-specialization)
 
 ---
 
