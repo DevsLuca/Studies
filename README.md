@@ -7,8 +7,8 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 
 ## 🔗 Quick Access
 
-- [📘 Courses Overview](./Courses.md)
-- [🎓 Certifications](./Certifications.md)
+- ### [📘 Courses Overview](./Courses.md)
+- ### [🎓 Certifications](./Certifications.md)
 
 
 ---
