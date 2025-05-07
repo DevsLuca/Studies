@@ -7,7 +7,7 @@
 ---
 
 ## [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
-IBM - Professional Certificate - 12 course series
+*IBM - Professional Certificate - 12 course series*
 
 Tools used: Jupyter / JupyterLab, GitHub, R Studio, and Watson Studio
 
@@ -87,7 +87,8 @@ Projects:
 ---
 
 ## [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python)
-University of Michigan - Specialization - 3 course series
+*University of Michigan - Specialization - 3 course series*
+
 This specialization is designed to teach learners beginning and intermediate concepts of statistical analysis using the Python programming language. Learners will learn where data come from, what types of data can be collected, study data design, data management, and how to effectively carry out data exploration and visualization. They will be able to utilize data for estimation and assessing theories, construct confidence intervals, interpret inferential results, and apply more advanced statistical modeling procedures. Finally, they will learn the importance of and be able to connect research questions to the statistical and data analysis methods taught to them.
 
 ### Course 1: Understanding and Visualizing Data with Python ✅
@@ -101,7 +102,7 @@ This specialization is designed to teach learners beginning and intermediate con
 - Create confidence intervals in Python and interpret the results
 - Review how inferential procedures are applied and interpreted step by step when analyzing real data
 - Run hypothesis tests in Python and interpret the results
-- 
+
 ### Course 3: Fitting Statistical Models to Data with Python 🔄
 - Deepen your understanding of statistical inference techniques by mastering the art of fitting statistical models to data
 - Connect research questions with data analysis methods, emphasizing objectives, relationships between variables, and making predictions
@@ -111,7 +112,8 @@ This specialization is designed to teach learners beginning and intermediate con
 ---
 
 ## [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python)
-University of Michigan - Specialization - 5 course series
+*University of Michigan - Specialization - 5 course series*
+
 The 5 courses in this University of Michigan specialization introduce learners to data science through the python programming language. This skills-based specialization is intended for learners who have a basic python or programming background, and want to apply statistical, machine learning, information visualization, text analysis, and social network analysis techniques through popular python toolkits such as pandas, matplotlib, scikit-learn, nltk, and networkx to gain insight into their data.
 
 ### Course 1: Introduction to Data Science in Python
