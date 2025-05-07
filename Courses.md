@@ -1,9 +1,9 @@
 # Courses Overview: 
 
 1. [Machine Learning & AI](#machine-learning--ai)
-2. [Programming & Data Science Foundations](#Programming--Data-Science-Foundations)
-3. [Business & Economics](#Business--Economics)
-4. [Data Visualization](#Data-Visualization)
+2. [Programming & Data Science Foundations](#programming--data-science-foundations)
+3. [Business & Economics](#business--economics)
+4. [Data Visualization](#data-visualization)
 
 ---
 
