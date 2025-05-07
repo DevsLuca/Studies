@@ -4,6 +4,13 @@ Welcome to my **Personal Knowledge & Learning Repository**. This project is a co
 
 The goal is to maintain an up-to-date, transparent, and organized collection of materials that reflect the topics I have expertise in, as well as those I’m currently exploring.
 
+
+## 🔗 Quick Access
+
+- [📘 Courses Overview](./Courses.md)
+- [🎓 Certifications](./Certifications.md)
+
+
 ---
 
 ## 🧭 Purpose
