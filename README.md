@@ -5,7 +5,7 @@ Welcome to my **Personal Knowledge & Learning Repository**. This project is a co
 The goal is to maintain an up-to-date, transparent, and organized collection of materials that reflect the topics I have expertise in, as well as those I’m currently exploring.
 
 
-## 🔗 Quick Access
+### 🔗 Quick Access
 
 - ## [My Professional Certifications](./Certifications.md)
 - ## [Data Science](./DataScience.md)
@@ -14,7 +14,7 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 
 ---
 
-## 🧭 Purpose
+### 🧭 Purpose
 
 This repository serves as:
 
@@ -25,7 +25,7 @@ This repository serves as:
 
 ---
 
-## 📂 What You’ll Find
+### 📂 What You’ll Find
 
 The repository is organized by **category** and **status**. For each topic, I include:
 
@@ -37,7 +37,7 @@ The repository is organized by **category** and **status**. For each topic, I in
 
 ---
 
-## 🏷️ Areas of Focus
+### 🏷️ Areas of Focus
 
 Some of the main areas documented include:
 
@@ -52,7 +52,7 @@ Some of the main areas documented include:
 
 ---
 
-## 📌 Why I Built This
+### 📌 Why I Built This
 
 As someone committed to continuous learning, I created this repository to:
 
@@ -63,7 +63,7 @@ As someone committed to continuous learning, I created this repository to:
 
 ---
 
-## 🤝 Contributions
+### 🤝 Contributions
 
 This is a personal repository, but I'm always open to learning from others.  
 Feel free to open an issue or suggest useful resources if you’d like to share something relevant.
