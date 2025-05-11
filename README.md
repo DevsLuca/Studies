@@ -9,6 +9,7 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 
 - ## [My Professional Certifications](./Certifications.md)
 - ## [Data Science](./DataScience.md)
+- ## [Statistics]()
 - ## [Other Completed Courses](./Courses.md)
 
 ---
