@@ -1,4 +1,4 @@
-# Professional Certifications Tracker
+# Professional Certifications
 This repository tracks the professional certifications I have obtained, including details on each certification, relevant study materials, and progress updates.
 
 ## Table of Contents
