@@ -1,4 +1,4 @@
-# Ongoing Courses
+# Data Science
 
 - ## [IBM Data Science Professional Certificate](ibm-data-science-professional-certificate)
 - ## [Applied Data Science with Python Specialization](applied-data-science-with-python-specialization)
