@@ -1,5 +1,6 @@
-# Courses Overview
+# Other Courses
 
+## Table of Content
 1. [Machine Learning and AI](#machine-learning-and-ai)
 2. [Business and Economics](#business-and-economics)
 
