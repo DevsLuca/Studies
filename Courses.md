@@ -1,8 +1,7 @@
 # Courses Overview
 
 1. [Machine Learning and AI](#machine-learning-and-ai)
-2. [Programming and Data Science Foundations](#programming-and-data-science-foundations)
-3. [Business and Economics](#business-and-economics)
+2. [Business and Economics](#business-and-economics)
 
 ---
 
@@ -19,14 +18,6 @@
 - **Mathematics for Machine Learning**  
   *Imperial College London* — [View Certificate](https://coursera.org/share/0ae1cd958cd41ab3d3494b773a53976f)  
   Focused on linear algebra, multivariate calculus, and PCA — core tools for understanding ML algorithms.
-
----
-
-### Programming and Data Science Foundations
-
-- **Python for Everybody**  
-  *University of Michigan* — [View Certificate](https://coursera.org/share/1f41bf22a31f6f116c7b3265380545d7)  
-  Intro to programming with Python, including data structures, web APIs, and databases.
 
 ---
 
