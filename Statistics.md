@@ -1,4 +1,8 @@
-# Statistical Learning with Python
+# Statistical Studies
+A concise and structured set of materials from Statistics courses covering fundamental concepts, methods, and applications.
+
+## Table of Content
+1. [ISLP]
 
 **Statistical Learning with Python** explores the fundamental concepts of statistical modeling and machine learning, with a strong focus on applications in Python.
 This course is ideal for students and professionals with a background in basic statistics and programming. 
