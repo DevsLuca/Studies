@@ -8,7 +8,7 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 ## 🔗 Quick Access
 
 - ## [My Professional Certifications](./Certifications.md)
-- ## [Data Science path](./DataScience.md)
+- ## [Data Science](./DataScience.md)
 - ## [Other Completed Courses](./Courses.md)
 
 ---
