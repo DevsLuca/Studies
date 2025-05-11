@@ -154,7 +154,7 @@ The **Risk and AI (RAI)** certification, also from GARP, focuses on knowledge ar
 
 ---
 
-## Innovation and Artificial Intelligence
+## INSEAD Innovation and Artificial Intelligence
 [View Certificate](https://certificates.insead.edu/0c72e8bd-8f82-4f41-aea4-d68860baf7b2?key=5b52e26b1e3bc466ddd6a81aba1a727d225b9cdf06595430ca4fcfdfd1c2416d#acc.dy3Dq4Nv)
 
 The Innovation and Artificial Intelligence Training online programme aims at instilling a culture of innovation within the organisation as well as equipping the participants with a better understanding of Artificial Intelligence crucial to the supervision of increasingly digitalised banks.
