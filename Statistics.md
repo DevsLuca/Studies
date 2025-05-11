@@ -16,7 +16,7 @@ It emphasizes both theoretical understanding and practical implementation of sta
 
 ### Chapter 1: Introduction
 - [x] 1.1 Opening Remarks
-- [ ] 1.2 Examples and Framework
+- [x] 1.2 Examples and Framework
 
 ### Chapter 2: Overview of Statistical Learning
 - [ ] 2.1 Introduction to Regression Models
@@ -24,8 +24,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 2.3 Model Selection and Bias-Variance Tradeoff
 - [ ] 2.4 Classification
 - [ ] 2.Py Introduction to Python
-- [ ] Interview with Fernando Pérez
-- [ ] Chapter 2 Quiz
 
 ### Chapter 3: Linear Regression
 - [ ] 3.1 Simple Linear Regression
@@ -34,7 +32,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 3.4 Some Important Questions
 - [ ] 3.5 Extensions of the Linear Model
 - [ ] 3.Py Linear Regression in Python
-- [ ] Chapter 3 Quiz
 
 ### Chapter 4: Classification
 - [ ] 4.1 Introduction to Classification Problems
@@ -57,7 +54,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 5.4 The Bootstrap
 - [ ] 5.5 More on the Bootstrap
 - [ ] 5.Py Cross-Validation and the Bootstrap
-- [ ] Chapter 5 Quiz
 
 ### Chapter 6: Linear Model Selection and Regularization
 - [ ] Interviews with Grad Students
@@ -72,7 +68,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 6.9 Dimension Reduction
 - [ ] 6.10 PCR and PLS
 - [ ] 6.Py Regularization Methods
-- [ ] Chapter 6 Quiz
 
 ### Chapter 7: Moving Beyond Linearity
 - [ ] 7.1 Polynomials and Step Functions
@@ -80,7 +75,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 7.3 Smoothing Splines
 - [ ] 7.4 GAMs and Local Regression
 - [ ] 7.Py Nonlinear Modeling
-- [ ] Chapter 7 Quiz
 
 ### Chapter 8: Tree-Based Methods
 - [ ] Interview with Jerome Friedman
@@ -91,7 +85,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 8.5 Boosting
 - [ ] 8.6 BART
 - [ ] 8.Py Tree-Based Methods
-- [ ] Chapter 8 Quiz
 
 ### Chapter 9: Support Vector Machines
 - [ ] 9.1 Optimal Hyperplanes
@@ -99,7 +92,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 9.3 Feature Expansion and SVM
 - [ ] 9.4 Logistic Regression Comparison
 - [ ] 9.Py SVMs in Python
-- [ ] Chapter 9 Quiz
 
 ### Chapter 10: Deep Learning
 - [ ] Interview with Geoff Hinton
@@ -111,7 +103,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 10.6 Fitting NNs
 - [ ] 10.7 Interpolation and Double Descent
 - [ ] 10.Py Deep Learning
-- [ ] Chapter 10 Quiz
 
 ### Chapter 11: Survival Analysis and Censored Data
 - [ ] Interview with David Cox
@@ -120,7 +111,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 11.3 Cox Model Estimation
 - [ ] 11.4 Model Evaluation
 - [ ] 11.Py Survival Analysis
-- [ ] Chapter 11 Quiz
 
 ### Chapter 12: Unsupervised Learning
 - [ ] 12.1 Principal Components
@@ -130,7 +120,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 12.5 Matrix Completion
 - [ ] 12.6 Breast Cancer Example
 - [ ] 12.Py Unsupervised Learning
-- [ ] Chapter 12 Quiz
 
 ### Chapter 13: Multiple Testing
 - [ ] Interview with Yoav Benjamini
