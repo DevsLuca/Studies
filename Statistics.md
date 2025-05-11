@@ -1,10 +1,10 @@
 # Statistical Studies
-A concise and structured set of materials from Statistics courses covering fundamental concepts, methods, and applications.
+A curated and structured set of course I’ve completed or am currently following, covering fundamental concepts, methods, and applications related to the world of Statistics.
 
 ## Table of Content
 1. [Statistical Learning with Python](statistical-learning-with-python)
 
-## Statistical Learning with Python 
+### [Statistical Learning with Python](https://www.edx.org/learn/python/stanford-university-statistical-learning-with-python)
 The course explores the fundamental concepts of statistical modeling and machine learning, with a strong focus on applications in Python.
 This course is ideal for students and professionals with a background in basic statistics and programming. 
 It emphasizes both theoretical understanding and practical implementation of statistical learning methods.
@@ -14,8 +14,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
   - *Robert Tibshirani* – Professor of Statistics and Biomedical Data Science, Stanford University
 - **Primary Textbook**:  
   - *An Introduction to Statistical Learning* by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani ([statlearning.com](https://www.statlearning.com/))
-- **Course available on**:
-  - [Statistical Learning with Python – StanfordOnline on edX](https://www.edx.org/learn/python/stanford-university-statistical-learning-with-python)
 
 #### Chapter 1: Introduction
 - [x] 1.1 Opening Remarks
