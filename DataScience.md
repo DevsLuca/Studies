@@ -99,7 +99,7 @@ This specialization is designed to teach learners beginning and intermediate con
 - Communicate statistical ideas clearly and concisely to a broad audience
 - Identify appropriate analytic techniques for probability and non-probability samples
 
-#### Course 2: Inferential Statistical Analysis with Python 🔄
+#### Course 2: Inferential Statistical Analysis with Python ✅
 - Determine assumptions needed to calculate confidence intervals for their respective population parameters
 - Create confidence intervals in Python and interpret the results
 - Review how inferential procedures are applied and interpreted step by step when analyzing real data
