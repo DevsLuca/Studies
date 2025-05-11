@@ -7,10 +7,10 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 
 ### 🔗 Quick Access
 
-- ## [My Professional Certifications](./Certifications.md)
-- ## [Data Science](./DataScience.md)
-- ## [Statistics](./Statistics.md)
-- ## [Other Expertise](./Courses.md)
+1. [My Professional Certifications](./Certifications.md)
+2. [Data Science](./DataScience.md)
+3. [Statistics](./Statistics.md)
+4. [Other Expertise](./Courses.md)
 
 ---
 
