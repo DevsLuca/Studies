@@ -13,7 +13,7 @@ This repository tracks the professional certifications I have obtained, includin
 
 The **Financial Risk Manager (FRM)** certification, awarded by the Global Association of Risk Professionals (GARP), is a globally recognized designation for professionals in risk management. It demonstrates expertise in identifying, analyzing, and mitigating financial risks.
 
-## FRM Part I
+### FRM Part I
 Focuses on risk management tools, concepts, and the foundations of risk management. Topics include quantitative analysis, financial markets and products, risk modeling, and valuation.
 - **Foundations of Risk Management**
   • Basic risk types, measurement, and management tools
@@ -64,7 +64,7 @@ Focuses on risk management tools, concepts, and the foundations of risk manageme
   • Expected and unexpected losses
   • Operational risk
 
-## FRM Part II  
+### FRM Part II  
 Covers the application of risk management tools to real-world situations. Topics include market risk, credit risk, operational risk, and risk management in banking and investment management.
 
 - **Market Risk Measurement and Management**
@@ -178,7 +178,7 @@ The Innovation and Artificial Intelligence Training online programme aims at ins
 
 ---
 
-## How to Use This Repository
+### How to Use This Repository
 
 - Browse through the sections of each certification, with links to certificates and relevant resources.
 - This repository is a living document, so I will update it with any new study materials, certifications, or progress updates.
