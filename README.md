@@ -11,7 +11,8 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 2. [Data Science](./DataScience.md)
 3. [Statistics](./Statistics.md)
 4. [Data Visualisation](./DataVisualisation.md)
-5. [Other Expertise](./Courses.md)
+5. [Coding - Python](./PythonStudies.md)
+6. [Other Expertise](./Courses.md)
 
 ---
 
