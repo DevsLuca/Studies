@@ -10,7 +10,8 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 1. [My Professional Certifications](./Certifications.md)
 2. [Data Science](./DataScience.md)
 3. [Statistics](./Statistics.md)
-4. [Other Expertise](./Courses.md)
+4. [Data Visualisation](./DataVisualisation.md)
+5. [Other Expertise](./Courses.md)
 
 ---
 
