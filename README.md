@@ -9,7 +9,7 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 
 - ### [📘 Courses Overview](./Courses.md)
 - ### [🎓 Certifications](./Certifications.md)
-- ### [🔄 Data Science](./Data-Science.md)       *Have a closer look at what i am currently focusing on*
+- ### [🔄 Data Science](./DataScience.md)       *Have a closer look at what i am currently focusing on*
 
 
 ---
