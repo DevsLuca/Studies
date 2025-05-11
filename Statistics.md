@@ -1,12 +1,24 @@
-# 📚 Course Progress Tracker: Statistical Learning
+# Statistical Learning with Python
 
-Track your progress by checking off completed sections below.
+**Statistical Learning with Python** explores the fundamental concepts of statistical modeling and machine learning, with a strong focus on applications in Python.
+This course is ideal for students and professionals with a background in basic statistics and programming. 
+It emphasizes both theoretical understanding and practical implementation of statistical learning methods.
 
-## ✅ Chapter 1: Introduction
+- **Professors:**
+  - *Trevor Hastie* – Professor of Statistics, Stanford University  
+  - *Robert Tibshirani* – Professor of Statistics and Biomedical Data Science, Stanford University
+- **Primary Textbook**:  
+  - *An Introduction to Statistical Learning* by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani (freely available at [statlearning.com](https://www.statlearning.com/))
+- **Course available on**:
+  - [Statistical Learning with Python – StanfordOnline on edX](https://www.edx.org/learn/python/stanford-university-statistical-learning-with-python)
+
+## Topics Covered
+
+### Chapter 1: Introduction
 - [x] 1.1 Opening Remarks
 - [ ] 1.2 Examples and Framework
 
-## 📊 Chapter 2: Overview of Statistical Learning
+### Chapter 2: Overview of Statistical Learning
 - [ ] 2.1 Introduction to Regression Models
 - [ ] 2.2 Dimensionality and Structured Models
 - [ ] 2.3 Model Selection and Bias-Variance Tradeoff
@@ -15,7 +27,7 @@ Track your progress by checking off completed sections below.
 - [ ] Interview with Fernando Pérez
 - [ ] Chapter 2 Quiz
 
-## 📈 Chapter 3: Linear Regression
+### Chapter 3: Linear Regression
 - [ ] 3.1 Simple Linear Regression
 - [ ] 3.2 Hypothesis Testing and Confidence Intervals
 - [ ] 3.3 Multiple Linear Regression
@@ -24,7 +36,7 @@ Track your progress by checking off completed sections below.
 - [ ] 3.Py Linear Regression in Python
 - [ ] Chapter 3 Quiz
 
-## 🎯 Chapter 4: Classification
+### Chapter 4: Classification
 - [ ] 4.1 Introduction to Classification Problems
 - [ ] 4.2 Logistic Regression
 - [ ] 4.3 Multivariate Logistic Regression
@@ -37,7 +49,7 @@ Track your progress by checking off completed sections below.
 - [ ] 4.Py Logistic Regression, LDA, QDA, and KNN
 - [ ] Chapter 4 Quiz
 
-## 🔁 Chapter 5: Resampling Methods
+### Chapter 5: Resampling Methods
 - [ ] Interview with Brad Efron
 - [ ] 5.1 Cross-validation
 - [ ] 5.2 K-fold Cross-Validation
@@ -47,7 +59,7 @@ Track your progress by checking off completed sections below.
 - [ ] 5.Py Cross-Validation and the Bootstrap
 - [ ] Chapter 5 Quiz
 
-## 🧠 Chapter 6: Linear Model Selection and Regularization
+### Chapter 6: Linear Model Selection and Regularization
 - [ ] Interviews with Grad Students
 - [ ] 6.1 Best-Subset Selection
 - [ ] 6.2 Stepwise Selection
@@ -62,7 +74,7 @@ Track your progress by checking off completed sections below.
 - [ ] 6.Py Regularization Methods
 - [ ] Chapter 6 Quiz
 
-## 🌀 Chapter 7: Moving Beyond Linearity
+### Chapter 7: Moving Beyond Linearity
 - [ ] 7.1 Polynomials and Step Functions
 - [ ] 7.2 Splines
 - [ ] 7.3 Smoothing Splines
@@ -70,7 +82,7 @@ Track your progress by checking off completed sections below.
 - [ ] 7.Py Nonlinear Modeling
 - [ ] Chapter 7 Quiz
 
-## 🌳 Chapter 8: Tree-Based Methods
+### Chapter 8: Tree-Based Methods
 - [ ] Interview with Jerome Friedman
 - [ ] 8.1 Tree-Based Methods
 - [ ] 8.2 More on Trees
@@ -81,7 +93,7 @@ Track your progress by checking off completed sections below.
 - [ ] 8.Py Tree-Based Methods
 - [ ] Chapter 8 Quiz
 
-## ✂️ Chapter 9: Support Vector Machines
+### Chapter 9: Support Vector Machines
 - [ ] 9.1 Optimal Hyperplanes
 - [ ] 9.2 Support Vector Classifier
 - [ ] 9.3 Feature Expansion and SVM
@@ -89,7 +101,7 @@ Track your progress by checking off completed sections below.
 - [ ] 9.Py SVMs in Python
 - [ ] Chapter 9 Quiz
 
-## 🤖 Chapter 10: Deep Learning
+### Chapter 10: Deep Learning
 - [ ] Interview with Geoff Hinton
 - [ ] 10.1 Neural Networks
 - [ ] 10.2 CNNs
@@ -101,7 +113,7 @@ Track your progress by checking off completed sections below.
 - [ ] 10.Py Deep Learning
 - [ ] Chapter 10 Quiz
 
-## 🧬 Chapter 11: Survival Analysis and Censored Data
+### Chapter 11: Survival Analysis and Censored Data
 - [ ] Interview with David Cox
 - [ ] 11.1 Introduction to Survival Data
 - [ ] 11.2 Proportional Hazards Model
@@ -110,7 +122,7 @@ Track your progress by checking off completed sections below.
 - [ ] 11.Py Survival Analysis
 - [ ] Chapter 11 Quiz
 
-## 🔍 Chapter 12: Unsupervised Learning
+### Chapter 12: Unsupervised Learning
 - [ ] 12.1 Principal Components
 - [ ] 12.2 Higher-Order PCs
 - [ ] 12.3 k-means Clustering
@@ -120,7 +132,7 @@ Track your progress by checking off completed sections below.
 - [ ] 12.Py Unsupervised Learning
 - [ ] Chapter 12 Quiz
 
-## 🧪 Chapter 13: Multiple Testing
+### Chapter 13: Multiple Testing
 - [ ] Interview with Yoav Benjamini
 - [ ] 13.1 Intro to Hypothesis Testing
 - [ ] 13.2 Multiple Testing and FWER
