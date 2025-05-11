@@ -8,7 +8,7 @@ It emphasizes both theoretical understanding and practical implementation of sta
   - *Trevor Hastie* – Professor of Statistics, Stanford University  
   - *Robert Tibshirani* – Professor of Statistics and Biomedical Data Science, Stanford University
 - **Primary Textbook**:  
-  - *An Introduction to Statistical Learning* by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani (freely available at [statlearning.com](https://www.statlearning.com/))
+  - *An Introduction to Statistical Learning* by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani ([statlearning.com](https://www.statlearning.com/))
 - **Course available on**:
   - [Statistical Learning with Python – StanfordOnline on edX](https://www.edx.org/learn/python/stanford-university-statistical-learning-with-python)
 
