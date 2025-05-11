@@ -130,7 +130,7 @@ Covers the application of risk management tools to real-world situations. Topics
 
 ---
 
-## RAI (Risk and AI)
+## RAI (AI Risk Manager)
 [View Certificate](https://garp.my.site.com/DigitalBadgeRAI?id=0031W00002gKKADQA4)
 
 The **Risk and AI (RAI)** certification, also from GARP, focuses on knowledge areas necessary for individuals and organizations to successfully manage the impact of AI on organizations
