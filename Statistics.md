@@ -12,20 +12,18 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - **Course available on**:
   - [Statistical Learning with Python – StanfordOnline on edX](https://www.edx.org/learn/python/stanford-university-statistical-learning-with-python)
 
-## Topics Covered
-
-### Chapter 1: Introduction
+#### Chapter 1: Introduction
 - [x] 1.1 Opening Remarks
 - [x] 1.2 Examples and Framework
 
-### Chapter 2: Overview of Statistical Learning
+#### Chapter 2: Overview of Statistical Learning
 - [ ] 2.1 Introduction to Regression Models
 - [ ] 2.2 Dimensionality and Structured Models
 - [ ] 2.3 Model Selection and Bias-Variance Tradeoff
 - [ ] 2.4 Classification
 - [ ] 2.Py Introduction to Python
 
-### Chapter 3: Linear Regression
+#### Chapter 3: Linear Regression
 - [ ] 3.1 Simple Linear Regression
 - [ ] 3.2 Hypothesis Testing and Confidence Intervals
 - [ ] 3.3 Multiple Linear Regression
@@ -33,7 +31,7 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 3.5 Extensions of the Linear Model
 - [ ] 3.Py Linear Regression in Python
 
-### Chapter 4: Classification
+#### Chapter 4: Classification
 - [ ] 4.1 Introduction to Classification Problems
 - [ ] 4.2 Logistic Regression
 - [ ] 4.3 Multivariate Logistic Regression
@@ -46,7 +44,7 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 4.Py Logistic Regression, LDA, QDA, and KNN
 - [ ] Chapter 4 Quiz
 
-### Chapter 5: Resampling Methods
+#### Chapter 5: Resampling Methods
 - [ ] Interview with Brad Efron
 - [ ] 5.1 Cross-validation
 - [ ] 5.2 K-fold Cross-Validation
@@ -55,7 +53,7 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 5.5 More on the Bootstrap
 - [ ] 5.Py Cross-Validation and the Bootstrap
 
-### Chapter 6: Linear Model Selection and Regularization
+#### Chapter 6: Linear Model Selection and Regularization
 - [ ] Interviews with Grad Students
 - [ ] 6.1 Best-Subset Selection
 - [ ] 6.2 Stepwise Selection
@@ -69,14 +67,14 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 6.10 PCR and PLS
 - [ ] 6.Py Regularization Methods
 
-### Chapter 7: Moving Beyond Linearity
+#### Chapter 7: Moving Beyond Linearity
 - [ ] 7.1 Polynomials and Step Functions
 - [ ] 7.2 Splines
 - [ ] 7.3 Smoothing Splines
 - [ ] 7.4 GAMs and Local Regression
 - [ ] 7.Py Nonlinear Modeling
 
-### Chapter 8: Tree-Based Methods
+#### Chapter 8: Tree-Based Methods
 - [ ] Interview with Jerome Friedman
 - [ ] 8.1 Tree-Based Methods
 - [ ] 8.2 More on Trees
@@ -86,14 +84,14 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 8.6 BART
 - [ ] 8.Py Tree-Based Methods
 
-### Chapter 9: Support Vector Machines
+#### Chapter 9: Support Vector Machines
 - [ ] 9.1 Optimal Hyperplanes
 - [ ] 9.2 Support Vector Classifier
 - [ ] 9.3 Feature Expansion and SVM
 - [ ] 9.4 Logistic Regression Comparison
 - [ ] 9.Py SVMs in Python
 
-### Chapter 10: Deep Learning
+#### Chapter 10: Deep Learning
 - [ ] Interview with Geoff Hinton
 - [ ] 10.1 Neural Networks
 - [ ] 10.2 CNNs
@@ -104,7 +102,7 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 10.7 Interpolation and Double Descent
 - [ ] 10.Py Deep Learning
 
-### Chapter 11: Survival Analysis and Censored Data
+#### Chapter 11: Survival Analysis and Censored Data
 - [ ] Interview with David Cox
 - [ ] 11.1 Introduction to Survival Data
 - [ ] 11.2 Proportional Hazards Model
@@ -112,7 +110,7 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 11.4 Model Evaluation
 - [ ] 11.Py Survival Analysis
 
-### Chapter 12: Unsupervised Learning
+#### Chapter 12: Unsupervised Learning
 - [ ] 12.1 Principal Components
 - [ ] 12.2 Higher-Order PCs
 - [ ] 12.3 k-means Clustering
@@ -121,7 +119,7 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 12.6 Breast Cancer Example
 - [ ] 12.Py Unsupervised Learning
 
-### Chapter 13: Multiple Testing
+#### Chapter 13: Multiple Testing
 - [ ] Interview with Yoav Benjamini
 - [ ] 13.1 Intro to Hypothesis Testing
 - [ ] 13.2 Multiple Testing and FWER
