@@ -3,7 +3,6 @@
 1. [Machine Learning and AI](#machine-learning-and-ai)
 2. [Programming and Data Science Foundations](#programming-and-data-science-foundations)
 3. [Business and Economics](#business-and-economics)
-4. [Data Visualization](#data-visualization)
 
 ---
 
@@ -36,14 +35,6 @@
 - **Managerial Economics and Business Analysis**  
   *University of Illinois Urbana-Champaign* — [View Certificate](https://coursera.org/share/7d39e68c81c226a50fbae0388b91a8f1)  
   Teaches economic frameworks and data-driven decision-making for business strategy.
-
----
-
-### Data Visualization
-
-- **Tableau Business Intelligence Analyst**  
-  *Tableau Learning Partner* — [View Certificate](https://coursera.org/share/8e4a8cabc82db6b1b0037c2b4436b0cd)  
-  Skill development in dashboarding, storytelling, and visual analytics using Tableau.
 
 ---
 
