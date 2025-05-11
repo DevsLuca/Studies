@@ -8,7 +8,7 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 
 ---
 
-## [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
+### [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
 *IBM - Professional Certificate - 12 course series*
 
 Tools used: Jupyter / JupyterLab, GitHub, R Studio, and Watson Studio
@@ -23,7 +23,7 @@ Projects:
 - Apply machine learning classification algorithms to predict whether a loan case will be paid off
 - Train and compare machine learning models
 
-### Course 1: Introduction to Data Science ✅
+#### Course 1: Introduction to Data Science ✅
 - Define data science and its importance in today's data-driven world.
 - Describe the various paths that can lead to a career in data science.
 - Summarize advice from seasoned data science professionals to beginners.
