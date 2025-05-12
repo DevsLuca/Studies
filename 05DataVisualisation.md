@@ -6,7 +6,7 @@ A curated repository of Data Visualisation related courses I’ve completed or a
 
 ---
 
-### Business Analytics and Tableau
+### [Business Analytics and Tableau](https://www.coursera.org/professional-certificates/tableau-business-intelligence-analyst) ✅
 
 [View Certificate](https://coursera.org/share/8e4a8cabc82db6b1b0037c2b4436b0cd)
 
