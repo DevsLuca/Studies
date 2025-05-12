@@ -59,10 +59,4 @@ The courses span fundamental business analysis practices to advanced data visual
 - **Business Requirements Documentation**
 - **Business Process Modeling**
 
-### 📈 Summary
-
-Through this program, I’ve developed both technical and analytical skills essential for transforming raw data into meaningful business insights using **Tableau** and sound **business analysis** practices.
-
----
-
 > This learning journey has prepared me to apply data analytics in real-world business scenarios, making data-driven decisions and creating visualizations that inform and influence stakeholders.
