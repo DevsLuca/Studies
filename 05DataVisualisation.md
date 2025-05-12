@@ -4,6 +4,14 @@
 
 ---
 
+# Data Visualisation
+A curated repository of Data Visualisation related courses I’ve completed or am currently following.
+
+## Table of Contents
+1. [Business Analytics and Tableau](#business-analytics-and-tableau)
+
+---
+
 ### Data Visualization
 
 - **Tableau Business Intelligence Analyst**  
@@ -11,7 +19,7 @@
   Skill development in dashboarding, storytelling, and visual analytics using Tableau.
 
 
-# 📊 Business Analytics & Tableau Learning Path
+# 📊 Business Analytics and Tableau
 
 This repository documents my progress through a structured learning path in **Business Analytics** and **Tableau**, totaling over **160 hours** of hands-on and theoretical instruction. The courses span fundamental business analysis practices to advanced data visualization techniques using Tableau.
 
