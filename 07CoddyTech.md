@@ -1,6 +1,7 @@
-# My certifications
+# My Certifications
 
 Coddy is an online platform focused on teaching code in a practice-driven way. 
+
 [View my Profile](https://coddy.tech/user/aUeKHy42C2ZteG6ASLPD4lmLLqg2)
 
 ## Journeys
