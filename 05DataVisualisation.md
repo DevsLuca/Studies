@@ -52,5 +52,3 @@ The courses span fundamental business analysis practices to advanced data visual
 - **ETL Concepts**
 - **Business Requirements Documentation**
 - **Business Process Modeling**
-
-> This learning journey has prepared me to apply data analytics in real-world business scenarios, making data-driven decisions and creating visualizations that inform and influence stakeholders.
