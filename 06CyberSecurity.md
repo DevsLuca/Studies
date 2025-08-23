@@ -9,7 +9,7 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 ---
 
 ### [Introduction to Cybersecurity and Risk Management Specialization](https://www.coursera.org/programs/data-science-school-qav8p/specializations/information-security)
-*University of California, Irvine*
+*University of California, Irvine* - Specialization - 3 course series
 
 [View Certificate](https://www.coursera.org/account/accomplishments/specialization/TNR9VXSBVERB)
 
