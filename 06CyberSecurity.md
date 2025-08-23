@@ -13,16 +13,11 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 
 [View Certificate](https://www.coursera.org/account/accomplishments/specialization/TNR9VXSBVERB)
 
-Projects:
-- Extract and graph financial data with the Pandas Python library
-- Use SQL to query census, crime, and school demographic data sets
-- Wrangle data, graph plots, and create regression models to predict housing prices with data science Python libraries
-- Create a dynamic Python dashboard to improve US domestic flight reliability
-- Apply machine learning classification algorithms to predict whether a loan case will be paid off
-- Train and compare machine learning models
+#### Course 1: Security Governance and Compliance ✅
+Students are introduced to the field of cyber security with a focus on the domain of security & risk management. Topics include the fundamental concepts and goals of cybersecurity (the CIA triad), security governance design, the NIST cybersecurity framework, relevant laws and regulations, and the roles of policies, strategies, and procedures in cybersecurity governance.
 
-#### Course 1: Introduction to Data Science ✅
-- Define data science and its importance in today's data-driven world.
-- Describe the various paths that can lead to a career in data science.
-- Summarize advice from seasoned data science professionals to beginners.
-- Understand why data science is one of the most in-demand jobs in the 21st century.
+#### Course 2: Introduction to Risk Management ✅
+In this course, you will learn about risk assessment techniques and how to implement a number of strategies that will ensure the protection of assets. You will learn about the relationship between assets, vulnerabilities, threats, and risks. You will also engage with a number of current case studies in the industry that illustrate the material. 
+
+#### Course 3: Personnel & Third-Party Security ✅
+In this course, you will learn all about the process of implementing effective education, training, and awareness programs. You will also study the role personnel security plays in protecting an organization’s assets, intellectual property, and physical assets. You will also be introduced to the steps required for effective Vendor Risk Management (VRM), including: due diligence, contracting, monitoring & accessing, and termination
