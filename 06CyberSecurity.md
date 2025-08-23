@@ -11,9 +11,7 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 ### [Introduction to Cybersecurity and Risk Management Specialization](https://www.coursera.org/programs/data-science-school-qav8p/specializations/information-security)
 *University of California, Irvine*
 
-Tools used: Jupyter / JupyterLab, GitHub, R Studio, and Watson Studio
-
-Libraries used: Pandas, NumPy, Matplotlib, Seaborn, Folium, ipython-sql, Scikit-learn, ScipPy, etc.
+[View Certificate](https://www.coursera.org/account/accomplishments/specialization/TNR9VXSBVERB)
 
 Projects:
 - Extract and graph financial data with the Pandas Python library
