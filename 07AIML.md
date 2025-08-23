@@ -2,16 +2,39 @@
 A curated repository of AI or ML related courses I’ve completed or I am currently following.
 
 ## Table of Contents
-1. [Introduction to Cybersecurity and Risk Management Specialization](#introduction-to-cybersecurity-and-risk-management-specialization)
-2. [ISC2 Certified in Cybersecurity Specialization](ics2-certified-in-cybersecurity-specialisation)
+1. [Mathematics for Machine Learning](#mathematics-for-machine-learning)
+2. [Machine Learning Specialization](Machine Learning Specialization)
 3. [NIST Cybersecurity and Risk Management Frameworks Specialization](#nist-cybersecurity-and-risk-management-frameworks-specialization)
 
 ---
 
-### [Introduction to Cybersecurity and Risk Management Specialization](https://www.coursera.org/programs/data-science-school-qav8p/specializations/information-security)
-*University of California, Irvine* - Specialization - 3 course series
+### [Mathematics for Machine Learning](https://www.coursera.org/specializations/mathematics-machine-learning)
+*Imperial College London* - Specialization - 3 course serie
 
-[View Certificate](https://www.coursera.org/account/accomplishments/specialization/TNR9VXSBVERB)
+[View Certificate](https://coursera.org/share/0ae1cd958cd41ab3d3494b773a53976f)  
+
+#### Course 1: Mathematics for Machine Learning – Linear Algebra
+- Vectors and matrices: definitions and operations  
+- Eigenvalues and eigenvectors: intuition and applications  
+- Practical applications: image rotation, Pagerank, and datasets  
+- Introductory Python coding with Jupyter notebooks  
+- Bridging intuition and application of linear algebra in ML  
+
+#### Course 2: Mathematics for Machine Learning – Multivariate Calculus
+- Gradients and slopes: from intuition to formal definition  
+- Tools for efficient multivariate calculus  
+- Gradients on multidimensional surfaces and vector calculus  
+- Function approximations and error estimation  
+- Calculus in neural networks and linear regression  
+- Intuitive and applied understanding of calculus for ML  
+
+#### Course 3: Mathematics for Machine Learning – PCA
+- Implementing PCA on real-world data  
+- Deriving PCA from projection principles  
+- Understanding orthogonal projections  
+- Mastering PCA for dimensionality reduction  
+
+
 ---
 
 ### Machine Learning and AI
