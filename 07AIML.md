@@ -4,7 +4,7 @@ A curated repository of AI or ML related courses I’ve completed or I am curren
 ## Table of Contents
 1. [Mathematics for Machine Learning](#mathematics-for-machine-learning)
 2. [Machine Learning Specialization](#machine-learning-specialization)
-3. [IBM Machine Learning](#ibm-machine-learning)
+3. [IBM Machine Learning Professional Certificate](#ibm-machine-learning-professional-certificate)
 
 ---
 
@@ -58,9 +58,46 @@ A curated repository of AI or ML related courses I’ve completed or I am curren
 
 ---
 
-### [IBM Machine Learning]()
-*IBM* - Specialization - 
+### [IBM Machine Learning Professional Certificate](https://www.coursera.org/professional-certificates/ibm-machine-learning)
+*IBM* - Professional Certificate - 6 course series
 
 [View Certificate](https://coursera.org/share/6a3ebec5f4e302760e2ec59014351f22)  
+
+#### Course 1: Exploratory Data Analysis for Machine Learning
+- Retrieve data from SQL, NoSQL, APIs, and Cloud sources  
+- Feature selection and feature engineering techniques  
+- Handle categorical, ordinal, and missing data  
+- Detect and manage outliers  
+- Apply feature scaling techniques and explain their importance  
+
+#### Course 2: Supervised Machine Learning – Regression
+- Differentiate regression and classification applications  
+- Train and evaluate linear regression models  
+- Use error metrics to select the best model  
+- Apply regularization methods: Ridge, LASSO, Elastic Net  
+
+#### Course 3: Supervised Machine Learning – Classification
+- Apply classification and ensemble methods  
+- Train logistic regression, decision tree, and tree-ensemble models  
+- Evaluate models using appropriate error metrics  
+- Handle unbalanced classes with oversampling and undersampling  
+
+#### Course 4: Unsupervised Machine Learning
+- Identify problems suitable for unsupervised learning  
+- Understand the curse of dimensionality in clustering  
+- Apply clustering and dimensionality-reduction algorithms  
+- Evaluate clustering performance with relevant metrics  
+
+#### Course 5: Deep Learning and Reinforcement Learning
+- Apply deep learning to suitable problem types  
+- Train and evaluate neural networks  
+- Develop reinforcement learning models  
+
+#### Course 6: Machine Learning Capstone
+- Compare and implement various ML algorithms and recommender systems  
+- Predict outcomes using regression, classification, and neural networks  
+- Apply KNN, PCA, and matrix factorization in recommendation systems  
+- Develop a final project presentation and evaluate peer work  
+
 
 
