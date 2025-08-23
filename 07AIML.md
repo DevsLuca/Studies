@@ -1,8 +1,5 @@
-# Other Courses
-
-## Table of Content
-1. [Machine Learning and AI](#machine-learning-and-ai)
-2. [Business and Economics](#business-and-economics)
+# AI and ML
+A curated repository of AI or ML related courses I’ve completed or I am currently following.
 
 ---
 
