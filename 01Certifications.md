@@ -178,12 +178,4 @@ The Innovation and Artificial Intelligence Training online programme aims at ins
 
 ---
 
-### How to Use This Repository
-
-- Browse through the sections of each certification, with links to certificates and relevant resources.
-- This repository is a living document, so I will update it with any new study materials, certifications, or progress updates.
-- You can contribute suggestions or improvements by submitting pull requests.
-
----
-
 Thanks for checking out my professional certifications tracker! This repository helps me stay organized and motivated while pursuing additional certifications and professional development.
