@@ -3,7 +3,7 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 
 ## Table of Contents
 1. [Introduction to Cybersecurity and Risk Management Specialization](#introduction-to-cybersecurity-and-risk-management-specialization)
-2. [Statistics with Python Specialization](#statistics-with-python-specialization)
+2. [ISC2 Certified in Cybersecurity Specialization](ics2-certified-in-cybersecurity-specialisation)
 3. [Applied Data Science with Python Specialization](#applied-data-science-with-python-specialization)
 
 ---
@@ -21,3 +21,39 @@ In this course, you will learn about risk assessment techniques and how to imple
 
 #### Course 3: Personnel & Third-Party Security ✅
 In this course, you will learn all about the process of implementing effective education, training, and awareness programs. You will also study the role personnel security plays in protecting an organization’s assets, intellectual property, and physical assets. You will also be introduced to the steps required for effective Vendor Risk Management (VRM), including: due diligence, contracting, monitoring & accessing, and termination
+
+---
+
+### [ISC2 Certified in Cybersecurity Specialization](https://www.coursera.org/specializations/certified-in-cybersecurity)
+*ISC2 Education and Training* - Specialization - 5 course series
+
+#### Course 1: Security Principles
+- Core principles of information assurance  
+- Risk management terminology and process  
+- Security controls: preventive, detective, corrective  
+- Governance elements: policies, procedures, standards, regulations, laws  
+- ISC2 Code of Ethics: applying canons to real-world scenarios  
+
+#### Course 2: Incident Response, Business Continuity & Disaster Recovery
+- Incident response lifecycle and terminology  
+- Components of business continuity planning (BCP)  
+- Key elements and practices of disaster recovery (DR)  
+
+#### Course 3: Access Control Concepts
+- Logical vs. physical access controls  
+- Access control models and enforcement mechanisms  
+- Applying access control to practical scenarios  
+
+#### Course 4: Network Security
+- Common network models and secure protocols  
+- Cyber threats and attack types  
+- Network security tools: IDS/IPS, firewalls, etc.  
+- Secure network design principles  
+- Key cloud and data center security terminology  
+
+#### Course 5: Security Operations
+- Data handling and classification best practices  
+- Logging, monitoring, and auditing  
+- Encryption fundamentals: symmetric, asymmetric, hashing  
+- Configuration management and security baselines  
+- Security policies and awareness training  
