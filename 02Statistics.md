@@ -22,19 +22,19 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [x] 1.2 Examples and Framework
 
 #### Chapter 2: Overview of Statistical Learning
-- [ ] 2.1 Introduction to Regression Models
-- [ ] 2.2 Dimensionality and Structured Models
-- [ ] 2.3 Model Selection and Bias-Variance Tradeoff
-- [ ] 2.4 Classification
-- [ ] 2.Py Introduction to Python
+- [x] 2.1 Introduction to Regression Models
+- [x] 2.2 Dimensionality and Structured Models
+- [x] 2.3 Model Selection and Bias-Variance Tradeoff
+- [x] 2.4 Classification
+- [x] 2.Py Introduction to Python
 
 #### Chapter 3: Linear Regression
-- [ ] 3.1 Simple Linear Regression
-- [ ] 3.2 Hypothesis Testing and Confidence Intervals
-- [ ] 3.3 Multiple Linear Regression
-- [ ] 3.4 Some Important Questions
-- [ ] 3.5 Extensions of the Linear Model
-- [ ] 3.Py Linear Regression in Python
+- [x] 3.1 Simple Linear Regression
+- [x] 3.2 Hypothesis Testing and Confidence Intervals
+- [x] 3.3 Multiple Linear Regression
+- [x] 3.4 Some Important Questions
+- [x] 3.5 Extensions of the Linear Model
+- [x] 3.Py Linear Regression in Python
 
 #### Chapter 4: Classification
 - [ ] 4.1 Introduction to Classification Problems
