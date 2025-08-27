@@ -33,8 +33,10 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 
 ---
 
-### [ISC2 Certified in Cybersecurity Specialization](https://www.coursera.org/specializations/certified-in-cybersecurity)
+### [ISC2 Certified in Cybersecurity Specialization](https://www.coursera.org/specializations/certified-in-cybersecurity) ✅
 *ISC2 Education and Training* - Specialization - 5 course series
+
+[View Certificate](https://coursera.org/share/0b4ac863083fde1a02f6de5c1209fe0d)
 
 #### Course 1: Security Principles ✅
 - Core principles of information assurance  
@@ -48,19 +50,19 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 - Components of business continuity planning (BCP)  
 - Key elements and practices of disaster recovery (DR)  
 
-#### Course 3: Access Control Concepts 🔄
+#### Course 3: Access Control Concepts ✅
 - Logical vs. physical access controls  
 - Access control models and enforcement mechanisms  
 - Applying access control to practical scenarios  
 
-#### Course 4: Network Security 🔄
+#### Course 4: Network Security ✅
 - Common network models and secure protocols  
 - Cyber threats and attack types  
 - Network security tools: IDS/IPS, firewalls, etc.  
 - Secure network design principles  
 - Key cloud and data center security terminology  
 
-#### Course 5: Security Operations 🔄
+#### Course 5: Security Operations ✅
 - Data handling and classification best practices  
 - Logging, monitoring, and auditing  
 - Encryption fundamentals: symmetric, asymmetric, hashing  
