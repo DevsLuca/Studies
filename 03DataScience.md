@@ -9,7 +9,7 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 ---
 
 ### [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
-*IBM - Professional Certificate - 12 course series*
+*IBM* - Professional Certificate - 12 course series
 
 Tools used: Jupyter / JupyterLab, GitHub, R Studio, and Watson Studio
 
@@ -89,7 +89,7 @@ Projects:
 ---
 
 ### [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python) ✅
-*University of Michigan - Specialization - 3 course series*
+*University of Michigan* - Specialization - 3 course series
 
 [View Certificate](https://coursera.org/share/eea32caa01c81eb01c5dd3159591e5f5)
 
@@ -116,7 +116,7 @@ This specialization is designed to teach learners beginning and intermediate con
 ---
 
 ### [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python)
-*University of Michigan - Specialization - 5 course series*
+*University of Michigan* - Specialization - 5 course series
 
 The 5 courses in this University of Michigan specialization introduce learners to data science through the python programming language. This skills-based specialization is intended for learners who have a basic python or programming background, and want to apply statistical, machine learning, information visualization, text analysis, and social network analysis techniques through popular python toolkits such as pandas, matplotlib, scikit-learn, nltk, and networkx to gain insight into their data.
 
