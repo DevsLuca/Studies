@@ -2,7 +2,7 @@
 A curated repository of Data Science courses I’ve completed or am currently following, covering topics from statistical learning to machine learning and data analysis with Python.
 
 ## Table of Contents
-1. [IBM Data Science Professional Certificate](#ibm-data-science-professional-certificate)
+1. [IBM Data Science Professional Certificate](#ibm-data-science-professional-certificate) 🔄
 2. [Statistics with Python Specialization](#statistics-with-python-specialization) ✅
 3. [Applied Data Science with Python Specialization](#applied-data-science-with-python-specialization)
 
