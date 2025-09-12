@@ -3,12 +3,12 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 
 ## Table of Contents
 1. [Introduction to Cybersecurity and Risk Management Specialization](#introduction-to-cybersecurity-and-risk-management-specialization) ✅
-2. [ISC2 Certified in Cybersecurity Specialization](ics2-certified-in-cybersecurity-specialisation)
+2. [ISC2 Certified in Cybersecurity Specialization](ics2-certified-in-cybersecurity-specialisation) ✅
 3. [NIST Cybersecurity and Risk Management Frameworks Specialization](#nist-cybersecurity-and-risk-management-frameworks-specialization)
 
 ---
 
-### [Introduction to Cybersecurity and Risk Management Specialization](https://www.coursera.org/programs/data-science-school-qav8p/specializations/information-security) ✅
+### [Introduction to Cybersecurity and Risk Management Specialization](https://www.coursera.org/programs/data-science-school-qav8p/specializations/information-security)
 *University of California, Irvine* - Specialization - 3 course series
 
 [View Certificate](https://www.coursera.org/account/accomplishments/specialization/TNR9VXSBVERB)
@@ -33,7 +33,7 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 
 ---
 
-### [ISC2 Certified in Cybersecurity Specialization](https://www.coursera.org/specializations/certified-in-cybersecurity) ✅
+### [ISC2 Certified in Cybersecurity Specialization](https://www.coursera.org/specializations/certified-in-cybersecurity)
 *ISC2 Education and Training* - Specialization - 5 course series
 
 [View Certificate](https://coursera.org/share/0b4ac863083fde1a02f6de5c1209fe0d)
