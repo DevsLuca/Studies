@@ -3,7 +3,7 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 
 ## Table of Contents
 1. [Introduction to Cybersecurity and Risk Management Specialization](#introduction-to-cybersecurity-and-risk-management-specialization) ✅
-2. [ISC2 Certified in Cybersecurity Specialization](ics2-certified-in-cybersecurity-specialisation) ✅
+2. [ISC2 Certified in Cybersecurity Specialization](#ics2-certified-in-cybersecurity-specialisation) ✅
 3. [NIST Cybersecurity and Risk Management Frameworks Specialization](#nist-cybersecurity-and-risk-management-frameworks-specialization)
 
 ---
