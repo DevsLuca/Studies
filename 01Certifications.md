@@ -8,7 +8,7 @@ This repository tracks the professional certifications I have obtained, includin
 
 ---
 
-## FRM (Financial Risk Manager) ✅
+## FRM (Financial Risk Manager)
 [View Certificate](https://garp.my.site.com/DigitalBadgeFRM?id=0031W00002gKKADQA4)
 
 The **Financial Risk Manager (FRM)** certification, awarded by the Global Association of Risk Professionals (GARP), is a globally recognized designation for professionals in risk management. It demonstrates expertise in identifying, analyzing, and mitigating financial risks.
@@ -130,7 +130,7 @@ Covers the application of risk management tools to real-world situations. Topics
 
 ---
 
-## RAI (AI Risk Manager) ✅
+## RAI (AI Risk Manager)
 [View Certificate](https://garp.my.site.com/DigitalBadgeRAI?id=0031W00002gKKADQA4)
 
 The **Risk and AI (RAI)** certification, also from GARP, focuses on knowledge areas necessary for individuals and organizations to successfully manage the impact of AI on organizations
@@ -154,7 +154,7 @@ The **Risk and AI (RAI)** certification, also from GARP, focuses on knowledge ar
 
 ---
 
-## INSEAD Innovation and Artificial Intelligence ✅
+## INSEAD Innovation and Artificial Intelligence
 [View Certificate](https://certificates.insead.edu/0c72e8bd-8f82-4f41-aea4-d68860baf7b2?key=5b52e26b1e3bc466ddd6a81aba1a727d225b9cdf06595430ca4fcfdfd1c2416d#acc.dy3Dq4Nv)
 
 The Innovation and Artificial Intelligence Training online programme aims at instilling a culture of innovation within the organisation as well as equipping the participants with a better understanding of Artificial Intelligence crucial to the supervision of increasingly digitalised banks.
