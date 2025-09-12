@@ -4,7 +4,7 @@ This repository tracks the professional certifications I have obtained, includin
 ## Table of Contents
 1. [FRM (Financial Risk Manager)](#frm-financial-risk-manager) [GARP]
 2. [RAI (Risk and AI)](#rai-risk-and-ai) [GARP]
-3. [Innovation and Artificial Intelligence](Innovation-and-Artificial-Intelligence) [INSEAD]
+3. [Innovation and Artificial Intelligence](innovation-and-artificial-intelligence) [INSEAD]
 
 ---
 
