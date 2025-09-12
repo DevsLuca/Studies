@@ -2,11 +2,11 @@
 A curated repository of Data Visualisation related courses I’ve completed or am currently following.
 
 ## Table of Contents
-1. [Business Analytics and Tableau](#business-analytics-and-tableau)
+1. [Business Analytics and Tableau](#business-analytics-and-tableau) ✅
 
 ---
 
-### [Business Analytics and Tableau](https://www.coursera.org/professional-certificates/tableau-business-intelligence-analyst) ✅
+### [Business Analytics and Tableau](https://www.coursera.org/professional-certificates/tableau-business-intelligence-analyst)
 
 [View Certificate](https://coursera.org/share/8e4a8cabc82db6b1b0037c2b4436b0cd)
 
