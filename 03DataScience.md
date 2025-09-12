@@ -88,7 +88,7 @@ Projects:
 
 ---
 
-### [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python) ✅
+### [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python)
 *University of Michigan* - Specialization - 3 course series
 
 [View Certificate](https://coursera.org/share/eea32caa01c81eb01c5dd3159591e5f5)
