@@ -40,33 +40,33 @@ Projects:
 - Evaluate different analytic models (predictive, descriptive, and classification).
 - Identify appropriate data sources for analysis.
 
-#### Course 4: Python for Data Science, AI & Development 🔄
+#### Course 4: Python for Data Science, AI & Development ✅
 - Learn Python programming fundamentals.
 - Develop Python code using variables, data structures, loops, functions, and classes.
 - Work with Python libraries like Pandas and Numpy, and develop code using Jupyter Notebooks.
 - Scrape web data using APIs and libraries like Beautiful Soup.
 
-#### Course 5: Python Project for Data Science
+#### Course 5: Python Project for Data Science 
 - Play the role of a Data Scientist/Data Analyst on a real project.
 - Build dashboards using Python, Pandas, Beautiful Soup, and Plotly.
 - Apply Python fundamentals and data structures.
 
-#### Course 6: Databases and SQL for Data Science with Python
+#### Course 6: Databases and SQL for Data Science with Python 
 - Analyze data within a database using SQL and Python.
 - Create relational databases and work with multiple tables.
 - Construct advanced SQL queries with techniques like views, transactions, stored procedures, and joins.
 
-#### Course 7: Data Analysis with Python
+#### Course 7: Data Analysis with Python ✅
 - Clean and prepare data for analysis using Python.
 - Perform exploratory data analysis and build regression models.
 - Evaluate machine learning models for prediction and decision making.
 
-#### Course 8: Data Visualization with Python
+#### Course 8: Data Visualization with Python 🔄
 - Implement data visualization techniques using Python libraries like Matplotlib, Seaborn, and Folium.
 - Create advanced visualizations such as waffle charts, word clouds, and choropleth maps.
 - Generate interactive dashboards using Dash and Plotly.
 
-#### Course 9: Machine Learning with Python
+#### Course 9: Machine Learning with Python 🔄
 - Foundation skills for machine learning using Scikit-learn.
 - Apply data preparation techniques to optimize model performance.
 - Implement machine learning algorithms for classification and regression tasks.
