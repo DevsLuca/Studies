@@ -4,7 +4,8 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 ## Table of Contents
 1. [Introduction to Cybersecurity and Risk Management Specialization](#introduction-to-cybersecurity-and-risk-management-specialization) ✅
 2. [ISC2 Certified in Cybersecurity Specialization](#ics2-certified-in-cybersecurity-specialisation) ✅
-3. [NIST Cybersecurity and Risk Management Frameworks Specialization](#nist-cybersecurity-and-risk-management-frameworks-specialization)
+3. [Cybersecurity Risk Management Frameworks Specialization](#cybersecurity-risk-management-frameworks-specialization)
+4. [NIST Cybersecurity and Risk Management Frameworks Specialization](#nist-cybersecurity-and-risk-management-frameworks-specialization) 
 
 ---
 
@@ -70,11 +71,15 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 - Security policies and awareness training
 
 ---
+### [Cybersecurity Risk Management Frameworks Specialization](https://www.coursera.org/programs/data-science-school-qav8p/specializations/cybersecurity-risk-management-frameworks)
+*Kennesaw State University* - Specialization - 3 course series
+
+
 
 ### [NIST Cybersecurity and Risk Management Frameworks Specialization](https://www.coursera.org/specializations/packt-nist-cybersecurity-and-risk-management-frameworks)
-*Packt* - Specialization - 3 course serie
+*Packt* - Specialization - 3 course series
 
-#### Course 1: Foundations of NIST Cybersecurity Frameworks
+#### Course 1: Foundations of NIST Cybersecurity Frameworks 
 - Core components of NIST CSF and RMF  
 - Relationship between NIST frameworks, standards, and agencies  
 - Applying CSF and RMF to build and assess cybersecurity programs  
