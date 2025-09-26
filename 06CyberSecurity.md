@@ -74,7 +74,30 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 ### [Cybersecurity Risk Management Frameworks Specialization](https://www.coursera.org/programs/data-science-school-qav8p/specializations/cybersecurity-risk-management-frameworks)
 *Kennesaw State University* - Specialization - 3 course series
 
+[View Certificate]()
 
+#### Course 1: Cybersecurity Foundations for Risk Management ✅
+- Define key concepts and terminology in Cybersecurity
+- Identify threats to cybersecurity
+- Describe the role and responsibilities of Cybersecurity management in the risk management effort
+- Explain Cybersecurity risk and the organizational program to manage it
+
+#### Course 2: A General Approach to Risk Management ✅
+- Discuss the development of a Framework to guide the organization’s risk management efforts.
+- Explain the process of performing risk assessment to identify the risk to the organization’s information assets.
+- Discuss the strategies available to the organization to reduce the risk to its information assets to an acceptable level.
+
+#### Course 3: Dominant Risk Management Standards and Frameworks ✅
+- This course examines the risk management frameworks and standards offered by NIST and ISO and then discusses other available approaches.
+- The course concludes with a discussion of applications and tools to support the organization’s risk management effort.
+
+#### Course 4: Implementing a Risk Management Framework ✅
+- Identify the career development and path of a Cybersecurity professional from entry-level to CISO
+- Define and describe the role and function of a CISO in planning for cybersecurity
+- Identify the development of a cybersecurity governance program and the role the CISO would play in it
+- Discuss the strategic responsibilities of the CISO in overseeing an organization’s cybersecurity program
+
+---
 
 ### [NIST Cybersecurity and Risk Management Frameworks Specialization](https://www.coursera.org/specializations/packt-nist-cybersecurity-and-risk-management-frameworks)
 *Packt* - Specialization - 3 course series
