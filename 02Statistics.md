@@ -2,7 +2,7 @@
 A curated and structured set of course I’ve completed or am currently following, covering fundamental concepts, methods, and applications related to the world of Statistics.
 
 ## Table of Content
-1. [Statistical Learning with Python](#statistical-learning-with-python)
+1. [Statistical Learning with Python](#statistical-learning-with-python) 🔄
 
 ---
 
