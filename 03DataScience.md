@@ -91,7 +91,7 @@ Projects:
 ### [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python)
 *University of Michigan* - Specialization - 3 course series
 
-[View Certificate](https://coursera.org/share/eea32caa01c81eb01c5dd3159591e5f5)
+[View Certificate]([https://coursera.org/share/eea32caa01c81eb01c5dd3159591e5f5](https://coursera.org/share/3c5ed3a3f1bd2f0eb28f91c5500b8ad7))
 
 This specialization is designed to teach learners beginning and intermediate concepts of statistical analysis using the Python programming language. Learners will learn where data come from, what types of data can be collected, study data design, data management, and how to effectively carry out data exploration and visualization. They will be able to utilize data for estimation and assessing theories, construct confidence intervals, interpret inferential results, and apply more advanced statistical modeling procedures. Finally, they will learn the importance of and be able to connect research questions to the statistical and data analysis methods taught to them.
 
