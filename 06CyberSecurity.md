@@ -74,7 +74,7 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 ### [Cybersecurity Risk Management Frameworks Specialization](https://www.coursera.org/programs/data-science-school-qav8p/specializations/cybersecurity-risk-management-frameworks)
 *Kennesaw State University* - Specialization - 3 course series
 
-[View Certificate]()
+[View Certificate](https://coursera.org/share/fcda590b30753c74c39d53e027558e0c)
 
 #### Course 1: Cybersecurity Foundations for Risk Management ✅
 - Define key concepts and terminology in Cybersecurity
