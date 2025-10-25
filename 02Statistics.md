@@ -37,9 +37,9 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [x] 3.Py Linear Regression in Python
 
 #### Chapter 4: Classification
-- [ ] 4.1 Introduction to Classification Problems
-- [ ] 4.2 Logistic Regression
-- [ ] 4.3 Multivariate Logistic Regression
+- [x] 4.1 Introduction to Classification Problems
+- [x] 4.2 Logistic Regression
+- [x] 4.3 Multivariate Logistic Regression
 - [ ] 4.4 Case-Control Sampling and Multiclass
 - [ ] 4.5 Discriminant Analysis
 - [ ] 4.6 GDA - One Variable
