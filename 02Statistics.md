@@ -17,18 +17,18 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - **Primary Textbook**:  
   - *An Introduction to Statistical Learning* by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani ([statlearning.com](https://www.statlearning.com/))
 
-#### Chapter 1: Introduction
+#### Chapter 1: Introduction ✅
 - [x] 1.1 Opening Remarks
 - [x] 1.2 Examples and Framework
 
-#### Chapter 2: Overview of Statistical Learning
+#### Chapter 2: Overview of Statistical Learning ✅
 - [x] 2.1 Introduction to Regression Models
 - [x] 2.2 Dimensionality and Structured Models
 - [x] 2.3 Model Selection and Bias-Variance Tradeoff
 - [x] 2.4 Classification
 - [x] 2.Py Introduction to Python
 
-#### Chapter 3: Linear Regression
+#### Chapter 3: Linear Regression ✅
 - [x] 3.1 Simple Linear Regression
 - [x] 3.2 Hypothesis Testing and Confidence Intervals
 - [x] 3.3 Multiple Linear Regression
@@ -36,7 +36,7 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [x] 3.5 Extensions of the Linear Model
 - [x] 3.Py Linear Regression in Python
 
-#### Chapter 4: Classification
+#### Chapter 4: Classification ✅
 - [x] 4.1 Introduction to Classification Problems
 - [x] 4.2 Logistic Regression
 - [x] 4.3 Multivariate Logistic Regression
