@@ -40,12 +40,12 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [x] 4.1 Introduction to Classification Problems
 - [x] 4.2 Logistic Regression
 - [x] 4.3 Multivariate Logistic Regression
-- [ ] 4.4 Case-Control Sampling and Multiclass
-- [ ] 4.5 Discriminant Analysis
-- [ ] 4.6 GDA - One Variable
-- [ ] 4.7 GDA - Many Variables
-- [ ] 4.8 Generalized Linear Models
-- [ ] 4.9 QDA and Naive Bayes
+- [x] 4.4 Case-Control Sampling and Multiclass
+- [x] 4.5 Discriminant Analysis
+- [x] 4.6 GDA - One Variable
+- [x] 4.7 GDA - Many Variables
+- [x] 4.8 Generalized Linear Models
+- [x] 4.9 QDA and Naive Bayes
 - [ ] 4.Py Logistic Regression, LDA, QDA, and KNN
 - [ ] Chapter 4 Quiz
 
