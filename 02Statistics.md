@@ -50,7 +50,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] Chapter 4 Quiz
 
 #### Chapter 5: Resampling Methods
-- [ ] Interview with Brad Efron
 - [ ] 5.1 Cross-validation
 - [ ] 5.2 K-fold Cross-Validation
 - [ ] 5.3 CV: Right and Wrong Way
@@ -59,7 +58,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 5.Py Cross-Validation and the Bootstrap
 
 #### Chapter 6: Linear Model Selection and Regularization
-- [ ] Interviews with Grad Students
 - [ ] 6.1 Best-Subset Selection
 - [ ] 6.2 Stepwise Selection
 - [ ] 6.3 Backward Stepwise
@@ -80,7 +78,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 7.Py Nonlinear Modeling
 
 #### Chapter 8: Tree-Based Methods
-- [ ] Interview with Jerome Friedman
 - [ ] 8.1 Tree-Based Methods
 - [ ] 8.2 More on Trees
 - [ ] 8.3 Classification Trees
@@ -97,7 +94,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 9.Py SVMs in Python
 
 #### Chapter 10: Deep Learning
-- [ ] Interview with Geoff Hinton
 - [ ] 10.1 Neural Networks
 - [ ] 10.2 CNNs
 - [ ] 10.3 Document Classification
@@ -108,7 +104,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 10.Py Deep Learning
 
 #### Chapter 11: Survival Analysis and Censored Data
-- [ ] Interview with David Cox
 - [ ] 11.1 Introduction to Survival Data
 - [ ] 11.2 Proportional Hazards Model
 - [ ] 11.3 Cox Model Estimation
@@ -125,7 +120,6 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [ ] 12.Py Unsupervised Learning
 
 #### Chapter 13: Multiple Testing
-- [ ] Interview with Yoav Benjamini
 - [ ] 13.1 Intro to Hypothesis Testing
 - [ ] 13.2 Multiple Testing and FWER
 - [ ] 13.3 Bonferroni Method
