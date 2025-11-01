@@ -46,7 +46,7 @@ Projects:
 - Work with Python libraries like Pandas and Numpy, and develop code using Jupyter Notebooks.
 - Scrape web data using APIs and libraries like Beautiful Soup.
 
-#### Course 5: Python Project for Data Science 
+#### Course 5: Python Project for Data Science ✅
 - Play the role of a Data Scientist/Data Analyst on a real project.
 - Build dashboards using Python, Pandas, Beautiful Soup, and Plotly.
 - Apply Python fundamentals and data structures.
@@ -61,27 +61,27 @@ Projects:
 - Perform exploratory data analysis and build regression models.
 - Evaluate machine learning models for prediction and decision making.
 
-#### Course 8: Data Visualization with Python 🔄
+#### Course 8: Data Visualization with Python ✅
 - Implement data visualization techniques using Python libraries like Matplotlib, Seaborn, and Folium.
 - Create advanced visualizations such as waffle charts, word clouds, and choropleth maps.
 - Generate interactive dashboards using Dash and Plotly.
 
-#### Course 9: Machine Learning with Python 🔄
+#### Course 9: Machine Learning with Python ✅
 - Foundation skills for machine learning using Scikit-learn.
 - Apply data preparation techniques to optimize model performance.
 - Implement machine learning algorithms for classification and regression tasks.
 
-#### Course 10: Applied Data Science Capstone
+#### Course 10: Applied Data Science Capstone ✅
 - Demonstrate proficiency in data science techniques using a real-world data set.
 - Perform data collection, wrangling, exploratory analysis, and model development.
 - Evaluate and compare machine learning models.
 
-#### Course 11: Generative AI: Elevate Your Data Science Career
+#### Course 11: Generative AI: Elevate Your Data Science Career ✅
 - Leverage generative AI tools to enhance data science workflows.
 - Practice generative AI skills through hands-on labs.
 - Apply generative AI techniques in machine learning model development.
 
-#### Course 12: Data Scientist Career Guide and Interview Preparation
+#### Course 12: Data Scientist Career Guide and Interview Preparation ✅
 - Understand the role and career path options for data scientists.
 - Build a foundation for a job search, including resume writing and portfolio creation.
 - Prepare for data science job interviews, including common interview techniques.
