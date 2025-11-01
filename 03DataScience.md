@@ -2,7 +2,7 @@
 A curated repository of Data Science courses I’ve completed or am currently following, covering topics from statistical learning to machine learning and data analysis with Python.
 
 ## Table of Contents
-1. [IBM Data Science Professional Certificate](#ibm-data-science-professional-certificate) 🔄
+1. [IBM Data Science Professional Certificate](#ibm-data-science-professional-certificate) ✅
 2. [Statistics with Python Specialization](#statistics-with-python-specialization) ✅
 3. [Applied Data Science with Python Specialization](#applied-data-science-with-python-specialization) 🔄
 
@@ -51,7 +51,7 @@ Projects:
 - Build dashboards using Python, Pandas, Beautiful Soup, and Plotly.
 - Apply Python fundamentals and data structures.
 
-#### Course 6: Databases and SQL for Data Science with Python 
+#### Course 6: Databases and SQL for Data Science with Python ✅
 - Analyze data within a database using SQL and Python.
 - Create relational databases and work with multiple tables.
 - Construct advanced SQL queries with techniques like views, transactions, stored procedures, and joins.
