@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Kaggle](https://img.shields.io/badge/Kaggle-PlaygroundSeries-blueviolet)
 
 # Loan Payback Prediction
 
