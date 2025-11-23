@@ -120,19 +120,19 @@ This specialization is designed to teach learners beginning and intermediate con
 
 The 5 courses in this University of Michigan specialization introduce learners to data science through the python programming language. This skills-based specialization is intended for learners who have a basic python or programming background, and want to apply statistical, machine learning, information visualization, text analysis, and social network analysis techniques through popular python toolkits such as pandas, matplotlib, scikit-learn, nltk, and networkx to gain insight into their data.
 
-#### Course 1: Introduction to Data Science in Python
+#### Course 1: Introduction to Data Science in Python ✅
 - Understand techniques such as lambdas and manipulating csv files
 - Describe common Python functionality and features used for data science
 - Query DataFrame structures for cleaning and processing
 - Explain distributions, sampling, and t-tests
 
-#### Course 2: Applied Plotting, Charting & Data Representation in Python
+#### Course 2: Applied Plotting, Charting & Data Representation in Python ✅
 - Describe what makes a good or bad visualization
 - Understand best practices for creating basic charts
 - Identify the functions that are best for particular problems
 - Create a visualization using Matplotlib
 
-#### Course 3: Applied Machine Learning in Python
+#### Course 3: Applied Machine Learning in Python ✅
 - Describe how machine learning is different than descriptive statistics
 - Create and evaluate data clusters
 - Explain different approaches for creating predictive models
