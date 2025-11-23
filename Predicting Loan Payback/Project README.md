@@ -1,7 +1,6 @@
-![Python](https://img.shields.io/badge/python-3.11-blue)
-![Kaggle](https://img.shields.io/badge/Kaggle-PlaygroundSeries-blueviolet)
-
-# Loan Payback Prediction
+# Loan Repayment Prediction — Kaggle Playground 2025
+Supervised Machine Learning Project
+<p align="left"> <!-- Language --> <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white" /> <!-- Libraries --> <img src="https://img.shields.io/badge/Scikit--Learn-Modeling%20%26%20Evaluation-F7931E?logo=scikit-learn&logoColor=white" /> <img src="https://img.shields.io/badge/XGBoost-Boosted%20Trees-EB5E28?logo=xgboost&logoColor=white" /> <!-- Kaggle --> <img src="https://img.shields.io/badge/Kaggle-Playground%20Series%202025-blueviolet?logo=kaggle&logoColor=white" /> <!-- Status --> <img src="https://img.shields.io/badge/Status-Completed-success" /> </p>
 
 Predicting whether a borrower will repay their loan using Python, Machine Learning, and advanced feature engineering. This project demonstrates a full end-to-end workflow, from exploratory data analysis (EDA) to model selection and evaluation.
 
