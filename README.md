@@ -7,15 +7,15 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 
 ### 🔗 Quick Access
 
-1. [My Professional Certifications](./01Certifications.md)
-2. [Statistics](./02Statistics.md)
-3. [Data Science](./03DataScience.md)
-3.1 text 
-5. [Coding - Python](./04PythonStudies.md)
-6. [Data Visualisation](./05DataVisualisation.md)
-7. [Cybersecurity](./06CyberSecurity.md)
-8. [Artificial Inteligence and Machine Learning](./07AIML.md)
-9. [Other Expertise](./07Courses.md)
+- 01 [My Professional Certifications](./01Certifications.md)
+- 02 [Statistics](./02Statistics.md)
+- 03 [Data Science](./03DataScience.md)
+- 03.01 [CLRS]
+- 04 [Coding - Python](./04PythonStudies.md)
+- 05 [Data Visualisation](./05DataVisualisation.md)
+- 06 [Cybersecurity](./06CyberSecurity.md)
+- 07 [Artificial Inteligence and Machine Learning](./07AIML.md)
+- 08 [Other Expertise](./07Courses.md)
 
 ---
 
