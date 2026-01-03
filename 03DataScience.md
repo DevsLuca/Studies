@@ -11,6 +11,8 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 ### [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
 *IBM* - Professional Certificate - 12 course series
 
+[View Certificate](https://coursera.org/share/f41e2f896925eb959bf8efeb8fead9e9)
+
 Tools used: Jupyter / JupyterLab, GitHub, R Studio, and Watson Studio
 
 Libraries used: Pandas, NumPy, Matplotlib, Seaborn, Folium, ipython-sql, Scikit-learn, ScipPy, etc.
