@@ -1,7 +1,5 @@
 # Introduction to Algorithms — Index
 
-## Preface
-
 ---
 
 ## I. Foundations
@@ -9,31 +7,31 @@
 ### Introduction
 
 ### 1. The Role of Algorithms in Computing
-- [ ] 1.1 Algorithms  
-- [ ] 1.2 Algorithms as a Technology  
+- [x] 1.1 Algorithms  
+- [x] 1.2 Algorithms as a Technology  
 
 ### 2. Getting Started
-- [ ] 2.1 Insertion Sort  
-- [ ] 2.2 Analyzing Algorithms  
-- [ ] 2.3 Designing Algorithms  
+- [x] 2.1 Insertion Sort  
+- [x] 2.2 Analyzing Algorithms  
+- [x] 2.3 Designing Algorithms  
 
 ### 3. Growth of Functions
-- [ ] 3.1 Asymptotic Notation  
-- [ ] 3.2 Standard Notations and Common Functions  
+- [x] 3.1 Asymptotic Notation  
+- [x] 3.2 Standard Notations and Common Functions  
 
 ### 4. Divide-and-Conquer
-- [ ] 4.1 The Maximum-Subarray Problem  
-- [ ] 4.2 Strassen’s Algorithm for Matrix Multiplication  
-- [ ] 4.3 The Substitution Method for Solving Recurrences  
-- [ ] 4.4 The Recursion-Tree Method for Solving Recurrences  
-- [ ] 4.5 The Master Method for Solving Recurrences  
-- [ ] 4.6 Proof of the Master Theorem  
+- [x] 4.1 The Maximum-Subarray Problem  
+- [x] 4.2 Strassen’s Algorithm for Matrix Multiplication  
+- [x] 4.3 The Substitution Method for Solving Recurrences  
+- [x] 4.4 The Recursion-Tree Method for Solving Recurrences  
+- [x] 4.5 The Master Method for Solving Recurrences  
+- [x] 4.6 Proof of the Master Theorem  
 
 ### 5. Probabilistic Analysis and Randomized Algorithms
-- [ ] 5.1 The Hiring Problem  
-- [ ] 5.2 Indicator Random Variables  
-- [ ] 5.3 Randomized Algorithms  
-- [ ] 5.4 Probabilistic Analysis and Further Uses of Indicator Random Variables  
+- [x] 5.1 The Hiring Problem  
+- [x] 5.2 Indicator Random Variables  
+- [x] 5.3 Randomized Algorithms  
+- [x] 5.4 Probabilistic Analysis and Further Uses of Indicator Random Variables  
 
 ---
 
@@ -42,28 +40,28 @@
 ### Introduction
 
 ### 6. Heapsort
-- [ ] 6.1 Heaps  
-- [ ] 6.2 Maintaining the Heap Property  
-- [ ] 6.3 Building a Heap  
-- [ ] 6.4 The Heapsort Algorithm  
-- [ ] 6.5 Priority Queues  
+- [x] 6.1 Heaps  
+- [x] 6.2 Maintaining the Heap Property  
+- [x] 6.3 Building a Heap  
+- [x] 6.4 The Heapsort Algorithm  
+- [x] 6.5 Priority Queues  
 
 ### 7. Quicksort
-- [ ] 7.1 Description of Quicksort  
-- [ ] 7.2 Performance of Quicksort  
-- [ ] 7.3 A Randomized Version of Quicksort  
-- [ ] 7.4 Analysis of Quicksort  
+- [x] 7.1 Description of Quicksort  
+- [x] 7.2 Performance of Quicksort  
+- [x] 7.3 A Randomized Version of Quicksort  
+- [x] 7.4 Analysis of Quicksort  
 
 ### 8. Sorting in Linear Time
-- [ ] 8.1 Lower Bounds for Sorting  
-- [ ] 8.2 Counting Sort  
-- [ ] 8.3 Radix Sort  
-- [ ] 8.4 Bucket Sort  
+- [x] 8.1 Lower Bounds for Sorting  
+- [x] 8.2 Counting Sort  
+- [x] 8.3 Radix Sort  
+- [x] 8.4 Bucket Sort  
 
 ### 9. Medians and Order Statistics
-- [ ] 9.1 Minimum and Maximum  
-- [ ] 9.2 Selection in Expected Linear Time  
-- [ ] 9.3 Selection in Worst-Case Linear Time  
+- [x] 9.1 Minimum and Maximum  
+- [x] 9.2 Selection in Expected Linear Time  
+- [x] 9.3 Selection in Worst-Case Linear Time  
 
 ---
 
@@ -72,23 +70,23 @@
 ### Introduction
 
 ### 10. Elementary Data Structures
-- [ ] 10.1 Stacks and Queues  
-- [ ] 10.2 Linked Lists  
-- [ ] 10.3 Implementing Pointers and Objects  
-- [ ] 10.4 Representing Rooted Trees  
+- [x] 10.1 Stacks and Queues  
+- [x] 10.2 Linked Lists  
+- [x] 10.3 Implementing Pointers and Objects  
+- [x] 10.4 Representing Rooted Trees  
 
 ### 11. Hash Tables
-- [ ] 11.1 Direct-Address Tables  
-- [ ] 11.2 Hash Tables  
-- [ ] 11.3 Hash Functions  
-- [ ] 11.4 Open Addressing  
-- [ ] 11.5 Perfect Hashing  
+- [x] 11.1 Direct-Address Tables  
+- [x] 11.2 Hash Tables  
+- [x] 11.3 Hash Functions  
+- [x] 11.4 Open Addressing  
+- [x] 11.5 Perfect Hashing  
 
 ### 12. Binary Search Trees
-- [ ] 12.1 What Is a Binary Search Tree?  
-- [ ] 12.2 Querying a Binary Search Tree  
-- [ ] 12.3 Insertion and Deletion  
-- [ ] 12.4 Randomly Built Binary Search Trees  
+- [x] 12.1 What Is a Binary Search Tree?  
+- [x] 12.2 Querying a Binary Search Tree  
+- [x] 12.3 Insertion and Deletion  
+- [x] 12.4 Randomly Built Binary Search Trees  
 
 ### 13. Red-Black Trees
 - [ ] 13.1 Properties of Red-Black Trees  
