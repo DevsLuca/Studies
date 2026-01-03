@@ -10,7 +10,7 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 1. [My Professional Certifications](./01Certifications.md)
 2. [Statistics](./02Statistics.md)
 3. [Data Science](./03DataScience.md)
-   3.1 [CLRS]
+      3.1 [CLRS]
 5. [Coding - Python](./04PythonStudies.md)
 6. [Data Visualisation](./05DataVisualisation.md)
 7. [Cybersecurity](./06CyberSecurity.md)
