@@ -11,13 +11,13 @@ The course explores the fundamental concepts of statistical modeling and machine
 This course is ideal for students and professionals with a background in basic statistics and programming. 
 It emphasizes both theoretical understanding and practical implementation of statistical learning methods.
 
-<img src="images/islp-cover.jpeg" alt="CLRS Cover" width="200">
-
 - **Professors:**
   - *Trevor Hastie* – Professor of Statistics, Stanford University  
   - *Robert Tibshirani* – Professor of Statistics and Biomedical Data Science, Stanford University
 - **Primary Textbook**:  
   - *An Introduction to Statistical Learning* by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani ([statlearning.com](https://www.statlearning.com/))
+
+<img src="images/islp-cover.jpeg" alt="CLRS Cover" width="200">
 
 #### Chapter 1: Introduction ✅
 - [x] 1.1 Opening Remarks
