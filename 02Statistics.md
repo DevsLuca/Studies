@@ -46,8 +46,7 @@ It emphasizes both theoretical understanding and practical implementation of sta
 - [x] 4.7 GDA - Many Variables
 - [x] 4.8 Generalized Linear Models
 - [x] 4.9 QDA and Naive Bayes
-- [ ] 4.Py Logistic Regression, LDA, QDA, and KNN
-- [ ] Chapter 4 Quiz
+- [x] 4.Py Logistic Regression, LDA, QDA, and KNN
 
 #### Chapter 5: Resampling Methods
 - [ ] 5.1 Cross-validation
