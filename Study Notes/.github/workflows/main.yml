@@ -1,0 +1,19 @@
+name: Build All Study Notes
+on: [push]
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+
+      - name: Compile all LaTeX files
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: "*.tex" # This looks for ANY .tex file in your repo
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v3
+        with:
+          name: All_Chapter_PDFs
+          path: "*.pdf" # This grabs all the finished PDFs
