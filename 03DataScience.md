@@ -1,5 +1,5 @@
 # Data Science
-A curated repository of Data Science courses I’ve completed or am currently following, covering topics from statistical learning to machine learning and data analysis with Python.
+A curated repository of Data Science courses I’ve completed or am currently following, covering topics from statistical learning to data analysis with Python.
 
 ## Table of Contents
 1. [IBM Data Science Professional Certificate](#ibm-data-science-professional-certificate) ✅
