@@ -154,7 +154,7 @@ The 5 courses in this University of Michigan specialization introduce learners t
 - Predict the evolution of networks over time
 
 ### [Python for Everybody] ✅
-*University of Michigan*
+*University of Michigan* 
 
 [View Certificate](https://coursera.org/share/1f41bf22a31f6f116c7b3265380545d7)
 
