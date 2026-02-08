@@ -11,10 +11,10 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 - 02 Mathematics and Statistics
   - 02.01 [Statistics](./02.01Statistics.md)
   - 02.02 [Probability](./02.02Probability.md)
-- 03 [Data Science](./03DataScience.md)
+- 03 Data Structures and Algorithms
   - 03.01 [Introduction to Algorithms CLRS](./03.01CLRS.md)
   - 03.02 [Graph Theory with applications](./03.02GTWA.md)
-- 04 [Coding - Python](./04PythonStudies.md)
+- 04 [Data Science with Python Applications](./03DataScience.md)
 - 05 [Data Visualisation](./05DataVisualisation.md)
 - 06 [Cybersecurity](./06CyberSecurity.md)
 - 07 [Artificial Inteligence and Machine Learning](./07AIML.md)
