@@ -18,7 +18,7 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 - 05 [Data Visualisation](./05DataVisualisation.md)
 - 06 [Cybersecurity](./06CyberSecurity.md)
 - 07 [Artificial Inteligence and Machine Learning](./07AIML.md)
-- 08 [Other Expertise]
+- 08 Other Topics
 
 ---
 
