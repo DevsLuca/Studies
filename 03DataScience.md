@@ -153,7 +153,7 @@ The 5 courses in this University of Michigan specialization introduce learners t
 - Measure the importance or centrality of a node in a network
 - Predict the evolution of networks over time
 
-### [Python for Everybody](https://www.coursera.org/specializations/python)
+### [Python for Everybody](https://www.coursera.org/specializations/python) ✅
 *University of Michigan* 
 
 [View Certificate](https://coursera.org/share/1f41bf22a31f6f116c7b3265380545d7)
