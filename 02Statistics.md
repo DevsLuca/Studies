@@ -1,11 +1,3 @@
-# Statistical Studies
-A curated and structured set of course I’ve completed or am currently following, covering fundamental concepts, methods, and applications related to the world of Statistics.
-
-## Table of Content
-1. [Statistical Learning with Python](#statistical-learning-with-python) 🔄
-
----
-
 ### [Statistical Learning with Python](https://www.edx.org/learn/python/stanford-university-statistical-learning-with-python)
 The course explores the fundamental concepts of statistical modeling and machine learning, with a strong focus on applications in Python.
 This course is ideal for students and professionals with a background in basic statistics and programming. 
