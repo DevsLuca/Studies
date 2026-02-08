@@ -8,8 +8,9 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 ### 🔗 Quick Access
 
 - 01 [My Professional Certifications](./01Certifications.md)
-- 02 [Statistics](./02Statistics.md)
-  - 02.01[Probability](./02.01Probability.md)
+- 02 Mathematics and Statistics
+  - 02.01 [Statistics](./02.01Statistics.md)
+  - 02.02 [Probability](./02.02Probability.md)
 - 03 [Data Science](./03DataScience.md)
   - 03.01 [Introduction to Algorithms CLRS](./03.01CLRS.md)
   - 03.02 [Graph Theory with applications](./03.02GTWA.md)
