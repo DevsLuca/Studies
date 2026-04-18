@@ -154,7 +154,7 @@ The 5 courses in this University of Michigan specialization introduce learners t
 - Explain different approaches for creating predictive models
 - Build features that meet analysis needs
 
-#### Course 4: Applied Text Mining in Python
+#### Course 4: Applied Text Mining in Python ✅
 - Understand how text is handled in Python
 - Apply basic natural language processing methods
 - Write code that groups documents by topic
