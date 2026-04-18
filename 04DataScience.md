@@ -134,6 +134,8 @@ This specialization is designed to teach learners beginning and intermediate con
 ### [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python)
 *University of Michigan* - Specialization - 5 course series
 
+[View Certificate](https://coursera.org/share/11dab3fea267f741f0adf20fe48c783d)
+
 The 5 courses in this University of Michigan specialization introduce learners to data science through the python programming language. This skills-based specialization is intended for learners who have a basic python or programming background, and want to apply statistical, machine learning, information visualization, text analysis, and social network analysis techniques through popular python toolkits such as pandas, matplotlib, scikit-learn, nltk, and networkx to gain insight into their data.
 
 #### Course 1: Introduction to Data Science in Python ✅
@@ -160,7 +162,7 @@ The 5 courses in this University of Michigan specialization introduce learners t
 - Write code that groups documents by topic
 - Describe the NLTK framework for manipulating text
 
-#### Course 5: Applied Social Network Analysis in Python
+#### Course 5: Applied Social Network Analysis in Python ✅
 - Represent and manipulate networked data using the NetworkX library
 - Analyze the connectivity of a network
 - Measure the importance or centrality of a node in a network
