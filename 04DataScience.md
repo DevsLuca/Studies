@@ -5,7 +5,7 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 1. [Python for Everybody](#python-for-everybody) ✅
 2. [IBM Data Science Professional Certificate](#ibm-data-science-professional-certificate) ✅
 3. [Statistics with Python Specialization](#statistics-with-python-specialization) ✅
-4. [Applied Data Science with Python Specialization](#applied-data-science-with-python-specialization) 🔄
+4. [Applied Data Science with Python Specialization](#applied-data-science-with-python-specialization) ✅
 
 ---
 
