@@ -1,4 +1,4 @@
-# Dekking, Kraaikamp, Lopuhaä & Meester, *A Modern Introduction to Probability and Statistics: Understanding Why and How* — Topic Checklist
+# Dekking, Kraaikamp, Lopuhaä & Meester, *A Modern Introduction to Probability and Statistics: Understanding Why and How*
 
 [⬅ Back to tracker](README.md)
 
@@ -40,43 +40,43 @@
 <a id="ch1"></a>
 
 ## Ch. 1 — Why probability and statistics? (p. 1)
-- [ ] 1.1 Biometry: iris recognition (p. 1)
-- [ ] 1.2 Killer football (p. 3)
-- [ ] 1.3 Cars and goats: the Monty Hall dilemma (p. 4)
-- [ ] 1.4 The space shuttle Challenger (p. 5)
-- [ ] 1.5 Statistics versus intelligence agencies (p. 7)
-- [ ] 1.6 The speed of light (p. 9)
+- [x] 1.1 Biometry: iris recognition (p. 1)
+- [x] 1.2 Killer football (p. 3)
+- [x] 1.3 Cars and goats: the Monty Hall dilemma (p. 4)
+- [x] 1.4 The space shuttle Challenger (p. 5)
+- [x] 1.5 Statistics versus intelligence agencies (p. 7)
+- [x] 1.6 The speed of light (p. 9)
 
 [⬆ Back to top](#top)
 
 <a id="ch2"></a>
 
 ## Ch. 2 — Outcomes, events, and probability (p. 13)
-- [ ] 2.1 Sample spaces (p. 13)
-- [ ] 2.2 Events (p. 14)
-- [ ] 2.3 Probability (p. 16)
-- [ ] 2.4 Products of sample spaces (p. 18)
-- [ ] 2.5 An infinite sample space (p. 19)
+- [x] 2.1 Sample spaces (p. 13)
+- [x] 2.2 Events (p. 14)
+- [x] 2.3 Probability (p. 16)
+- [x] 2.4 Products of sample spaces (p. 18)
+- [x] 2.5 An infinite sample space (p. 19)
 
 [⬆ Back to top](#top)
 
 <a id="ch3"></a>
 
 ## Ch. 3 — Conditional probability and independence (p. 25)
-- [ ] 3.1 Conditional probability (p. 25)
-- [ ] 3.2 The multiplication rule (p. 27)
-- [ ] 3.3 The law of total probability and Bayes' rule (p. 30)
-- [ ] 3.4 Independence (p. 32)
+- [x] 3.1 Conditional probability (p. 25)
+- [x] 3.2 The multiplication rule (p. 27)
+- [x] 3.3 The law of total probability and Bayes' rule (p. 30)
+- [x] 3.4 Independence (p. 32)
 
 [⬆ Back to top](#top)
 
 <a id="ch4"></a>
 
 ## Ch. 4 — Discrete random variables (p. 41)
-- [ ] 4.1 Random variables (p. 41)
-- [ ] 4.2 The probability distribution of a discrete random variable (p. 43)
-- [ ] 4.3 The Bernoulli and binomial distributions (p. 45)
-- [ ] 4.4 The geometric distribution (p. 48)
+- [x] 4.1 Random variables (p. 41)
+- [x] 4.2 The probability distribution of a discrete random variable (p. 43)
+- [x] 4.3 The Bernoulli and binomial distributions (p. 45)
+- [x] 4.4 The geometric distribution (p. 48)
 
 [⬆ Back to top](#top)
 
