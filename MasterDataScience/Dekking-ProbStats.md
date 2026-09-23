@@ -2,46 +2,40 @@
 
 [⬅ Back to tracker](README.md)
 
-**Exam:** Fundamentals of Statistical Learning (10631198) · **Edition:** Springer, 2005 · **Status:** ⬜ not started
-
-Tick a box when the section is studied. Page numbers in brackets.
+<img src="../images/Dekking.png" width="400">
 
 <a id="top"></a>
 
 ## 📑 Table of Contents
 
-1. [Why probability and statistics?](#ch1) — p. 1
-2. [Outcomes, events, and probability](#ch2) — p. 13
-3. [Conditional probability and independence](#ch3) — p. 25
-4. [Discrete random variables](#ch4) — p. 41
-5. [Continuous random variables](#ch5) — p. 57
-6. [Simulation](#ch6) — p. 71
-7. [Expectation and variance](#ch7) — p. 89
-8. [Computations with random variables](#ch8) — p. 103
-9. [Joint distributions and independence](#ch9) — p. 115
-10. [Covariance and correlation](#ch10) — p. 135
-11. [More computations with more random variables](#ch11) — p. 151
-12. [The Poisson process](#ch12) — p. 167
-13. [The law of large numbers](#ch13) — p. 181
-14. [The central limit theorem](#ch14) — p. 195
-15. [Exploratory data analysis: graphical summaries](#ch15) — p. 207
-16. [Exploratory data analysis: numerical summaries](#ch16) — p. 231
-17. [Basic statistical models](#ch17) — p. 245
-18. [The bootstrap](#ch18) — p. 269
-19. [Unbiased estimators](#ch19) — p. 285
-20. [Efficiency and mean squared error](#ch20) — p. 299
-21. [Maximum likelihood](#ch21) — p. 313
-22. [The method of least squares](#ch22) — p. 329
-23. [Confidence intervals for the mean](#ch23) — p. 341
-24. [More on confidence intervals](#ch24) — p. 361
-25. [Testing hypotheses: essentials](#ch25) — p. 373
-26. [Testing hypotheses: elaboration](#ch26) — p. 383
-27. [The t-test](#ch27) — p. 399
-28. [Comparing two samples](#ch28) — p. 415
-
----
-
-# Detailed Breakdown
+1. [Why probability and statistics?](#ch1)
+2. [Outcomes, events, and probability](#ch2)
+3. [Conditional probability and independence](#ch3)
+4. [Discrete random variables](#ch4)
+5. [Continuous random variables](#ch5)
+6. [Simulation](#ch6)
+7. [Expectation and variance](#ch7)
+8. [Computations with random variables](#ch8)
+9. [Joint distributions and independence](#ch9)
+10. [Covariance and correlation](#ch10)
+11. [More computations with more random variables](#ch11)
+12. [The Poisson process](#ch12)
+13. [The law of large numbers](#ch13)
+14. [The central limit theorem](#ch14)
+15. [Exploratory data analysis: graphical summaries](#ch15) 
+16. [Exploratory data analysis: numerical summaries](#ch16)
+17. [Basic statistical models](#ch17)
+18. [The bootstrap](#ch18)
+19. [Unbiased estimators](#ch19)
+20. [Efficiency and mean squared error](#ch20)
+21. [Maximum likelihood](#ch21)
+22. [The method of least squares](#ch22)
+23. [Confidence intervals for the mean](#ch23)
+24. [More on confidence intervals](#ch24)
+25. [Testing hypotheses: essentials](#ch25)
+26. [Testing hypotheses: elaboration](#ch26)
+27. [The t-test](#ch27)
+28. [Comparing two samples](#ch28)
 
 <a id="ch1"></a>
 
