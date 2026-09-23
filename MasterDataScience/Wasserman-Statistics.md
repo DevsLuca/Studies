@@ -10,7 +10,7 @@
 
 **Part I — Probability**
 
-1. [Probability](#ch1)
+1. [Probability](#ch1) ✅
 2. [Random Variables](#ch2)
 3. [Expectation](#ch3)
 4. [Inequalities](#ch4)
