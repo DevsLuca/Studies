@@ -2,8 +2,7 @@
 
 [⬅ Back to tracker](README.md)
 
-**Exam:** Fundamentals of Statistical Learning (10631198) · **Edition:** Springer, 2004 
-
+<img src="images/AFCIP.PNG" alt="AFCIP cover" width="200">
 ---
 
 # Part I — Probability
