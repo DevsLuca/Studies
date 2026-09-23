@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|---|---|
 | Algorithmic Methods of Data Mining and Laboratory | 10628014 | 1 | 1 | 9 | ⬜ | | | |
 | Fundamentals of Data Science | 10629400 | 1 | 1 | 9 | ⬜ | | | |
-| Fundamentals of Statistical Learning (I + II, full year) | 10631198 | 1 | 1–2 | 12 | 📖 | Ross, *A First Course in Probability* (prereq)<br>Wasserman, *All of Statistics: A Concise Course in Statistical Inference*<br>Dekking, Kraaikamp, Lopuhaä & Meester, *A Modern Introduction to Probability and Statistics: Understanding Why and How* | | |
+| Fundamentals of Statistical Learning (I + II, full year) | 10631198 | 1 | 1–2 | 12 | 📖 | Ross, [*A First Course in Probability*](Ross-Probability.md) (prereq)<br>Wasserman, [*All of Statistics: A Concise Course in Statistical Inference*](Wasserman-Statistics.md)<br>Dekking, Kraaikamp, Lopuhaä & Meester, [*A Modern Introduction to Probability and Statistics: Understanding Why and How*](Dekking-ProbStats.md) | | |
 | Fundamentals of Networking and Signal Processing | 10629278 | 1 | 2 | 9 | ⬜ | | | |
 | Free-choice electives (2 × 6) | — | 1–2 | — | 12 | ⬜ | | | |
 | Additional Skills for Career Development | AAF2607 | 2 | 2 | 3 | ⬜ | | | |
