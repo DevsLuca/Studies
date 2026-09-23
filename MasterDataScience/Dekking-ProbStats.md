@@ -36,7 +36,6 @@
 22. [Classification](#ch22)
 23. [Probability Redux: Stochastic Processes](#ch23)
 24. [Simulation Methods](#ch24)
----
 
 # Detailed Breakdown
 
