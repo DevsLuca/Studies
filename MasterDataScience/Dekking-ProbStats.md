@@ -13,6 +13,7 @@
 3. [Expectation](#ch3)
 4. [Inequalities](#ch4)
 5. [Convergence of Random Variables](#ch5)
+   
 
 **Part II — Statistical Inference**
 6. [Models, Statistical Inference and Learning](#ch6)
@@ -22,6 +23,7 @@
 10. [Hypothesis Testing and p-values](#ch10)
 11. [Bayesian Inference](#ch11)
 12. [Statistical Decision Theory](#ch12)
+
 
 **Part III — Statistical Models and Methods**
 13. [Linear and Logistic Regression](#ch13)
