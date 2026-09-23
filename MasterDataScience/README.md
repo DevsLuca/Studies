@@ -40,17 +40,17 @@
 | Data Privacy and Security | 10627797 | 2 | 1 | 6 | ⬜ | |
 | Signal Processing for Machine Learning | 10626845 | 2 | 1 | 6 | ⬜ | |
 | Big Data Computing | 10628568 | 2 | 1 | 6 | ⬜ | |
-| Advanced Machine Learning and Computer Vision | 10627301 | 2 | 1 | 6 | ⬜ | |
-| Network Science and Complex Systems | 10630022 | 2 | 1 | 6 | ⬜ | |
+| Advanced Machine Learning | 10627301 | 2 | 1 | 6 | ⬜ | |
+| Data-driven modelling of Complex Systems | 10630022 | 2 | 1 | 6 | ⬜ | |
 | Graph Mining and Applications | 10629491 | 2 | 2 | 6 | ⬜ | |
-| Smart Environments and Cyber Physical Spaces | 10629285 | 2 | 2 | 6 | ⬜ | |
+| Smart Environments | 10629285 | 2 | 2 | 6 | ⬜ | |
+| Economics and Computation | 10627261 | 2 | 2 | 6 | ⬜ | |
 
 **Group C - pick 1**
 | Exam | Code | Yr | Sem | CFU | Status | Textbook |
 |---|---|---|---|---|---|---|
 | Quantitative Models for Economic Analysis and Management | 10626986 | 1 | 2 | 6 | ⬜ | |
 | Data Driven Economics | 10629042 | 1 | 2 | 6 | ⬜ | |
-| European Data Law in a Global Digital Economy | 10627300 | 2 | 2 | 6 | ⬜ | |
 | Economics of Network Industries | 10631208 | 2 | 2 | 6 | ⬜ | |
 
 **Group D - pick 1**
@@ -59,9 +59,9 @@
 | Big Data for Official Statistics | 10626711 | 2 | 1 | 6 | ⬜ | |
 | Bioinformatics and Network Medicine | 10628710 | 2 | 1 | 6 | ⬜ | |
 | Digital Epidemiology and Precision Medicine | 10627219 | 2 | 1 | 6 | ⬜ | |
-| Neural Networks for Data Science | 10627491 | 2 | 1 | 6 | ⬜ | |
+| Neural Networks for Data Science Applications | 10627491 | 2 | 1 | 6 | ⬜ | |
 | Geomatics and Geoinformation | 10627209 | 2 | 2 | 6 | ⬜ | |
 | Earth Observation Data Analysis | 10629399 | 2 | 2 | 6 | ⬜ | |
-| Economics and Computation *(ITA)* | 10627261 | 2 | 2 | 6 | ⬜ | |
 | Generative Models for Audio | 10628123 | 2 | 2 | 6 | ⬜ | |
 | Panel Data Modelling | 10627241 | 2 | 2 | 6 | ⬜ | |
+| Economics and Computation| 1062761 | 2 | 2 | 6 | ⬜ | |
