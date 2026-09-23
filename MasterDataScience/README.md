@@ -22,16 +22,16 @@
 | Additional Skills for Career Development | AAF2607 | 2 | 2 | 3 | ⬜ | | | |
 | Final exam (thesis) | AAF2606 | 2 | 2 | 24 | ⬜ | | | |
 
-### Optional groups — tick what you choose
+### Optional groups
 
-**Group A — pick 6 CFU**
+**Group A**
 | Exam | Code | Yr | Sem | CFU | Status | Textbook |
 |---|---|---|---|---|---|---|
 | Optimization Methods for Data Science | 10628766 | 1 | 1 | 6 | ⬜ | |
 | Stochastic Processes for Data Science | 10627257 | 1 | 2 | 6 | ⬜ | |
 | Statistical Machine Learning | 10629145 | 1 | 2 | 6 | ⬜ | |
 
-**Group B — pick 18 CFU**
+**Group B**
 | Exam | Code | Yr | Sem | CFU | Status | Textbook |
 |---|---|---|---|---|---|---|
 | Cloud Computing | 10626985 | 1 | 2 | 6 | ⬜ | |
@@ -45,7 +45,7 @@
 | Graph Mining and Applications | 10629491 | 2 | 2 | 6 | ⬜ | |
 | Smart Environments and Cyber Physical Spaces | 10629285 | 2 | 2 | 6 | ⬜ | |
 
-**Group C — pick 6 CFU**
+**Group C**
 | Exam | Code | Yr | Sem | CFU | Status | Textbook |
 |---|---|---|---|---|---|---|
 | Quantitative Models for Economic Analysis and Management | 10626986 | 1 | 2 | 6 | ⬜ | |
@@ -53,7 +53,7 @@
 | European Data Law in a Global Digital Economy | 10627300 | 2 | 2 | 6 | ⬜ | |
 | Economics of Network Industries | 10631208 | 2 | 2 | 6 | ⬜ | |
 
-**Group D — pick 12 CFU**
+**Group D**
 | Exam | Code | Yr | Sem | CFU | Status | Textbook |
 |---|---|---|---|---|---|---|
 | Big Data for Official Statistics | 10626711 | 2 | 1 | 6 | ⬜ | |
@@ -65,21 +65,3 @@
 | Economics and Computation *(ITA)* | 10627261 | 2 | 2 | 6 | ⬜ | |
 | Generative Models for Audio | 10628123 | 2 | 2 | 6 | ⬜ | |
 | Panel Data Modelling | 10627241 | 2 | 2 | 6 | ⬜ | |
-
-CFU check: 9+9+12+9+12+3+24 compulsory + 6 (A) + 18 (B) + 6 (C) + 12 (D) = **120**.
-
----
-
-## 2. Textbooks
-
-| Textbook | For exam | Where I am | Topic file |
-|---|---|---|---|
-| Ross, *A First Course in Probability* | Fund. of Statistical Learning (prerequisite) | Ch. 1–4 done → Ch. 5 next | [topics](Ross-Probability.md) |
-
----
-
-## 3. Study log
-
-| Date | Exam | What I covered | Next step |
-|---|---|---|---|
-| 2026-09-23 | Probability (Ross) | Tracker set up; Ch. 1–4 notes complete | Start Ch. 5 |
