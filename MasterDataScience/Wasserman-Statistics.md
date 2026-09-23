@@ -1,10 +1,8 @@
-# Wasserman, *All of Statistics: A Concise Course in Statistical Inference* — Topic Checklist
+# Wasserman, *All of Statistics: A Concise Course in Statistical Inference*
 
 [⬅ Back to tracker](README.md)
 
-**Exam:** Fundamentals of Statistical Learning (10631198) · **Edition:** Springer, 2004 · **Status:** ⬜ not started
-
-Tick a box when the section is studied. `Exercises` = end-of-chapter problems done.
+**Exam:** Fundamentals of Statistical Learning (10631198) · **Edition:** Springer, 2004 
 
 ---
 
