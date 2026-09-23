@@ -6,6 +6,7 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 
 
 ### 🔗 Quick Access
+- 🎓 **[Master's in Data Science — Sapienza (33519)](MasterDataScience/)**
 - 01 [My Professional Certifications](./01Certifications.md)
 - 02 Mathematics and Statistics
   - 02.01 [Statistics](./02.01Statistics.md)
