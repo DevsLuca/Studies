@@ -1,10 +1,8 @@
-# Dekking, Kraaikamp, Lopuhaä & Meester, *A Modern Introduction to Probability and Statistics: Understanding Why and How* — Topic Checklist
+# Dekking, Kraaikamp, Lopuhaä & Meester, *A Modern Introduction to Probability and Statistics: Understanding Why and How*
 
 [⬅ Back to tracker](README.md)
 
-**Exam:** Fundamentals of Statistical Learning (10631198) · **Edition:** Springer, 2005 · **Status:** ⬜ not started
-
-Tick a box when the section is studied. `Exercises` = end-of-chapter problems done.
+**Exam:** Fundamentals of Statistical Learning (10631198) · **Edition:** Springer, 2005
 
 ## Ch. 1 — Why probability and statistics?
 - [ ] 1.1 Biometry: iris recognition
