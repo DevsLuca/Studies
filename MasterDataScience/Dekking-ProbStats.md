@@ -2,10 +2,6 @@
 
 [⬅ Back to tracker](README.md)
 
-**Exam:** Fundamentals of Statistical Learning (10631198) · **Edition:** Springer, 2005 · **Status:** ⬜ not started
-
-Tick a box when the section is studied. `Exercises` = end-of-chapter problems done.
-
 <a id="top"></a>
 
 ## 📑 Table of Contents
