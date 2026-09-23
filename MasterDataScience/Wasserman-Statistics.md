@@ -2,7 +2,7 @@
 
 [⬅ Back to tracker](README.md)
 
-<img src="images/AFCIP.PNG" alt="AFCIP cover" width="200">
+<img src="../images/AFCIP.PNG" alt="AFCIP cover" width="200">
 ---
 
 # Part I — Probability
