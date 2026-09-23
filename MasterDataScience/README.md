@@ -24,14 +24,14 @@
 
 ### Optional groups
 
-**Group A**
+**Group A - pick 1**
 | Exam | Code | Yr | Sem | CFU | Status | Textbook |
 |---|---|---|---|---|---|---|
 | Optimization Methods for Data Science | 10628766 | 1 | 1 | 6 | ⬜ | |
 | Stochastic Processes for Data Science | 10627257 | 1 | 2 | 6 | ⬜ | |
 | Statistical Machine Learning | 10629145 | 1 | 2 | 6 | ⬜ | |
 
-**Group B**
+**Group B - pick 3**
 | Exam | Code | Yr | Sem | CFU | Status | Textbook |
 |---|---|---|---|---|---|---|
 | Cloud Computing | 10626985 | 1 | 2 | 6 | ⬜ | |
@@ -45,7 +45,7 @@
 | Graph Mining and Applications | 10629491 | 2 | 2 | 6 | ⬜ | |
 | Smart Environments and Cyber Physical Spaces | 10629285 | 2 | 2 | 6 | ⬜ | |
 
-**Group C**
+**Group C - pick 1**
 | Exam | Code | Yr | Sem | CFU | Status | Textbook |
 |---|---|---|---|---|---|---|
 | Quantitative Models for Economic Analysis and Management | 10626986 | 1 | 2 | 6 | ⬜ | |
@@ -53,7 +53,7 @@
 | European Data Law in a Global Digital Economy | 10627300 | 2 | 2 | 6 | ⬜ | |
 | Economics of Network Industries | 10631208 | 2 | 2 | 6 | ⬜ | |
 
-**Group D**
+**Group D - pick 1**
 | Exam | Code | Yr | Sem | CFU | Status | Textbook |
 |---|---|---|---|---|---|---|
 | Big Data for Official Statistics | 10626711 | 2 | 1 | 6 | ⬜ | |
