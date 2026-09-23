@@ -7,6 +7,7 @@
 <a id="top"></a>
 
 ## 📑 Table of Contents
+
 **Part I — Probability**
 1. [Probability](#ch1)
 2. [Random Variables](#ch2)
@@ -16,6 +17,7 @@
    
 
 **Part II — Statistical Inference**
+
 6. [Models, Statistical Inference and Learning](#ch6)
 7. [Estimating the CDF and Statistical Functionals](#ch7)
 8. [The Bootstrap](#ch8)
@@ -26,6 +28,7 @@
 
 
 **Part III — Statistical Models and Methods**
+
 13. [Linear and Logistic Regression](#ch13)
 14. [Multivariate Models](#ch14)
 15. [Inference About Independence](#ch15)
@@ -38,8 +41,6 @@
 22. [Classification](#ch22)
 23. [Probability Redux: Stochastic Processes](#ch23)
 24. [Simulation Methods](#ch24)
-
-# Detailed Breakdown
 
 <a id="ch1"></a>
 
