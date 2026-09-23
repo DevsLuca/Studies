@@ -2,7 +2,7 @@
 
 [⬅ Back to tracker](README.md)
 
-<img src="../images/Dekkings.png" width="400">
+<img src="../images/Dekkings.png" width="200">
 
 <a id="top"></a>
 
