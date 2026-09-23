@@ -46,13 +46,13 @@
 <a id="ch1"></a>
 
 ### Ch. 1 — Probability (p. 3)
-- [ ] 1.1 Introduction (p. 3)
-- [ ] 1.2 Sample Spaces and Events (p. 3)
-- [ ] 1.3 Probability (p. 5)
-- [ ] 1.4 Probability on Finite Sample Spaces (p. 7)
-- [ ] 1.5 Independent Events (p. 8)
-- [ ] 1.6 Conditional Probability (p. 10)
-- [ ] 1.7 Bayes' Theorem (p. 12)
+- [x] 1.1 Introduction (p. 3)
+- [x] 1.2 Sample Spaces and Events (p. 3)
+- [x] 1.3 Probability (p. 5)
+- [x] 1.4 Probability on Finite Sample Spaces (p. 7)
+- [x] 1.5 Independent Events (p. 8)
+- [x] 1.6 Conditional Probability (p. 10)
+- [x] 1.7 Bayes' Theorem (p. 12)
 
 [⬆ Back to top](#top)
 
