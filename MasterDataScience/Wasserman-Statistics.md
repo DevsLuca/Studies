@@ -1,4 +1,4 @@
-# Wasserman, *All of Statistics: A Concise Course in Statistical Inference* — Topic Checklist
+# Wasserman, *All of Statistics: A Concise Course in Statistical Inference*
 
 [⬅ Back to tracker](README.md)
 
