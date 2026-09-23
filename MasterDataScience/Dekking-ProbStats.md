@@ -8,10 +8,10 @@
 
 ## 📑 Table of Contents
 
-1. [Why probability and statistics?](#ch1)
-2. [Outcomes, events, and probability](#ch2)
-3. [Conditional probability and independence](#ch3)
-4. [Discrete random variables](#ch4)
+1. [Why probability and statistics?](#ch1) ✅
+2. [Outcomes, events, and probability](#ch2) ✅
+3. [Conditional probability and independence](#ch3) ✅
+4. [Discrete random variables](#ch4) ✅
 5. [Continuous random variables](#ch5)
 6. [Simulation](#ch6)
 7. [Expectation and variance](#ch7)
