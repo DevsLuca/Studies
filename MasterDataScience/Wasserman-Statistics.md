@@ -2,9 +2,7 @@
 
 [⬅ Back to tracker](README.md)
 
-**Exam:** Fundamentals of Statistical Learning (10631198) · **Edition:** Springer, 2004 · **Status:** ⬜ not started
-
-Tick a box when the section is studied. Page numbers in brackets.
+<img src="../images/Wasserman.png" width="400">
 
 <a id="top"></a>
 
@@ -12,40 +10,36 @@ Tick a box when the section is studied. Page numbers in brackets.
 
 **Part I — Probability**
 
-1. [Probability](#ch1) — p. 3
-2. [Random Variables](#ch2) — p. 19
-3. [Expectation](#ch3) — p. 47
-4. [Inequalities](#ch4) — p. 63
-5. [Convergence of Random Variables](#ch5) — p. 71
+1. [Probability](#ch1)
+2. [Random Variables](#ch2)
+3. [Expectation](#ch3)
+4. [Inequalities](#ch4)
+5. [Convergence of Random Variables](#ch5)
 
 **Part II — Statistical Inference**
 
-6. [Models, Statistical Inference and Learning](#ch6) — p. 87
-7. [Estimating the cdf and Statistical Functionals](#ch7) — p. 97
-8. [The Bootstrap](#ch8) — p. 107
-9. [Parametric Inference](#ch9) — p. 119
-10. [Hypothesis Testing and p-values](#ch10) — p. 149
-11. [Bayesian Inference](#ch11) — p. 175
-12. [Statistical Decision Theory](#ch12) — p. 193
+6. [Models, Statistical Inference and Learning](#ch6)
+7. [Estimating the cdf and Statistical Functionals](#ch7)
+8. [The Bootstrap](#ch8)
+9. [Parametric Inference](#ch9)
+10. [Hypothesis Testing and p-values](#ch10)
+11. [Bayesian Inference](#ch11)
+12. [Statistical Decision Theory](#ch12)
 
 **Part III — Statistical Models and Methods**
 
-13. [Linear and Logistic Regression](#ch13) — p. 209
-14. [Multivariate Models](#ch14) — p. 231
-15. [Inference About Independence](#ch15) — p. 239
-16. [Causal Inference](#ch16) — p. 251
-17. [Directed Graphs and Conditional Independence](#ch17) — p. 263
-18. [Undirected Graphs](#ch18) — p. 281
-19. [Log-Linear Models](#ch19) — p. 291
-20. [Nonparametric Curve Estimation](#ch20) — p. 303
-21. [Smoothing Using Orthogonal Functions](#ch21) — p. 327
-22. [Classification](#ch22) — p. 349
-23. [Probability Redux: Stochastic Processes](#ch23) — p. 381
-24. [Simulation Methods](#ch24) — p. 403
-
----
-
-# Detailed Breakdown
+13. [Linear and Logistic Regression](#ch13)
+14. [Multivariate Models](#ch14)
+15. [Inference About Independence](#ch15)
+16. [Causal Inference](#ch16)
+17. [Directed Graphs and Conditional Independence](#ch17)
+18. [Undirected Graphs](#ch18)
+19. [Log-Linear Models](#ch19)
+20. [Nonparametric Curve Estimation](#ch20)
+21. [Smoothing Using Orthogonal Functions](#ch21)
+22. [Classification](#ch22)
+23. [Probability Redux: Stochastic Processes](#ch23)
+24. [Simulation Methods](#ch24)
 
 ## Part I — Probability
 
