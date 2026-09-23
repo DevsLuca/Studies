@@ -2,43 +2,40 @@
 
 [⬅ Back to tracker](README.md)
 
+<img src="../images/filename.png" width="400">
+
 <a id="top"></a>
 
 ## 📑 Table of Contents
+**Part I — Probability**
+1. [Probability](#ch1)
+2. [Random Variables](#ch2)
+3. [Expectation](#ch3)
+4. [Inequalities](#ch4)
+5. [Convergence of Random Variables](#ch5)
 
-Legend: ⬜ not started · 📖 studying · ✅ done
+**Part II — Statistical Inference**
+6. [Models, Statistical Inference and Learning](#ch6)
+7. [Estimating the CDF and Statistical Functionals](#ch7)
+8. [The Bootstrap](#ch8)
+9. [Parametric Inference](#ch9)
+10. [Hypothesis Testing and p-values](#ch10)
+11. [Bayesian Inference](#ch11)
+12. [Statistical Decision Theory](#ch12)
 
-| Ch. | Chapter | Sections | Status |
-|---|---|---|---|
-| 1 | [Why probability and statistics?](#ch1) | 6 | ⬜ |
-| 2 | [Outcomes, events, and probability](#ch2) | 5 | ⬜ |
-| 3 | [Conditional probability and independence](#ch3) | 4 | ⬜ |
-| 4 | [Discrete random variables](#ch4) | 4 | ⬜ |
-| 5 | [Continuous random variables](#ch5) | 6 | ⬜ |
-| 6 | [Simulation](#ch6) | 4 | ⬜ |
-| 7 | [Expectation and variance](#ch7) | 4 | ⬜ |
-| 8 | [Computations with random variables](#ch8) | 4 | ⬜ |
-| 9 | [Joint distributions and independence](#ch9) | 5 | ⬜ |
-| 10 | [Covariance and correlation](#ch10) | 3 | ⬜ |
-| 11 | [More computations with more random variables](#ch11) | 3 | ⬜ |
-| 12 | [The Poisson process](#ch12) | 4 | ⬜ |
-| 13 | [The law of large numbers](#ch13) | 4 | ⬜ |
-| 14 | [The central limit theorem](#ch14) | 2 | ⬜ |
-| 15 | [Exploratory data analysis: graphical summaries](#ch15) | 5 | ⬜ |
-| 16 | [Exploratory data analysis: numerical summaries](#ch16) | 4 | ⬜ |
-| 17 | [Basic statistical models](#ch17) | 4 | ⬜ |
-| 18 | [The bootstrap](#ch18) | 3 | ⬜ |
-| 19 | [Unbiased estimators](#ch19) | 4 | ⬜ |
-| 20 | [Efficiency and mean squared error](#ch20) | 3 | ⬜ |
-| 21 | [Maximum likelihood](#ch21) | 4 | ⬜ |
-| 22 | [The method of least squares](#ch22) | 3 | ⬜ |
-| 23 | [Confidence intervals for the mean](#ch23) | 4 | ⬜ |
-| 24 | [More on confidence intervals](#ch24) | 4 | ⬜ |
-| 25 | [Testing hypotheses: essentials](#ch25) | 3 | ⬜ |
-| 26 | [Testing hypotheses: elaboration](#ch26) | 4 | ⬜ |
-| 27 | [The t-test](#ch27) | 3 | ⬜ |
-| 28 | [Comparing two samples](#ch28) | 4 | ⬜ |
-
+**Part III — Statistical Models and Methods**
+13. [Linear and Logistic Regression](#ch13)
+14. [Multivariate Models](#ch14)
+15. [Inference About Independence](#ch15)
+16. [Causal Inference](#ch16)
+17. [Directed Graphs and Conditional Independence](#ch17)
+18. [Undirected Graphs](#ch18)
+19. [Log-Linear Models](#ch19)
+20. [Nonparametric Curve Estimation](#ch20)
+21. [Smoothing Using Orthogonal Functions](#ch21)
+22. [Classification](#ch22)
+23. [Probability Redux: Stochastic Processes](#ch23)
+24. [Simulation Methods](#ch24)
 ---
 
 # Detailed Breakdown
