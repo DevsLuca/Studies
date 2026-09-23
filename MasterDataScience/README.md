@@ -4,7 +4,7 @@
 
 **Legend:** ⬜ not started · 📖 studying · 📝 exam booked · ✅ passed · ➖ not chosen
 
-**Progress:** 0 / 120 CFU · Current focus: **Probability (Ross), Ch. 5**
+**Progress:** 0 / 90 CFU ·
 
 ---
 
