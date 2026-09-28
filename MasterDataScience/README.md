@@ -15,7 +15,7 @@
 | Exam | Code | Yr | Sem | CFU | Status | Main textbook | Grade | Date |
 |---|---|---|---|---|---|---|---|---|
 | Algorithmic Methods of Data Mining and Laboratory | 10628014 | 1 | 1 | 9 | ⬜ | | | |
-| Fundamentals of Data Science | 10629400 | 1 | 1 | 9 | ⬜ | | Fundamentals of Data Science | 10629400 | 1 | 1 | 9 | ⬜ | Deisenroth, Faisal & Ong, [*Mathematics for Machine Learning*](Deisenroth-MML.md)<br>Watt, Borhani & Katsaggelos, [*Machine Learning Refined*](Watt-MLRefined.md)<br>Prince, [*Understanding Deep Learning*](https://udlbook.github.io/udlbook/) | | || | |
+| Fundamentals of Data Science | 10629400 | 1 | 1 | 9 | ⬜ | Deisenroth, Faisal & Ong, [*Mathematics for Machine Learning*](Deisenroth-MML.md)<br>Watt, Borhani & Katsaggelos, [*Machine Learning Refined*](Watt-MLRefined.md)<br>Prince, [*Understanding Deep Learning*](https://udlbook.github.io/udlbook/) | | |
 | Fundamentals of Statistical Learning (I + II, full year) | 10631198 | 1 | 1–2 | 12 | 📖 | Ross, [*A First Course in Probability*](../02.02Probability.md) (prereq)<br>Wasserman, [*All of Statistics: A Concise Course in Statistical Inference*](Wasserman-Statistics.md)<br>Dekking, Kraaikamp, Lopuhaä & Meester, [*A Modern Introduction to Probability and Statistics: Understanding Why and How*](Dekking-ProbStats.md) | | |
 | Fundamentals of Networking and Signal Processing | 10629278 | 1 | 2 | 9 | ⬜ | | | |
 | Free-choice electives (2 × 6) | — | 2| — | 12 | ⬜ | | | |
