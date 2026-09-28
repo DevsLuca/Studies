@@ -1,4 +1,4 @@
-# 2026 Master's in Data Science — Sapienza (33519)
+# 2026 Master in Data Science — Sapienza (33519)
 
 [⬅ Back to main index](../README.md)
 
