@@ -12,7 +12,7 @@
 2. [Outcomes, events, and probability](#ch2) ✅
 3. [Conditional probability and independence](#ch3) ✅
 4. [Discrete random variables](#ch4) ✅
-5. [Continuous random variables](#ch5)
+5. [Continuous random variables](#ch5) ✅
 6. [Simulation](#ch6)
 7. [Expectation and variance](#ch7)
 8. [Computations with random variables](#ch8)
@@ -83,12 +83,12 @@
 <a id="ch5"></a>
 
 ## Ch. 5 — Continuous random variables (p. 57)
-- [ ] 5.1 Probability density functions (p. 57)
-- [ ] 5.2 The uniform distribution (p. 60)
-- [ ] 5.3 The exponential distribution (p. 61)
-- [ ] 5.4 The Pareto distribution (p. 63)
-- [ ] 5.5 The normal distribution (p. 64)
-- [ ] 5.6 Quantiles (p. 65)
+- [x] 5.1 Probability density functions (p. 57)
+- [x] 5.2 The uniform distribution (p. 60)
+- [x] 5.3 The exponential distribution (p. 61)
+- [x] 5.4 The Pareto distribution (p. 63)
+- [x] 5.5 The normal distribution (p. 64)
+- [] 5.6 Quantiles (p. 65)
 
 [⬆ Back to top](#top)
 
