@@ -2,7 +2,7 @@
 
 [⬅ Back to tracker](README.md)
 
-<img src="../images/MML.png" width="200">
+<img src="../images/MML.PNG" width="200">
 
 <a id="top"></a>
 
