@@ -9,7 +9,7 @@
 Welcome to my Python Programming & Algorithmic Problem-Solving Repository!
 Here is where I store my personal solutions to HackerRank exercises, documenting my progression in Python programming. 
 
-All solutions are written in Python, organized by HackerRank subdomain in `scripts.py`, and backed by screenshots and a merged export of my accepted submissions in `printouts/`.
+All solutions are written in Python, organized by HackerRank subdomain in Jupyter notebooks `notebooks/`, and backed by screenshots and a merged export of my accepted submissions in `printouts/`.
 
 ## 📂 Repository Structure
 ```
@@ -43,3 +43,12 @@ All solutions are written in Python, organized by HackerRank subdomain in `scrip
 | | **Total** | **14** | | |
 
 The complete submission history is in [`printouts/submissions.pdf`](printouts/submissions.pdf).
+
+---
+
+## 💻 LeetCode
+
+Alongside these HackerRank exercises, I have been practicing algorithmic problem solving on LeetCode, following the NeetCode 250 list. 
+My progress, updates, notes and solutions are all tracked in one place:
+
+➡️ [NeetCode 250 progress tracker](../../LeetCode/README.md)
