@@ -1,7 +1,7 @@
 name: Update progress
 on:
   push:
-    paths: ["README.md"]
+    paths: ["LeetCode/README.md"]
   workflow_dispatch:
 
 permissions:
@@ -10,6 +10,9 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: LeetCode
     steps:
       - uses: actions/checkout@v4
       - run: python3 update_progress.py
