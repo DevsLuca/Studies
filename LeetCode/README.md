@@ -10,7 +10,8 @@ My progress through the [NeetCode 250](https://neetcode.io/practice/neetcode250)
 | # | Category | Solved |
 |:-:|----------|:------:|
 | 01 | [Arrays & Hashing](#01-arrays--hashing) | 0 / 23 |
-| | **Total** | **0 / 23** |
+| 02 | [Two Pointers](#02-two-pointers) | 0 / 13 |
+| | **Total** | **0 / 36** |
 <!-- progress:end -->
 
 **How to update:** change a problem's status icon in its table, then run `python update_progress.py`.
@@ -48,3 +49,28 @@ Notebook: [01_arrays-and-hashing.ipynb](notebooks/01_arrays-and-hashing.ipynb)
 | 23 | First Missing Positive | Hard | [LC0041](https://leetcode.com/problems/first-missing-positive) | ⬜ |
 
 [↑ Back to top](#neetcode-250--progress-tracker)
+
+---
+
+## 02 Two Pointers
+
+Notebook: [02_two-pointers.ipynb](notebooks/02_two-pointers.ipynb)
+
+| # | Problem | Difficulty | LeetCode | Status |
+|:-:|---------|:----------:|:--------:|:------:|
+| 1 | Reverse String | Easy | [LC0344](https://leetcode.com/problems/reverse-string) | ⬜ |
+| 2 | Valid Palindrome | Easy | [LC0125](https://leetcode.com/problems/valid-palindrome) | ⬜ |
+| 3 | Valid Palindrome II | Easy | [LC0680](https://leetcode.com/problems/valid-palindrome-ii) | ⬜ |
+| 4 | Merge Strings Alternately | Easy | [LC1768](https://leetcode.com/problems/merge-strings-alternately) | ⬜ |
+| 5 | Merge Sorted Array | Easy | [LC0088](https://leetcode.com/problems/merge-sorted-array) | ⬜ |
+| 6 | Remove Duplicates from Sorted Array | Easy | [LC0026](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | ⬜ |
+| 7 | Two Sum II - Input Array Is Sorted | Medium | [LC0167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | ⬜ |
+| 8 | 3Sum | Medium | [LC0015](https://leetcode.com/problems/3sum) | ⬜ |
+| 9 | 4Sum | Medium | [LC0018](https://leetcode.com/problems/4sum) | ⬜ |
+| 10 | Rotate Array | Medium | [LC0189](https://leetcode.com/problems/rotate-array) | ⬜ |
+| 11 | Container With Most Water | Medium | [LC0011](https://leetcode.com/problems/container-with-most-water) | ⬜ |
+| 12 | Boats to Save People | Medium | [LC0881](https://leetcode.com/problems/boats-to-save-people) | ⬜ |
+| 13 | Trapping Rain Water | Hard | [LC0042](https://leetcode.com/problems/trapping-rain-water) | ⬜ |
+
+[↑ Back to top](#neetcode-250--progress-tracker)
+
