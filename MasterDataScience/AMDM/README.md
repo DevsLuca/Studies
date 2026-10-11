@@ -1,7 +1,9 @@
 # 🐍 HackerRank
 
 **Author:** Luca De Vecchis 
+
 **Student_ID:** 1406883
+
 **HackerRank:** [Luca De Vecchis](https://www.hackerrank.com/profile/luca_devecchis)
 
 Welcome to my Python Programming & Algorithmic Problem-Solving Repository!
