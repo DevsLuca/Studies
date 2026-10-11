@@ -11,6 +11,15 @@ Here is where I store my personal solutions to HackerRank exercises, documenting
 
 All solutions are written in Python, organized by HackerRank subdomain in Jupyter notebooks `notebooks/`, and backed by screenshots and a merged export of my accepted submissions in `printouts/`.
 
+## 💻 LeetCode
+
+Alongside these HackerRank exercises, I have been practicing algorithmic problem solving on LeetCode, following the NeetCode 250 list. 
+My progress, updates, notes and solutions are all tracked in one place:
+
+➡️ [NeetCode 250 progress tracker](../../LeetCode/README.md)
+
+---
+
 ## 📂 Repository Structure
 ```
 .
@@ -43,12 +52,3 @@ All solutions are written in Python, organized by HackerRank subdomain in Jupyte
 | | **Total** | **14** | | |
 
 The complete submission history is in [`printouts/submissions.pdf`](printouts/submissions.pdf).
-
----
-
-## 💻 LeetCode
-
-Alongside these HackerRank exercises, I have been practicing algorithmic problem solving on LeetCode, following the NeetCode 250 list. 
-My progress, updates, notes and solutions are all tracked in one place:
-
-➡️ [NeetCode 250 progress tracker](../../LeetCode/README.md)
