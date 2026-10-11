@@ -98,7 +98,7 @@ Notebook: [01_arrays-and-hashing.ipynb](notebooks/01_arrays-and-hashing.ipynb)
 
 | # | Problem | Difficulty | LeetCode | Status |
 |:-:|---------|:----------:|:--------:|:------:|
-| 1 | Concatenation of Array | Easy | [LC1929](https://leetcode.com/problems/concatenation-of-array) | ⬜ |
+| 1 | Concatenation of Array | Easy | [LC1929](https://leetcode.com/problems/concatenation-of-array) | ✅ |
 | 2 | Contains Duplicate | Easy | [LC0217](https://leetcode.com/problems/contains-duplicate) | ⬜ |
 | 3 | Valid Anagram | Easy | [LC0242](https://leetcode.com/problems/valid-anagram) | ⬜ |
 | 4 | Two Sum | Easy | [LC0001](https://leetcode.com/problems/two-sum) | ⬜ |
