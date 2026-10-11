@@ -7,22 +7,22 @@ My progress through the [NeetCode 250](https://neetcode.io/practice/neetcode250)
 graph TD
   AH["Arrays and Hashing<br/>0/23"]:::todo
   TP["Two Pointers<br/>0/13"]:::todo
+  SW["Sliding Window<br/>0/9"]:::todo
   ST["Stack<br/>0/14"]:::todo
   BS["Binary Search<br/>0/14"]:::todo
-  SW["Sliding Window<br/>0/9"]:::todo
   LL["Linked List<br/>0/14"]:::todo
   TR["Trees<br/>0/23"]:::todo
-  TRI["Tries<br/>0/4"]:::todo
   HP["Heap / Priority Queue<br/>0/12"]:::todo
   BT["Backtracking<br/>0/17"]:::todo
-  IN["Intervals<br/>0/7"]:::todo
-  GR["Greedy<br/>0/14"]:::todo
-  AG["Advanced Graphs<br/>0/10"]:::todo
+  TRI["Tries<br/>0/4"]:::todo
   GP["Graphs<br/>0/21"]:::todo
+  AG["Advanced Graphs<br/>0/10"]:::todo
   DP1["1-D DP<br/>0/17"]:::todo
   DP2["2-D DP<br/>0/16"]:::todo
-  BM["Bit Manipulation<br/>0/10"]:::todo
+  GR["Greedy<br/>0/14"]:::todo
+  IN["Intervals<br/>0/7"]:::todo
   MG["Math and Geometry<br/>0/13"]:::todo
+  BM["Bit Manipulation<br/>0/10"]:::todo
 
   AH --> TP
   AH --> ST
@@ -77,7 +77,7 @@ graph TD
 | 16 | [Intervals](#16-intervals) | 0 / 7 |
 | 17 | [Math & Geometry](#17-math--geometry) | 0 / 13 |
 | 18 | [Bit Manipulation](#18-bit-manipulation) | 0 / 10 |
-| | **Total** | **0 / 251** ||
+| | **Total (unique problems)** | **0 / 250** |
 <!-- progress:end -->
 
 ---
@@ -85,10 +85,10 @@ graph TD
 <!-- difficulty:start -->
 | Difficulty | Solved | Total | Progress |
 |------------|:------:|:-----:|----------|
-| Easy | 17 | 60 | ██░░░░░░░░ 28% |
-| Medium | 8 | 155 | ░░░░░░░░░░ 5% |
+| Easy | 0 | 60 | ░░░░░░░░░░ 0% |
+| Medium | 0 | 155 | ░░░░░░░░░░ 0% |
 | Hard | 0 | 35 | ░░░░░░░░░░ 0% |
-| **Overall** | **25** | **250** | █░░░░░░░░░ 10% |
+| **Overall** | **0** | **250** | ░░░░░░░░░░ 0% |
 <!-- difficulty:end -->
 
 
