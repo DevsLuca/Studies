@@ -47,7 +47,7 @@ graph TD
   BM --> MG
 
   classDef todo fill:#2b2b3a,stroke:#555,color:#ddd
-  classDef doing fill:#bfdbfe,stroke:#3b82f6,color:#0f172a
+  classDef doing fill:#7a5c00,stroke:#d4a017,color:#fff
   classDef done fill:#14532d,stroke:#22c55e,color:#fff
 ```
 <!-- graph:end -->
