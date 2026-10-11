@@ -2,6 +2,7 @@
 
 My progress through the [NeetCode 250](https://neetcode.io/practice/neetcode250), a curated set of LeetCode problems covering the core data structures and algorithms. Solutions are written in Python and stored in one notebook per category in [`notebooks/`](notebooks).
 
+<!-- graph:start -->
 ```mermaid
 graph TD
   AH["Arrays and Hashing<br/>0/23"]:::todo
@@ -49,13 +50,7 @@ graph TD
   classDef doing fill:#7a5c00,stroke:#d4a017,color:#fff
   classDef done fill:#14532d,stroke:#22c55e,color:#fff
 ```
-
-| Difficulty | Solved | Total | Progress |
-|------------|:------:|:-----:|----------|
-| Easy | 17 | 60 | ██░░░░░░░░ 28% |
-| Medium | 8 | 155 | ░░░░░░░░░░ 5% |
-| Hard | 0 | 35 | ░░░░░░░░░░ 0% |
-| **Overall** | **25** | **250** | █░░░░░░░░░ 10% |
+<!-- graph:end -->
 
 **Legend:** ⬜ not started · 📖 attempted / needs review · ✅ solved · 🔒 requires LeetCode Premium
 
@@ -86,6 +81,16 @@ graph TD
 <!-- progress:end -->
 
 ---
+
+<!-- difficulty:start -->
+| Difficulty | Solved | Total | Progress |
+|------------|:------:|:-----:|----------|
+| Easy | 17 | 60 | ██░░░░░░░░ 28% |
+| Medium | 8 | 155 | ░░░░░░░░░░ 5% |
+| Hard | 0 | 35 | ░░░░░░░░░░ 0% |
+| **Overall** | **25** | **250** | █░░░░░░░░░ 10% |
+<!-- difficulty:end -->
+
 
 ## 01 Arrays & Hashing
 
