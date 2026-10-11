@@ -5,7 +5,7 @@ My progress through the [NeetCode 250](https://neetcode.io/practice/neetcode250)
 <!-- graph:start -->
 ```mermaid
 graph TD
-  AH["Arrays and Hashing<br/>0/23"]:::todo
+  AH["Arrays and Hashing<br/>1/23"]:::doing
   TP["Two Pointers<br/>0/13"]:::todo
   SW["Sliding Window<br/>0/9"]:::todo
   ST["Stack<br/>0/14"]:::todo
@@ -59,7 +59,7 @@ graph TD
 <!-- progress:start -->
 | # | Category | Solved |
 |:-:|----------|:------:|
-| 01 | [Arrays & Hashing](#01-arrays--hashing) | 0 / 23 |
+| 01 | [Arrays & Hashing](#01-arrays--hashing) | 1 / 23 |
 | 02 | [Two Pointers](#02-two-pointers) | 0 / 13 |
 | 03 | [Sliding Window](#03-sliding-window) | 0 / 9 |
 | 04 | [Stack](#04-stack) | 0 / 14 |
@@ -77,7 +77,7 @@ graph TD
 | 16 | [Intervals](#16-intervals) | 0 / 7 |
 | 17 | [Math & Geometry](#17-math--geometry) | 0 / 13 |
 | 18 | [Bit Manipulation](#18-bit-manipulation) | 0 / 10 |
-| | **Total (unique problems)** | **0 / 250** |
+| | **Total (unique problems)** | **1 / 250** |
 <!-- progress:end -->
 
 ---
@@ -85,10 +85,10 @@ graph TD
 <!-- difficulty:start -->
 | Difficulty | Solved | Total | Progress |
 |------------|:------:|:-----:|----------|
-| Easy | 0 | 60 | ░░░░░░░░░░ 0% |
+| Easy | 1 | 60 | ░░░░░░░░░░ 2% |
 | Medium | 0 | 155 | ░░░░░░░░░░ 0% |
 | Hard | 0 | 35 | ░░░░░░░░░░ 0% |
-| **Overall** | **0** | **250** | ░░░░░░░░░░ 0% |
+| **Overall** | **1** | **250** | ░░░░░░░░░░ 0% |
 <!-- difficulty:end -->
 
 
