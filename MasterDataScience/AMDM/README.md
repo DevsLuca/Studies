@@ -14,6 +14,7 @@ All solutions are written in Python, organized by HackerRank subdomain in Jupyte
 ## 💻 LeetCode
 
 Alongside these HackerRank exercises, I have been practicing algorithmic problem solving on LeetCode, following the NeetCode 250 list. 
+
 My progress, updates, notes and solutions are all tracked in one place:
 
 ➡️ [NeetCode 250 progress tracker](../../LeetCode/README.md)
