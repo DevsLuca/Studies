@@ -7,22 +7,22 @@ My progress through the [NeetCode 250](https://neetcode.io/practice/neetcode250)
 graph TD
   AH["Arrays and Hashing<br/>0/23"]:::todo
   TP["Two Pointers<br/>0/13"]:::todo
+  SW["Sliding Window<br/>0/9"]:::todo
   ST["Stack<br/>0/14"]:::todo
   BS["Binary Search<br/>0/14"]:::todo
-  SW["Sliding Window<br/>0/9"]:::todo
   LL["Linked List<br/>0/14"]:::todo
   TR["Trees<br/>0/23"]:::todo
-  TRI["Tries<br/>0/4"]:::todo
   HP["Heap / Priority Queue<br/>0/12"]:::todo
   BT["Backtracking<br/>0/17"]:::todo
-  IN["Intervals<br/>0/7"]:::todo
-  GR["Greedy<br/>0/14"]:::todo
-  AG["Advanced Graphs<br/>0/10"]:::todo
+  TRI["Tries<br/>0/4"]:::todo
   GP["Graphs<br/>0/21"]:::todo
+  AG["Advanced Graphs<br/>0/10"]:::todo
   DP1["1-D DP<br/>0/17"]:::todo
   DP2["2-D DP<br/>0/16"]:::todo
-  BM["Bit Manipulation<br/>0/10"]:::todo
+  GR["Greedy<br/>0/14"]:::todo
+  IN["Intervals<br/>0/7"]:::todo
   MG["Math and Geometry<br/>0/13"]:::todo
+  BM["Bit Manipulation<br/>0/10"]:::todo
 
   AH --> TP
   AH --> ST
@@ -46,29 +46,9 @@ graph TD
   DP2 --> MG
   BM --> MG
 
-  click AH href "#01-arrays--hashing"
-  click TP href "#02-two-pointers"
-  click SW href "#03-sliding-window"
-  click ST href "#04-stack"
-  click BS href "#05-binary-search"
-  click LL href "#06-linked-list"
-  click TR href "#07-trees"
-  click HP href "#08-heap--priority-queue"
-  click BT href "#09-backtracking"
-  click TRI href "#10-tries"
-  click GP href "#11-graphs"
-  click AG href "#12-advanced-graphs"
-  click DP1 href "#13-1-d-dynamic-programming"
-  click DP2 href "#14-2-d-dynamic-programming"
-  click GR href "#15-greedy"
-  click IN href "#16-intervals"
-  click MG href "#17-math--geometry"
-  click BM href "#18-bit-manipulation"
-
   classDef todo fill:#2b2b3a,stroke:#555,color:#ddd
   classDef doing fill:#7a5c00,stroke:#d4a017,color:#fff
   classDef done fill:#14532d,stroke:#22c55e,color:#fff
-```
 ```
 <!-- graph:end -->
 
