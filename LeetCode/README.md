@@ -14,8 +14,6 @@ My progress through the [NeetCode 250](https://neetcode.io/practice/neetcode250)
 | | **Total** | **0 / 36** |
 <!-- progress:end -->
 
-**How to update:** change a problem's status icon in its table, then run `python update_progress.py`.
-
 ---
 
 ## 01 Arrays & Hashing
