@@ -82,16 +82,6 @@ graph TD
 
 ---
 
-<!-- difficulty:start -->
-| Difficulty | Solved | Total | Progress |
-|------------|:------:|:-----:|----------|
-| Easy | 1 | 60 | ░░░░░░░░░░ 2% |
-| Medium | 0 | 155 | ░░░░░░░░░░ 0% |
-| Hard | 0 | 35 | ░░░░░░░░░░ 0% |
-| **Overall** | **1** | **250** | ░░░░░░░░░░ 0% |
-<!-- difficulty:end -->
-
-
 ## 01 Arrays & Hashing
 
 Notebook: [01_arrays-and-hashing.ipynb](notebooks/01_arrays-and-hashing.ipynb)
