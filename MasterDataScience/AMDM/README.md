@@ -44,12 +44,3 @@ All solutions are written in Python, organized by HackerRank subdomain in `scrip
 | **Total** | **14** | | |
 
 The complete submission history is in [`printouts/submissions.pdf`](printouts/submissions.pdf).
-
-## How to Run
-
-```bash
-git clone https://github.com/<username>/<repo-name>.git && cd <repo-name>
-python scripts.py
-```
-
-Requires Python 3.8+. Running the script executes each exercise on its sample input.
