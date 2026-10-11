@@ -2,6 +2,54 @@
 
 My progress through the [NeetCode 250](https://neetcode.io/practice/neetcode250), a curated set of LeetCode problems covering the core data structures and algorithms. Solutions are written in Python and stored in one notebook per category in [`notebooks/`](notebooks).
 
+```mermaid
+graph TD
+  AH["Arrays and Hashing<br/>0/23"]:::todo
+  TP["Two Pointers<br/>0/13"]:::todo
+  ST["Stack<br/>0/14"]:::todo
+  BS["Binary Search<br/>0/14"]:::todo
+  SW["Sliding Window<br/>0/9"]:::todo
+  LL["Linked List<br/>0/14"]:::todo
+  TR["Trees<br/>0/23"]:::todo
+  TRI["Tries<br/>0/4"]:::todo
+  HP["Heap / Priority Queue<br/>0/12"]:::todo
+  BT["Backtracking<br/>0/17"]:::todo
+  IN["Intervals<br/>0/7"]:::todo
+  GR["Greedy<br/>0/14"]:::todo
+  AG["Advanced Graphs<br/>0/10"]:::todo
+  GP["Graphs<br/>0/21"]:::todo
+  DP1["1-D DP<br/>0/17"]:::todo
+  DP2["2-D DP<br/>0/16"]:::todo
+  BM["Bit Manipulation<br/>0/10"]:::todo
+  MG["Math and Geometry<br/>0/13"]:::todo
+
+  AH --> TP
+  AH --> ST
+  TP --> BS
+  TP --> SW
+  TP --> LL
+  BS --> TR
+  LL --> TR
+  TR --> TRI
+  TR --> HP
+  TR --> BT
+  HP --> IN
+  HP --> GR
+  HP --> AG
+  BT --> GP
+  BT --> DP1
+  GP --> AG
+  GP --> DP2
+  DP1 --> DP2
+  DP1 --> BM
+  DP2 --> MG
+  BM --> MG
+
+  classDef todo fill:#2b2b3a,stroke:#555,color:#ddd
+  classDef doing fill:#7a5c00,stroke:#d4a017,color:#fff
+  classDef done fill:#14532d,stroke:#22c55e,color:#fff
+```
+
 **Legend:** ⬜ not started · 📖 attempted / needs review · ✅ solved · 🔒 requires LeetCode Premium
 
 ## Progress
