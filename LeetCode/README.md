@@ -11,7 +11,23 @@ My progress through the [NeetCode 250](https://neetcode.io/practice/neetcode250)
 |:-:|----------|:------:|
 | 01 | [Arrays & Hashing](#01-arrays--hashing) | 0 / 23 |
 | 02 | [Two Pointers](#02-two-pointers) | 0 / 13 |
-| | **Total** | **0 / 36** |
+| 03 | [Sliding Window](#03-sliding-window) | 0 / 9 |
+| 04 | [Stack](#04-stack) | 0 / 14 |
+| 05 | [Binary Search](#05-binary-search) | 0 / 14 |
+| 06 | [Linked List](#06-linked-list) | 0 / 14 |
+| 07 | [Trees](#07-trees) | 0 / 23 |
+| 08 | [Heap / Priority Queue](#08-heap--priority-queue) | 0 / 12 |
+| 09 | [Backtracking](#09-backtracking) | 0 / 17 |
+| 10 | [Tries](#10-tries) | 0 / 4 |
+| 11 | [Graphs](#11-graphs) | 0 / 21 |
+| 12 | [Advanced Graphs](#12-advanced-graphs) | 0 / 10 |
+| 13 | [1-D Dynamic Programming](#13-1-d-dynamic-programming) | 0 / 17 |
+| 14 | [2-D Dynamic Programming](#14-2-d-dynamic-programming) | 0 / 16 |
+| 15 | [Greedy](#15-greedy) | 0 / 14 |
+| 16 | [Intervals](#16-intervals) | 0 / 7 |
+| 17 | [Math & Geometry](#17-math--geometry) | 0 / 13 |
+| 18 | [Bit Manipulation](#18-bit-manipulation) | 0 / 10 |
+| | **Total** | **0 / 251** ||
 <!-- progress:end -->
 
 ---
@@ -320,7 +336,146 @@ Notebook: [12_advanced-graphs.ipynb](notebooks/12_advanced-graphs.ipynb)
 
 [↑ Back to top](#neetcode-250--progress-tracker)
 
+---
 
+## 13 1-D Dynamic Programming
 
+Notebook: [13_1d-dynamic-programming.ipynb](notebooks/13_1d-dynamic-programming.ipynb)
 
+| # | Problem | Difficulty | LeetCode | Status |
+|:-:|---------|:----------:|:--------:|:------:|
+| 1 | Climbing Stairs | Easy | [LC0070](https://leetcode.com/problems/climbing-stairs) | ⬜ |
+| 2 | Min Cost Climbing Stairs | Easy | [LC0746](https://leetcode.com/problems/min-cost-climbing-stairs) | ⬜ |
+| 3 | N-th Tribonacci Number | Easy | [LC1137](https://leetcode.com/problems/n-th-tribonacci-number) | ⬜ |
+| 4 | House Robber | Medium | [LC0198](https://leetcode.com/problems/house-robber) | ⬜ |
+| 5 | House Robber II | Medium | [LC0213](https://leetcode.com/problems/house-robber-ii) | ⬜ |
+| 6 | Longest Palindromic Substring | Medium | [LC0005](https://leetcode.com/problems/longest-palindromic-substring) | ⬜ |
+| 7 | Palindromic Substrings | Medium | [LC0647](https://leetcode.com/problems/palindromic-substrings) | ⬜ |
+| 8 | Decode Ways | Medium | [LC0091](https://leetcode.com/problems/decode-ways) | ⬜ |
+| 9 | Coin Change | Medium | [LC0322](https://leetcode.com/problems/coin-change) | ⬜ |
+| 10 | Maximum Product Subarray | Medium | [LC0152](https://leetcode.com/problems/maximum-product-subarray) | ⬜ |
+| 11 | Word Break | Medium | [LC0139](https://leetcode.com/problems/word-break) | ⬜ |
+| 12 | Longest Increasing Subsequence | Medium | [LC0300](https://leetcode.com/problems/longest-increasing-subsequence) | ⬜ |
+| 13 | Partition Equal Subset Sum | Medium | [LC0416](https://leetcode.com/problems/partition-equal-subset-sum) | ⬜ |
+| 14 | Combination Sum IV | Medium | [LC0377](https://leetcode.com/problems/combination-sum-iv) | ⬜ |
+| 15 | Perfect Squares | Medium | [LC0279](https://leetcode.com/problems/perfect-squares) | ⬜ |
+| 16 | Integer Break | Medium | [LC0343](https://leetcode.com/problems/integer-break) | ⬜ |
+| 17 | Stone Game III | Hard | [LC1406](https://leetcode.com/problems/stone-game-iii) | ⬜ |
+
+[↑ Back to top](#neetcode-250--progress-tracker)
+
+---
+
+## 14 2-D Dynamic Programming
+
+Notebook: [14_2d-dynamic-programming.ipynb](notebooks/14_2d-dynamic-programming.ipynb)
+
+| # | Problem | Difficulty | LeetCode | Status |
+|:-:|---------|:----------:|:--------:|:------:|
+| 1 | Unique Paths | Medium | [LC0062](https://leetcode.com/problems/unique-paths) | ⬜ |
+| 2 | Unique Paths II | Medium | [LC0063](https://leetcode.com/problems/unique-paths-ii) | ⬜ |
+| 3 | Minimum Path Sum | Medium | [LC0064](https://leetcode.com/problems/minimum-path-sum) | ⬜ |
+| 4 | Longest Common Subsequence | Medium | [LC1143](https://leetcode.com/problems/longest-common-subsequence) | ⬜ |
+| 5 | Last Stone Weight II | Medium | [LC1049](https://leetcode.com/problems/last-stone-weight-ii) | ⬜ |
+| 6 | Best Time to Buy and Sell Stock with Cooldown | Medium | [LC0309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | ⬜ |
+| 7 | Coin Change II | Medium | [LC0518](https://leetcode.com/problems/coin-change-ii) | ⬜ |
+| 8 | Target Sum | Medium | [LC0494](https://leetcode.com/problems/target-sum) | ⬜ |
+| 9 | Interleaving String | Medium | [LC0097](https://leetcode.com/problems/interleaving-string) | ⬜ |
+| 10 | Stone Game | Medium | [LC0877](https://leetcode.com/problems/stone-game) | ⬜ |
+| 11 | Stone Game II | Medium | [LC1140](https://leetcode.com/problems/stone-game-ii) | ⬜ |
+| 12 | Longest Increasing Path in a Matrix | Hard | [LC0329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | ⬜ |
+| 13 | Distinct Subsequences | Hard | [LC0115](https://leetcode.com/problems/distinct-subsequences) | ⬜ |
+| 14 | Edit Distance | Medium | [LC0072](https://leetcode.com/problems/edit-distance) | ⬜ |
+| 15 | Burst Balloons | Hard | [LC0312](https://leetcode.com/problems/burst-balloons) | ⬜ |
+| 16 | Regular Expression Matching | Hard | [LC0010](https://leetcode.com/problems/regular-expression-matching) | ⬜ |
+
+[↑ Back to top](#neetcode-250--progress-tracker)
+
+---
+
+## 15 Greedy
+
+Notebook: [15_greedy.ipynb](notebooks/15_greedy.ipynb)
+
+| # | Problem | Difficulty | LeetCode | Status |
+|:-:|---------|:----------:|:--------:|:------:|
+| 1 | Lemonade Change | Easy | [LC0860](https://leetcode.com/problems/lemonade-change) | ⬜ |
+| 2 | Maximum Subarray | Medium | [LC0053](https://leetcode.com/problems/maximum-subarray) | ⬜ |
+| 3 | Maximum Sum Circular Subarray | Medium | [LC0918](https://leetcode.com/problems/maximum-sum-circular-subarray) | ⬜ |
+| 4 | Longest Turbulent Subarray | Medium | [LC0978](https://leetcode.com/problems/longest-turbulent-subarray) | ⬜ |
+| 5 | Jump Game | Medium | [LC0055](https://leetcode.com/problems/jump-game) | ⬜ |
+| 6 | Jump Game II | Medium | [LC0045](https://leetcode.com/problems/jump-game-ii) | ⬜ |
+| 7 | Jump Game VII | Medium | [LC1871](https://leetcode.com/problems/jump-game-vii) | ⬜ |
+| 8 | Gas Station | Medium | [LC0134](https://leetcode.com/problems/gas-station) | ⬜ |
+| 9 | Hand of Straights | Medium | [LC0846](https://leetcode.com/problems/hand-of-straights) | ⬜ |
+| 10 | Dota2 Senate | Medium | [LC0649](https://leetcode.com/problems/dota2-senate) | ⬜ |
+| 11 | Merge Triplets to Form Target Triplet | Medium | [LC1899](https://leetcode.com/problems/merge-triplets-to-form-target-triplet) | ⬜ |
+| 12 | Partition Labels | Medium | [LC0763](https://leetcode.com/problems/partition-labels) | ⬜ |
+| 13 | Valid Parenthesis String | Medium | [LC0678](https://leetcode.com/problems/valid-parenthesis-string) | ⬜ |
+| 14 | Candy | Hard | [LC0135](https://leetcode.com/problems/candy) | ⬜ |
+
+[↑ Back to top](#neetcode-250--progress-tracker)
+
+---
+
+## 16 Intervals
+
+Notebook: [16_intervals.ipynb](notebooks/16_intervals.ipynb)
+
+| # | Problem | Difficulty | LeetCode | Status |
+|:-:|---------|:----------:|:--------:|:------:|
+| 1 | Insert Interval | Medium | [LC0057](https://leetcode.com/problems/insert-interval) | ⬜ |
+| 2 | Merge Intervals | Medium | [LC0056](https://leetcode.com/problems/merge-intervals) | ⬜ |
+| 3 | Non-overlapping Intervals | Medium | [LC0435](https://leetcode.com/problems/non-overlapping-intervals) | ⬜ |
+| 4 | Meeting Rooms 🔒 | Easy | [LC0252](https://leetcode.com/problems/meeting-rooms) | ⬜ |
+| 5 | Meeting Rooms II 🔒 | Medium | [LC0253](https://leetcode.com/problems/meeting-rooms-ii) | ⬜ |
+| 6 | Meeting Rooms III | Hard | [LC2402](https://leetcode.com/problems/meeting-rooms-iii) | ⬜ |
+| 7 | Minimum Interval to Include Each Query | Hard | [LC1851](https://leetcode.com/problems/minimum-interval-to-include-each-query) | ⬜ |
+
+[↑ Back to top](#neetcode-250--progress-tracker)
+
+---
+
+## 17 Math & Geometry
+
+Notebook: [17_math-and-geometry.ipynb](notebooks/17_math-and-geometry.ipynb)
+
+| # | Problem | Difficulty | LeetCode | Status |
+|:-:|---------|:----------:|:--------:|:------:|
+| 1 | Excel Sheet Column Title | Easy | [LC0168](https://leetcode.com/problems/excel-sheet-column-title) | ⬜ |
+| 2 | Greatest Common Divisor of Strings | Easy | [LC1071](https://leetcode.com/problems/greatest-common-divisor-of-strings) | ⬜ |
+| 3 | Insert Greatest Common Divisors in Linked List | Medium | [LC2807](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list) | ⬜ |
+| 4 | Transpose Matrix | Easy | [LC0867](https://leetcode.com/problems/transpose-matrix) | ⬜ |
+| 5 | Rotate Image | Medium | [LC0048](https://leetcode.com/problems/rotate-image) | ⬜ |
+| 6 | Spiral Matrix | Medium | [LC0054](https://leetcode.com/problems/spiral-matrix) | ⬜ |
+| 7 | Set Matrix Zeroes | Medium | [LC0073](https://leetcode.com/problems/set-matrix-zeroes) | ⬜ |
+| 8 | Happy Number | Easy | [LC0202](https://leetcode.com/problems/happy-number) | ⬜ |
+| 9 | Plus One | Easy | [LC0066](https://leetcode.com/problems/plus-one) | ⬜ |
+| 10 | Roman to Integer | Easy | [LC0013](https://leetcode.com/problems/roman-to-integer) | ⬜ |
+| 11 | Pow(x, n) | Medium | [LC0050](https://leetcode.com/problems/powx-n) | ⬜ |
+| 12 | Multiply Strings | Medium | [LC0043](https://leetcode.com/problems/multiply-strings) | ⬜ |
+| 13 | Detect Squares | Medium | [LC2013](https://leetcode.com/problems/detect-squares) | ⬜ |
+
+[↑ Back to top](#neetcode-250--progress-tracker)
+
+---
+
+## 18 Bit Manipulation
+
+Notebook: [18_bit-manipulation.ipynb](notebooks/18_bit-manipulation.ipynb)
+
+| # | Problem | Difficulty | LeetCode | Status |
+|:-:|---------|:----------:|:--------:|:------:|
+| 1 | Single Number | Easy | [LC0136](https://leetcode.com/problems/single-number) | ⬜ |
+| 2 | Number of 1 Bits | Easy | [LC0191](https://leetcode.com/problems/number-of-1-bits) | ⬜ |
+| 3 | Counting Bits | Easy | [LC0338](https://leetcode.com/problems/counting-bits) | ⬜ |
+| 4 | Add Binary | Easy | [LC0067](https://leetcode.com/problems/add-binary) | ⬜ |
+| 5 | Reverse Bits | Easy | [LC0190](https://leetcode.com/problems/reverse-bits) | ⬜ |
+| 6 | Missing Number | Easy | [LC0268](https://leetcode.com/problems/missing-number) | ⬜ |
+| 7 | Sum of Two Integers | Medium | [LC0371](https://leetcode.com/problems/sum-of-two-integers) | ⬜ |
+| 8 | Reverse Integer | Medium | [LC0007](https://leetcode.com/problems/reverse-integer) | ⬜ |
+| 9 | Bitwise AND of Numbers Range | Medium | [LC0201](https://leetcode.com/problems/bitwise-and-of-numbers-range) | ⬜ |
+| 10 | Minimum Array End | Medium | [LC3133](https://leetcode.com/problems/minimum-array-end) | ⬜ |
+
+[↑ Back to top](#neetcode-250--progress-tracker)
 
