@@ -25,7 +25,7 @@ All solutions are written in Python, organized by HackerRank subdomain in `scrip
 
 | # | Subdomain | Solved | Notebook | Screenshots |
 |:-:|-----------|:------:|----------|-------------|
-| 1 | Introduction | 7 | [01_introduction.ipynb](notebooks/01_introduction.ipynb) | [01introduction](printouts/01introduction) |
+| 1 | Introduction | 7 | [01_introduction.ipynb](notebooks/01_introduction.ipynb) | [01_introduction](printouts/01_introduction) |
 | 2 | Basic Data Types | 5 | [02_basic-data-types.ipynb](notebooks/02_basic-data-types.ipynb) | [basic-data-types](printouts/basic-data-types) |
 | 3 | Strings | 2 | [03_strings.ipynb](notebooks/03_strings.ipynb) | [strings](printouts/strings) |
 | 4 | Sets | 0 | [04_sets.ipynb](notebooks/04_sets.ipynb) | [sets](printouts/sets) |
