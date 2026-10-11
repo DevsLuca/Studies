@@ -72,3 +72,49 @@ Notebook: [02_two-pointers.ipynb](notebooks/02_two-pointers.ipynb)
 
 [↑ Back to top](#neetcode-250--progress-tracker)
 
+---
+
+## 03 Sliding Window
+
+Notebook: [03_sliding-window.ipynb](notebooks/03_sliding-window.ipynb)
+
+| # | Problem | Difficulty | LeetCode | Status |
+|:-:|---------|:----------:|:--------:|:------:|
+| 1 | Contains Duplicate II | Easy | [LC0219](https://leetcode.com/problems/contains-duplicate-ii) | ⬜ |
+| 2 | Best Time to Buy and Sell Stock | Easy | [LC0121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | ⬜ |
+| 3 | Longest Substring Without Repeating Characters | Medium | [LC0003](https://leetcode.com/problems/longest-substring-without-repeating-characters) | ⬜ |
+| 4 | Longest Repeating Character Replacement | Medium | [LC0424](https://leetcode.com/problems/longest-repeating-character-replacement) | ⬜ |
+| 5 | Permutation in String | Medium | [LC0567](https://leetcode.com/problems/permutation-in-string) | ⬜ |
+| 6 | Minimum Size Subarray Sum | Medium | [LC0209](https://leetcode.com/problems/minimum-size-subarray-sum) | ⬜ |
+| 7 | Find K Closest Elements | Medium | [LC0658](https://leetcode.com/problems/find-k-closest-elements) | ⬜ |
+| 8 | Minimum Window Substring | Hard | [LC0076](https://leetcode.com/problems/minimum-window-substring) | ⬜ |
+| 9 | Sliding Window Maximum | Hard | [LC0239](https://leetcode.com/problems/sliding-window-maximum) | ⬜ |
+
+[↑ Back to top](#neetcode-250--progress-tracker)
+
+---
+
+## 04 Stack
+
+Notebook: [04_stack.ipynb](notebooks/04_stack.ipynb)
+
+| # | Problem | Difficulty | LeetCode | Status |
+|:-:|---------|:----------:|:--------:|:------:|
+| 1 | Baseball Game | Easy | [LC0682](https://leetcode.com/problems/baseball-game) | ⬜ |
+| 2 | Valid Parentheses | Easy | [LC0020](https://leetcode.com/problems/valid-parentheses) | ⬜ |
+| 3 | Implement Stack Using Queues | Easy | [LC0225](https://leetcode.com/problems/implement-stack-using-queues) | ⬜ |
+| 4 | Implement Queue Using Stacks | Easy | [LC0232](https://leetcode.com/problems/implement-queue-using-stacks) | ⬜ |
+| 5 | Min Stack | Medium | [LC0155](https://leetcode.com/problems/min-stack) | ⬜ |
+| 6 | Evaluate Reverse Polish Notation | Medium | [LC0150](https://leetcode.com/problems/evaluate-reverse-polish-notation) | ⬜ |
+| 7 | Asteroid Collision | Medium | [LC0735](https://leetcode.com/problems/asteroid-collision) | ⬜ |
+| 8 | Daily Temperatures | Medium | [LC0739](https://leetcode.com/problems/daily-temperatures) | ⬜ |
+| 9 | Online Stock Span | Medium | [LC0901](https://leetcode.com/problems/online-stock-span) | ⬜ |
+| 10 | Car Fleet | Medium | [LC0853](https://leetcode.com/problems/car-fleet) | ⬜ |
+| 11 | Simplify Path | Medium | [LC0071](https://leetcode.com/problems/simplify-path) | ⬜ |
+| 12 | Decode String | Medium | [LC0394](https://leetcode.com/problems/decode-string) | ⬜ |
+| 13 | Maximum Frequency Stack | Hard | [LC0895](https://leetcode.com/problems/maximum-frequency-stack) | ⬜ |
+| 14 | Largest Rectangle in Histogram | Hard | [LC0084](https://leetcode.com/problems/largest-rectangle-in-histogram) | ⬜ |
+
+[↑ Back to top](#neetcode-250--progress-tracker)
+
+
