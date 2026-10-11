@@ -1,6 +1,8 @@
 # NeetCode 250 — Progress Tracker
 
-My progress through the [NeetCode 250](https://neetcode.io/practice/neetcode250), a curated set of LeetCode problems covering the core data structures and algorithms. Solutions are written in Python and stored in one notebook per category in [`notebooks/`](notebooks).
+My progress through the [NeetCode 250](https://neetcode.io/practice/neetcode250), a curated set of LeetCode problems covering the core data structures and algorithms.
+
+Solutions are written in Python and stored in one notebook per category in [`notebooks/`](notebooks).
 
 <!-- graph:start -->
 ```mermaid
