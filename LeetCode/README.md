@@ -50,6 +50,13 @@ graph TD
   classDef done fill:#14532d,stroke:#22c55e,color:#fff
 ```
 
+| Difficulty | Solved | Total | Progress |
+|------------|:------:|:-----:|----------|
+| Easy | 17 | 60 | ██░░░░░░░░ 28% |
+| Medium | 8 | 155 | ░░░░░░░░░░ 5% |
+| Hard | 0 | 35 | ░░░░░░░░░░ 0% |
+| **Overall** | **25** | **250** | █░░░░░░░░░ 10% |
+
 **Legend:** ⬜ not started · 📖 attempted / needs review · ✅ solved · 🔒 requires LeetCode Premium
 
 ## Progress
