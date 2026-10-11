@@ -8,7 +8,7 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 ### 🔗 Quick Access
 - 🎓 **[Master's in Data Science — Sapienza (33519)](MasterDataScience/)**
 - 📜 **[My Professional Certifications](./01Certifications.md)**
-- **LeetCode**
+- **[LeetCode](LeetCode/)**
 - 02 Mathematics and Statistics
   - 02.01 [Statistics](./02.01Statistics.md)
   - 02.02 [Probability](./02.02Probability.md)
