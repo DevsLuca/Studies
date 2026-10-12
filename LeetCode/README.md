@@ -7,8 +7,8 @@ Solutions are written in Python and stored in one notebook per category in [`not
 <!-- graph:start -->
 ```mermaid
 graph TD
-  AH["Arrays and Hashing<br/>1/23"]:::doing
-  TP["Two Pointers<br/>0/13"]:::todo
+  AH["Arrays and Hashing<br/>14/23"]:::doing
+  TP["Two Pointers<br/>6/13"]:::doing
   SW["Sliding Window<br/>0/9"]:::todo
   ST["Stack<br/>0/14"]:::todo
   BS["Binary Search<br/>0/14"]:::todo
@@ -61,7 +61,7 @@ graph TD
 <!-- progress:start -->
 | # | Category | Solved |
 |:-:|----------|:------:|
-| 01 | [Arrays & Hashing](#01-arrays--hashing) | 1 / 23 |
+| 01 | [Arrays & Hashing](#01-arrays--hashing) | 14 / 23 |
 | 02 | [Two Pointers](#02-two-pointers) | 0 / 13 |
 | 03 | [Sliding Window](#03-sliding-window) | 0 / 9 |
 | 04 | [Stack](#04-stack) | 0 / 14 |
@@ -91,19 +91,19 @@ Notebook: [01_arrays-and-hashing.ipynb](notebooks/01_arrays-and-hashing.ipynb)
 | # | Problem | Difficulty | LeetCode | Status |
 |:-:|---------|:----------:|:--------:|:------:|
 | 1 | Concatenation of Array | Easy | [LC1929](https://leetcode.com/problems/concatenation-of-array) | ✅ |
-| 2 | Contains Duplicate | Easy | [LC0217](https://leetcode.com/problems/contains-duplicate) | ⬜ |
-| 3 | Valid Anagram | Easy | [LC0242](https://leetcode.com/problems/valid-anagram) | ⬜ |
-| 4 | Two Sum | Easy | [LC0001](https://leetcode.com/problems/two-sum) | ⬜ |
-| 5 | Longest Common Prefix | Easy | [LC0014](https://leetcode.com/problems/longest-common-prefix) | ⬜ |
-| 6 | Remove Duplicates from Sorted Array | Easy | [LC0026](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | ⬜ |
-| 7 | Remove Element | Easy | [LC0027](https://leetcode.com/problems/remove-element) | ⬜ |
-| 8 | Majority Element | Easy | [LC0169](https://leetcode.com/problems/majority-element) | ⬜ |
-| 9 | Design HashSet | Easy | [LC0705](https://leetcode.com/problems/design-hashset) | ⬜ |
-| 10 | Design HashMap | Easy | [LC0706](https://leetcode.com/problems/design-hashmap) | ⬜ |
-| 11 | Group Anagrams | Medium | [LC0049](https://leetcode.com/problems/group-anagrams) | ⬜ |
-| 12 | Sort an Array | Medium | [LC0912](https://leetcode.com/problems/sort-an-array) | ⬜ |
-| 13 | Sort Colors | Medium | [LC0075](https://leetcode.com/problems/sort-colors) | ⬜ |
-| 14 | Top K Frequent Elements | Medium | [LC0347](https://leetcode.com/problems/top-k-frequent-elements) | ⬜ |
+| 2 | Contains Duplicate | Easy | [LC0217](https://leetcode.com/problems/contains-duplicate) | ✅ |
+| 3 | Valid Anagram | Easy | [LC0242](https://leetcode.com/problems/valid-anagram) | ✅ |
+| 4 | Two Sum | Easy | [LC0001](https://leetcode.com/problems/two-sum) | ✅ |
+| 5 | Longest Common Prefix | Easy | [LC0014](https://leetcode.com/problems/longest-common-prefix) | ✅ |
+| 6 | Remove Duplicates from Sorted Array | Easy | [LC0026](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | ✅ |
+| 7 | Remove Element | Easy | [LC0027](https://leetcode.com/problems/remove-element) | ✅ |
+| 8 | Majority Element | Easy | [LC0169](https://leetcode.com/problems/majority-element) | ✅ |
+| 9 | Design HashSet | Easy | [LC0705](https://leetcode.com/problems/design-hashset) | ✅ |
+| 10 | Design HashMap | Easy | [LC0706](https://leetcode.com/problems/design-hashmap) | ✅ |
+| 11 | Group Anagrams | Medium | [LC0049](https://leetcode.com/problems/group-anagrams) | ✅ |
+| 12 | Sort an Array | Medium | [LC0912](https://leetcode.com/problems/sort-an-array) | ✅ |
+| 13 | Sort Colors | Medium | [LC0075](https://leetcode.com/problems/sort-colors) | ✅ |
+| 14 | Top K Frequent Elements | Medium | [LC0347](https://leetcode.com/problems/top-k-frequent-elements) | ✅ |
 | 15 | Encode and Decode Strings 🔒 | Medium | [LC0271](https://leetcode.com/problems/encode-and-decode-strings) | ⬜ |
 | 16 | Range Sum Query 2D - Immutable | Medium | [LC0304](https://leetcode.com/problems/range-sum-query-2d-immutable) | ⬜ |
 | 17 | Product of Array Except Self | Medium | [LC0238](https://leetcode.com/problems/product-of-array-except-self) | ⬜ |
@@ -124,12 +124,12 @@ Notebook: [02_two-pointers.ipynb](notebooks/02_two-pointers.ipynb)
 
 | # | Problem | Difficulty | LeetCode | Status |
 |:-:|---------|:----------:|:--------:|:------:|
-| 1 | Reverse String | Easy | [LC0344](https://leetcode.com/problems/reverse-string) | ⬜ |
-| 2 | Valid Palindrome | Easy | [LC0125](https://leetcode.com/problems/valid-palindrome) | ⬜ |
-| 3 | Valid Palindrome II | Easy | [LC0680](https://leetcode.com/problems/valid-palindrome-ii) | ⬜ |
-| 4 | Merge Strings Alternately | Easy | [LC1768](https://leetcode.com/problems/merge-strings-alternately) | ⬜ |
-| 5 | Merge Sorted Array | Easy | [LC0088](https://leetcode.com/problems/merge-sorted-array) | ⬜ |
-| 6 | Remove Duplicates from Sorted Array | Easy | [LC0026](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | ⬜ |
+| 1 | Reverse String | Easy | [LC0344](https://leetcode.com/problems/reverse-string) | ✅ |
+| 2 | Valid Palindrome | Easy | [LC0125](https://leetcode.com/problems/valid-palindrome) | ✅ |
+| 3 | Valid Palindrome II | Easy | [LC0680](https://leetcode.com/problems/valid-palindrome-ii) | ✅ |
+| 4 | Merge Strings Alternately | Easy | [LC1768](https://leetcode.com/problems/merge-strings-alternately) | ✅ |
+| 5 | Merge Sorted Array | Easy | [LC0088](https://leetcode.com/problems/merge-sorted-array) | ✅ |
+| 6 | Remove Duplicates from Sorted Array | Easy | [LC0026](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | ✅ |
 | 7 | Two Sum II - Input Array Is Sorted | Medium | [LC0167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | ⬜ |
 | 8 | 3Sum | Medium | [LC0015](https://leetcode.com/problems/3sum) | ⬜ |
 | 9 | 4Sum | Medium | [LC0018](https://leetcode.com/problems/4sum) | ⬜ |
