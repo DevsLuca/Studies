@@ -62,7 +62,7 @@ graph TD
 | # | Category | Solved |
 |:-:|----------|:------:|
 | 01 | [Arrays & Hashing](#01-arrays--hashing) | 14 / 23 |
-| 02 | [Two Pointers](#02-two-pointers) | 0 / 13 |
+| 02 | [Two Pointers](#02-two-pointers) | 6 / 13 |
 | 03 | [Sliding Window](#03-sliding-window) | 0 / 9 |
 | 04 | [Stack](#04-stack) | 0 / 14 |
 | 05 | [Binary Search](#05-binary-search) | 0 / 14 |
