@@ -35,8 +35,8 @@ My progress, updates, notes and solutions are all tracked in one place:
 |:-:|-----------|:------:|----------|-------------|
 | 1 | Introduction | 7 | [01_introduction.ipynb](notebooks/01_introduction.ipynb) | [01_introduction](printouts/01_introduction) |
 | 2 | Basic Data Types | 6 | [02_basic-data-types.ipynb](notebooks/02_basic-data-types.ipynb) | [02_basic-data-types](printouts/02_basic-data-types) |
-| 3 | Strings | 2 | [03_strings.ipynb](notebooks/03_strings.ipynb) | [03_strings](printouts/03_strings) |
-| 4 | Sets | 0 | [04_sets.ipynb](notebooks/04_sets.ipynb) | [04_sets](printouts/04_sets) |
+| 3 | Strings | 14 | [03_strings.ipynb](notebooks/03_strings.ipynb) | [03_strings](printouts/03_strings) |
+| 4 | Sets | 13 | [04_sets.ipynb](notebooks/04_sets.ipynb) | [04_sets](printouts/04_sets) |
 | 5 | Math | 0 | [05_math.ipynb](notebooks/05_math.ipynb) | [05_math](printouts/05_math) |
 | 6 | Itertools | 0 | [06_itertools.ipynb](notebooks/06_itertools.ipynb) | [06_itertools](printouts/06_itertools) |
 | 7 | Collections | 0 | [07_collections.ipynb](notebooks/07_collections.ipynb) | [07_collections](printouts/07_collections) |
