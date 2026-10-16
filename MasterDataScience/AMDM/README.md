@@ -39,7 +39,7 @@ My progress, updates, notes and solutions are all tracked in one place:
 | 4 | Sets | 13/13 | [04_sets.ipynb](notebooks/04_sets.ipynb) | [04_sets](printouts/04_sets) |✅|
 | 5 | Math | 0 | [05_math.ipynb](notebooks/05_math.ipynb) | [05_math](printouts/05_math) | |
 | 6 | Itertools | 0 | [06_itertools.ipynb](notebooks/06_itertools.ipynb) | [06_itertools](printouts/06_itertools) | |
-| 7 | Collections | 0 | [07_collections.ipynb](notebooks/07_collections.ipynb) | [07_collections](printouts/07_collections) | |
+| 7 | Collections | 8/8 | [07_collections.ipynb](notebooks/07_collections.ipynb) | [07_collections](printouts/07_collections) |✅ |
 | 8 | Date and Time | 0 | [08_date-and-time.ipynb](notebooks/08_date-and-time.ipynb) | [08_date-and-time](printouts/08_date-and-time) | |
 | 9 | Errors and Exceptions | 0 | [09_errors-and-exceptions.ipynb](notebooks/09_errors-and-exceptions.ipynb) | [09_errors-and-exceptions](printouts/09_errors-and-exceptions) | |
 | 10 | Classes | 0 | [10_classes.ipynb](notebooks/10_classes.ipynb) | [10_classes](printouts/10_classes) | |
