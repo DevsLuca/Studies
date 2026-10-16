@@ -43,7 +43,7 @@ My progress, updates, notes and solutions are all tracked in one place:
 | 8 | Date and Time | 0 | [08_date-and-time.ipynb](notebooks/08_date-and-time.ipynb) | [08_date-and-time](printouts/08_date-and-time) | |
 | 9 | Errors and Exceptions | 1/2 | [09_errors-and-exceptions.ipynb](notebooks/09_errors-and-exceptions.ipynb) | [09_errors-and-exceptions](printouts/09_errors-and-exceptions) |🟨|
 | 10 | Classes | 0 | [10_classes.ipynb](notebooks/10_classes.ipynb) | [10_classes](printouts/10_classes) |🟧|
-| 11 | Built-Ins | 0 | [11_built-ins.ipynb](notebooks/11_built-ins.ipynb) | [11_built-ins](printouts/11_built-ins) | |
+| 11 | Built-Ins | 3/6 | [11_built-ins.ipynb](notebooks/11_built-ins.ipynb) | [11_built-ins](printouts/11_built-ins) |🟨|
 | 12 | Python Functionals | 1/3 | [12_python-functionals.ipynb](notebooks/12_python-functionals.ipynb) | [12_python-functionals](printouts/12_python-functionals) |🟨|
 | 13 | Regex and Parsing | 0 | [13_regex-and-parsing.ipynb](notebooks/13_regex-and-parsing.ipynb) | [13_regex-and-parsing](printouts/13_regex-and-parsing) | |
 | 14 | XML | 0 | [14_xml.ipynb](notebooks/14_xml.ipynb) | [14_xml](printouts/14_xml) | |
