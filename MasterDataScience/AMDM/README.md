@@ -52,4 +52,15 @@ My progress, updates, notes and solutions are all tracked in one place:
 | 17 | Debugging | 0 | [17_debugging.ipynb] | [17_debugging] |🟧|
 | | **Total** | **14** | | |
 
+### Problem Solving (Algorithms)
+
+| # | Challenge | Difficulty | Notebook |---|
+|:-:|-----------|:----------:|----------|---|
+| 1 | Birthday Cake Candles | Easy | [18_problem-solving.ipynb](notebooks/18_problem-solving.ipynb#ex1) |✅|
+| 2 | Number Line Jumps | Easy | [18_problem-solving.ipynb](notebooks/18_problem-solving.ipynb#ex2) |✅|
+| 3 | Viral Advertising | Easy | [18_problem-solving.ipynb](notebooks/18_problem-solving.ipynb#ex3) |✅|
+| 4 | Recursive Digit Sum | Medium | [18_problem-solving.ipynb](notebooks/18_problem-solving.ipynb#ex4) |✅|
+| 5 | Insertion Sort - Part 1 | Easy | [18_problem-solving.ipynb](notebooks/18_problem-solving.ipynb#ex5) |✅|
+| 6 | Insertion Sort - Part 2 | Easy | [18_problem-solving.ipynb](notebooks/18_problem-solving.ipynb#ex6) |✅|
+
 The complete submission history is in [`printouts/submissions.pdf`](printouts/submissions.pdf).
