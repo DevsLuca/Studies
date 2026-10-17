@@ -47,7 +47,7 @@ My progress, updates, notes and solutions are all tracked in one place:
 | 12 | Python Functionals | 1/3 | [12_python-functionals.ipynb](notebooks/12_python-functionals.ipynb) | [12_python-functionals](printouts/12_python-functionals) |✅|
 | 13 | Regex and Parsing | 2/17 | [13_regex-and-parsing.ipynb](notebooks/13_regex-and-parsing.ipynb) | [13_regex-and-parsing](printouts/13_regex-and-parsing) |🟨|
 | 14 | XML | 0/2 | [14_xml.ipynb](notebooks/14_xml.ipynb) | [14_xml](printouts/14_xml) |🟨|
-| 15 | Closures and Decorators | 1/2 | [15_closures-and-decorators.ipynb](notebooks/15_closures-and-decorators.ipynb) | [15_closures-and-decorators](printouts/15_closures-and-decorators) |🟨|
+| 15 | Closures and Decorators | 2/2 | [15_closures-and-decorators.ipynb](notebooks/15_closures-and-decorators.ipynb) | [15_closures-and-decorators](printouts/15_closures-and-decorators) |✅|
 | 16 | Numpy | 15/15 | [16_numpy.ipynb](notebooks/16_numpy.ipynb) | [16_numpy](printouts/16_numpy) |✅|
 | 17 | Debugging | 0 | [17_debugging.ipynb] | [17_debugging] |🟧|
 | | **Total** | **14** | | |
