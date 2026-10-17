@@ -40,7 +40,7 @@ My progress, updates, notes and solutions are all tracked in one place:
 | 5 | Math | 0 | [05_math.ipynb] | [05_math] |🟧|
 | 6 | Itertools | 0 | [06_itertools.ipynb] | [06_itertools] |🟧|
 | 7 | Collections | 8/8 | [07_collections.ipynb](notebooks/07_collections.ipynb) | [07_collections](printouts/07_collections) |✅ |
-| 8 | Date and Time | 2/2 | [08_date-and-time.ipynb](notebooks/08_date-and-time.ipynb) | [08_date-and-time](printouts/08_date-and-time) |🟨|
+| 8 | Date and Time | 2/2 | [08_date-and-time.ipynb](notebooks/08_date-and-time.ipynb) | [08_date-and-time](printouts/08_date-and-time) |✅|
 | 9 | Errors and Exceptions | 1/2 | [09_errors-and-exceptions.ipynb](notebooks/09_errors-and-exceptions.ipynb) | [09_errors-and-exceptions](printouts/09_errors-and-exceptions) |🟨|
 | 10 | Classes | 0 | [10_classes.ipynb] | [10_classes] |🟧|
 | 11 | Built-Ins | 3/6 | [11_built-ins.ipynb](notebooks/11_built-ins.ipynb) | [11_built-ins](printouts/11_built-ins) |✅|
