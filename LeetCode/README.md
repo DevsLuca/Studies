@@ -21,7 +21,7 @@ graph TD
   AG["Advanced Graphs<br/>0/10"]:::todo
   DP1["1-D DP<br/>0/17"]:::todo
   DP2["2-D DP<br/>0/16"]:::todo
-  GR["Greedy<br/>0/14"]:::todo
+  GR["Greedy<br/>2/14"]:::doing
   IN["Intervals<br/>0/7"]:::todo
   MG["Math and Geometry<br/>0/13"]:::todo
   BM["Bit Manipulation<br/>0/10"]:::todo
@@ -451,8 +451,8 @@ Notebook: [15_greedy.ipynb](notebooks/15_greedy.ipynb)
 
 | # | Problem | Difficulty | LeetCode | Status |
 |:-:|---------|:----------:|:--------:|:------:|
-| 1 | Lemonade Change | Easy | [LC0860](https://leetcode.com/problems/lemonade-change) | ⬜ |
-| 2 | Maximum Subarray | Medium | [LC0053](https://leetcode.com/problems/maximum-subarray) | ⬜ |
+| 1 | Lemonade Change | Easy | [LC0860](https://leetcode.com/problems/lemonade-change) | ✅ |
+| 2 | Maximum Subarray | Medium | [LC0053](https://leetcode.com/problems/maximum-subarray) | ✅ |
 | 3 | Maximum Sum Circular Subarray | Medium | [LC0918](https://leetcode.com/problems/maximum-sum-circular-subarray) | ⬜ |
 | 4 | Longest Turbulent Subarray | Medium | [LC0978](https://leetcode.com/problems/longest-turbulent-subarray) | ⬜ |
 | 5 | Jump Game | Medium | [LC0055](https://leetcode.com/problems/jump-game) | ⬜ |
