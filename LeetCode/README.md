@@ -19,7 +19,7 @@ graph TD
   TRI["Tries<br/>0/4"]:::todo
   GP["Graphs<br/>0/21"]:::todo
   AG["Advanced Graphs<br/>0/10"]:::todo
-  DP1["1-D DP<br/>0/17"]:::todo
+  DP1["1-D DP<br/>2/17"]:::doing
   DP2["2-D DP<br/>0/16"]:::todo
   GR["Greedy<br/>2/14"]:::doing
   IN["Intervals<br/>0/7"]:::todo
@@ -73,9 +73,9 @@ graph TD
 | 10 | [Tries](#10-tries) | 0 / 4 |
 | 11 | [Graphs](#11-graphs) | 0 / 21 |
 | 12 | [Advanced Graphs](#12-advanced-graphs) | 0 / 10 |
-| 13 | [1-D Dynamic Programming](#13-1-d-dynamic-programming) | 0 / 17 |
+| 13 | [1-D Dynamic Programming](#13-1-d-dynamic-programming) | 2 / 17 |
 | 14 | [2-D Dynamic Programming](#14-2-d-dynamic-programming) | 0 / 16 |
-| 15 | [Greedy](#15-greedy) | 0 / 14 |
+| 15 | [Greedy](#15-greedy) | 2 / 14 |
 | 16 | [Intervals](#16-intervals) | 0 / 7 |
 | 17 | [Math & Geometry](#17-math--geometry) | 0 / 13 |
 | 18 | [Bit Manipulation](#18-bit-manipulation) | 0 / 10 |
