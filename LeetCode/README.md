@@ -396,8 +396,8 @@ Notebook: [13_1d-dynamic-programming.ipynb](notebooks/13_1d-dynamic-programming.
 
 | # | Problem | Difficulty | LeetCode | Status |
 |:-:|---------|:----------:|:--------:|:------:|
-| 1 | Climbing Stairs | Easy | [LC0070](https://leetcode.com/problems/climbing-stairs) | ⬜ |
-| 2 | Min Cost Climbing Stairs | Easy | [LC0746](https://leetcode.com/problems/min-cost-climbing-stairs) | ⬜ |
+| 1 | Climbing Stairs | Easy | [LC0070](https://leetcode.com/problems/climbing-stairs) | ✅ |
+| 2 | Min Cost Climbing Stairs | Easy | [LC0746](https://leetcode.com/problems/min-cost-climbing-stairs) | ✅ |
 | 3 | N-th Tribonacci Number | Easy | [LC1137](https://leetcode.com/problems/n-th-tribonacci-number) | ⬜ |
 | 4 | House Robber | Medium | [LC0198](https://leetcode.com/problems/house-robber) | ⬜ |
 | 5 | House Robber II | Medium | [LC0213](https://leetcode.com/problems/house-robber-ii) | ⬜ |
