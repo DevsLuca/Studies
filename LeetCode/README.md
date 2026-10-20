@@ -19,7 +19,7 @@ graph TD
   TRI["Tries<br/>0/4"]:::todo
   GP["Graphs<br/>0/21"]:::todo
   AG["Advanced Graphs<br/>0/10"]:::todo
-  DP1["1-D DP<br/>2/17"]:::doing
+  DP1["1-D DP<br/>5/17"]:::doing
   DP2["2-D DP<br/>0/16"]:::todo
   GR["Greedy<br/>2/14"]:::doing
   IN["Intervals<br/>0/7"]:::todo
@@ -399,12 +399,12 @@ Notebook: [13_1d-dynamic-programming.ipynb](notebooks/13_1d-dynamic-programming.
 | 1 | Climbing Stairs | Easy | [LC0070](https://leetcode.com/problems/climbing-stairs) | ✅ |
 | 2 | Min Cost Climbing Stairs | Easy | [LC0746](https://leetcode.com/problems/min-cost-climbing-stairs) | ✅ |
 | 3 | N-th Tribonacci Number | Easy | [LC1137](https://leetcode.com/problems/n-th-tribonacci-number) | ⬜ |
-| 4 | House Robber | Medium | [LC0198](https://leetcode.com/problems/house-robber) | ⬜ |
-| 5 | House Robber II | Medium | [LC0213](https://leetcode.com/problems/house-robber-ii) | ⬜ |
+| 4 | House Robber | Medium | [LC0198](https://leetcode.com/problems/house-robber) | ✅ |
+| 5 | House Robber II | Medium | [LC0213](https://leetcode.com/problems/house-robber-ii) | ✅ |
 | 6 | Longest Palindromic Substring | Medium | [LC0005](https://leetcode.com/problems/longest-palindromic-substring) | ⬜ |
 | 7 | Palindromic Substrings | Medium | [LC0647](https://leetcode.com/problems/palindromic-substrings) | ⬜ |
 | 8 | Decode Ways | Medium | [LC0091](https://leetcode.com/problems/decode-ways) | ⬜ |
-| 9 | Coin Change | Medium | [LC0322](https://leetcode.com/problems/coin-change) | ⬜ |
+| 9 | Coin Change | Medium | [LC0322](https://leetcode.com/problems/coin-change) | ✅ |
 | 10 | Maximum Product Subarray | Medium | [LC0152](https://leetcode.com/problems/maximum-product-subarray) | ⬜ |
 | 11 | Word Break | Medium | [LC0139](https://leetcode.com/problems/word-break) | ⬜ |
 | 12 | Longest Increasing Subsequence | Medium | [LC0300](https://leetcode.com/problems/longest-increasing-subsequence) | ⬜ |
