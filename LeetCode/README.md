@@ -73,7 +73,7 @@ graph TD
 | 10 | [Tries](#10-tries) | 0 / 4 |
 | 11 | [Graphs](#11-graphs) | 0 / 21 |
 | 12 | [Advanced Graphs](#12-advanced-graphs) | 0 / 10 |
-| 13 | [1-D Dynamic Programming](#13-1-d-dynamic-programming) | 2 / 17 |
+| 13 | [1-D Dynamic Programming](#13-1-d-dynamic-programming) | 5 / 17 |
 | 14 | [2-D Dynamic Programming](#14-2-d-dynamic-programming) | 0 / 16 |
 | 15 | [Greedy](#15-greedy) | 2 / 14 |
 | 16 | [Intervals](#16-intervals) | 0 / 7 |
