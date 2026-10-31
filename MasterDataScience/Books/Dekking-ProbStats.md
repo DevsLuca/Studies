@@ -1,6 +1,6 @@
 # Dekking, Kraaikamp, Lopuhaä & Meester, *A Modern Introduction to Probability and Statistics: Understanding Why and How*
 
-[⬅ Back to tracker](README.md)
+[⬅ Back to tracker](../README.md)
 
 <img src="../../images/Dekkings.png" width="200">
 
