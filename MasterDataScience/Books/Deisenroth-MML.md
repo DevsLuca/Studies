@@ -1,6 +1,6 @@
 # Deisenroth, Faisal & Ong, *Mathematics for Machine Learning*
 
-[⬅ Back to tracker](README.md)
+[⬅ Back to tracker](../README.md)
 
 <img src="../../images/MML.PNG" width="200">
 
