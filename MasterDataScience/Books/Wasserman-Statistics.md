@@ -1,6 +1,6 @@
 # Wasserman, *All of Statistics: A Concise Course in Statistical Inference*
 
-[⬅ Back to tracker](README.md)
+[⬅ Back to tracker](../README.md)
 
 <img src="../../images/Wasserman.png" width="200">
 
