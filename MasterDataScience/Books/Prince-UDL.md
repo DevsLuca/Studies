@@ -1,6 +1,6 @@
 # Prince, *Understanding Deep Learning*
 
-[⬅ Back to tracker](README.md)
+[⬅ Back to tracker](../README.md)
 
 <img src="../../images/UDL.jpg" width="200">
 
