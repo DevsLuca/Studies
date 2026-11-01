@@ -22,7 +22,7 @@ A curated repository of Data Science courses I’ve completed or am currently fo
 
 ---
 
-### [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
+### [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) ✅
 *IBM* - Professional Certificate - 12 course series
 
 [View Certificate](https://coursera.org/share/f41e2f896925eb959bf8efeb8fead9e9)
@@ -104,7 +104,7 @@ Projects:
 
 ---
 
-### [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python)
+### [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python) ✅
 *University of Michigan* - Specialization - 3 course series
 
 [View Certificate](https://coursera.org/share/3c5ed3a3f1bd2f0eb28f91c5500b8ad7)
@@ -131,7 +131,7 @@ This specialization is designed to teach learners beginning and intermediate con
 
 ---
 
-### [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python)
+### [Applied Data Science with Python Specialization](https://www.coursera.org/specializations/data-science-python) ✅
 *University of Michigan* - Specialization - 5 course series
 
 [View Certificate](https://coursera.org/share/11dab3fea267f741f0adf20fe48c783d)
