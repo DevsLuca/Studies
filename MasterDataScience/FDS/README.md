@@ -12,8 +12,6 @@
 
 </div>
 
----
-
 ## 🎯 The challenge
 
 The *FDS Pokémon Battles Prediction 2026* Kaggle competition gave us thousands of **real human-vs-human battles** from Pokémon Showdown's *Generation 2 OverUsed* tier. For each one, it gave us:
