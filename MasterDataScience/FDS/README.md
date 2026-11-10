@@ -3,8 +3,6 @@
 # 🚀 Team Rocket
 ### Predicting Gen 2 OU Pokémon battles after just 30 turns
 
-*Who wins the battle, before the battle is over?*
-
 ![Kaggle](https://img.shields.io/badge/Kaggle-Top%2010-20BEFF?logo=kaggle&logoColor=white)
 ![Leaderboard](https://img.shields.io/badge/Leaderboard-68.28%25-2ea44f)
 ![CV](https://img.shields.io/badge/CV%20accuracy-69.3%25-4C72B0)
