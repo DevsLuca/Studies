@@ -153,31 +153,6 @@ Added one at a time, only `fp` and `wincon` helped clearly. Together, the six gr
 
 ---
 
-## 🎮 Try it yourself
-
-**On Kaggle (easiest).** Open the notebook inside the competition and hit *Run All*. It finds the data on its own and writes `submission.csv` in about 6–8 minutes on CPU.
-
-**Locally.**
-
-```bash
-pip install -r requirements.txt
-```
-
-Download the competition data from Kaggle and drop these files **next to the notebook**:
-
-```
-train.jsonl   test.jsonl   type_chart_gen2.csv   sample_submission.csv
-```
-
-Then run the notebook top to bottom. Two switches in the configuration cell control the runtime:
-
-| Switch | Default | What it does |
-|:---|:---:|:---|
-| `RUN_CV` | `True` | 5-fold check of the final model (~2–3 min) |
-| `RUN_EXPERIMENTS` | `False` | Reruns all experiments (~30–40 min); results are already recorded in the notebook |
-
-> 📦 **Data is not included.** The competition data isn't redistributed here; grab it from the competition page.
-
 ## 📁 What's inside
 
 ```
@@ -185,7 +160,6 @@ Then run the notebook top to bottom. Two switches in the configuration cell cont
 ├── 2026fds-team-rocket-final-model.ipynb   🧪 the full pipeline: EDA → features → experiments → submission
 ├── figures/                                🖼️ figures used in this README
 ├── report/                                 📄 one-page report (LaTeX sources + PDF)
-├── requirements.txt
 └── README.md
 ```
 
