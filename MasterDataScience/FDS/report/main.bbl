@@ -1,0 +1,47 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Hastie et~al.(2009)Hastie, Tibshirani, and Friedman]{hastie2009esl}
+Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+\newblock \emph{The Elements of Statistical Learning: Data Mining, Inference,
+  and Prediction}.
+\newblock Springer, 2nd edition, 2009.
+
+\bibitem[James et~al.(2023)James, Witten, Hastie, Tibshirani, and
+  Taylor]{james2023islp}
+Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, and Jonathan
+  Taylor.
+\newblock \emph{An Introduction to Statistical Learning: With Applications in
+  {Python}}.
+\newblock Springer, 2023.
+
+\bibitem[Spinelli(2026{\natexlab{a}})]{spinelli2026linear}
+I. Spinelli.
+\newblock {Fundamentals of Data Science}, lecture slides: {Linear Models},
+  2026{\natexlab{a}}.
+\newblock Bias--variance and overfitting (pp.~30--32, 61--72); maximum
+  likelihood, the logistic model, negative log-likelihood and its gradient
+  (pp.~35--50); NLL and cross-entropy (pp.~48, 54--57); cross-validation and
+  model evaluation (pp.~60, 78--88); ridge regularisation and the Gaussian
+  prior (pp.~73--75); choosing $\lambda$ (p.~77).
+
+\bibitem[Spinelli(2026{\natexlab{b}})]{spinelli2026optim}
+I. Spinelli.
+\newblock {Fundamentals of Data Science}, lecture slides: {Optimization},
+  2026{\natexlab{b}}.
+\newblock Gradient descent, step size and cost history (pp.~50--66).
+
+\bibitem[Spinelli(2026{\natexlab{c}})]{spinelli2026trees}
+I. Spinelli.
+\newblock {Fundamentals of Data Science}, lecture slides: {Trees and
+  Ensembles}, 2026{\natexlab{c}}.
+\newblock Decision trees, Gini index and entropy, regression trees and pruning
+  (pp.~11--31); ensembles, weighted combination and stacking (pp.~33--39);
+  bagging and random forests (pp.~41--44); boosting, AdaBoost, gradient
+  boosting and XGBoost (pp.~45--52).
+
+\end{thebibliography}

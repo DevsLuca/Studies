@@ -1,0 +1,77 @@
+%% This file contains a number of tweaks that are typically applied to the main document.
+%% They are not enabled by default, but can be enabled by uncommenting the relevant lines.
+
+%%
+%% Inline annotations; for predefined colors, refer to "dvipsnames" in the xcolor package:
+%% https://tinyurl.com/overleaf-colors
+%%
+\newcommand{\red}[1]{{\color{red}#1}}
+\newcommand{\todo}[1]{{\color{red}#1}}
+\newcommand{\TODO}[1]{\textbf{\color{red}[TODO: #1]}}
+%%
+%% disable for camera ready / submission by uncommenting these lines  
+%%
+% \renewcommand{\TODO}[1]{}
+% \renewcommand{\todo}[1]{#1}
+
+%%
+%% work harder in optimizing text layout. Typically shrinks text by 1/6 of page, enable
+%% it at the very end of the writing process, when you are just above the page limit
+%%
+\usepackage{microtype}
+
+%%
+%% fine-tune paragraph spacing
+%%
+\renewcommand{\paragraph}[1]{\vspace{.5em}\noindent\textcolor{rocketblue}{\textbf{#1.}}}
+
+%%
+%% globally adjusts space between figure and caption
+%%
+\setlength{\abovecaptionskip}{.5em}
+
+
+%%
+%% Allows "the use of \paper to refer to the project name"
+%% with automatic management of space at the end of the word
+%%
+% \usepackage{xspace}
+% \newcommand{\paper}{ProjectName\xspace}
+
+%%
+%% Commonly used math definitions
+%%
+% \DeclareMathOperator*{\argmin}{arg\,min}
+% \DeclareMathOperator*{\argmax}{arg\,max}
+
+%%
+%% Tigthen underline
+%%
+% \usepackage{soul}
+% \setuldepth{foobar}
+%%
+%% ---------------- Team Rocket visual style ----------------
+%%
+\usepackage{colortbl}
+\definecolor{rocketblue}{HTML}{2E5E8C}
+\definecolor{rocketred}{HTML}{C44E52}
+% one colour per feature group (same palette as the notebook figures)
+\definecolor{cBase}{HTML}{6E6E6E}
+\definecolor{cFp}{HTML}{DD8452}
+\definecolor{cP2inf}{HTML}{4C72B0}
+\definecolor{cWincon}{HTML}{55A868}
+\definecolor{cFaint}{HTML}{C44E52}
+\definecolor{cItems}{HTML}{937860}
+\definecolor{cTraj}{HTML}{8172B3}
+% blue headings, keeping the template's own spacing and sizes
+\makeatletter
+\def\cvprsection{\@startsection {section}{1}{\z@}
+   {-10pt plus -2pt minus -2pt}{7pt} {\large\bf\color{rocketblue}}}
+\makeatother
+% coloured "chip" for a feature group name
+\newcommand{\grp}[2]{{\setlength{\fboxsep}{0.8pt}\colorbox{#1!15}{\textcolor{#1!75!black}{\textbf{#2}}}}}
+% horizontal bar of a given length (mm) in a given colour, for the ablation table
+\newcommand{\llbar}[2]{\textcolor{#1}{\rule{#2mm}{1.6ex}}}
+% one result "tile": big number on top, label below
+\newcommand{\tile}[3]{{\setlength{\fboxsep}{2pt}\colorbox{#1!14}{\begin{minipage}[c][8mm]{0.3\linewidth}\centering
+  {\large\bfseries\textcolor{#1!80!black}{#2}}\\[-1pt]{\scriptsize #3}\end{minipage}}}}

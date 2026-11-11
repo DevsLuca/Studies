@@ -1,0 +1,6 @@
+\begin{abstract}
+We predict whether Player~1 (P1) wins a Gen~2 OU Pok\'emon Showdown battle from P1's team, Player~2's (P2) lead and 30 turns.
+About 250 numeric and 1{,}700 sparse species/move features feed a 0.7/0.3 blend of LightGBM and a strongly regularised logistic regression.
+Six feature groups add game knowledge to a battle-state baseline: an estimate of P2's hidden team, win conditions, faints missing from the log, P1's items, the HP-lead trajectory and a leakage-safe ``player fingerprint''.
+The model reaches 69.3\% 5-fold CV accuracy and 68.28\% on the full leaderboard (top~10).
+\end{abstract}

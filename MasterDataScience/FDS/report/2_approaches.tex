@@ -1,0 +1,46 @@
+\section{Evaluated Approaches}
+\label{sec:approaches}
+
+\paragraph{Feature engineering}
+The \grp{cBase}{baseline} describes the state at turn 30 for each side and as a P1$-$P2 difference: Pok\'emon fainted and alive, statuses, HP at checkpoints, move usage, type matchups (Gen~2 chart), species/move bag-of-words counts and an \emph{estimated total HP} with unseen Pok\'emon at full HP, the strongest single feature.
+Six groups add game knowledge.
+\grp{cP2inf}{p2inf} estimates P2's unseen Pok\'emon from label-free team co-occurrence and compares P1's survivors with P2's expected pool.
+\grp{cWincon}{wincon} flags boosted sweepers, Explosion, Spikes, sleep and recovery moves.
+\grp{cFaint}{faint} targets the asymmetry above: Pok\'emon that left at $\leq$15\% HP and never returned count as fainted in a corrected HP total.
+\grp{cItems}{items} counts P1's items; \grp{cTraj}{traj} summarises the HP-lead curve and speed control.
+\grp{cFp}{fp} uses players' tendency to reuse teams: the smoothed win rate of P1's exact team and of its species set (target encoding with 5 pseudo-battles at the prior).
+As it uses labels, it is computed out-of-fold, and inside CV only from that fold's training data.
+
+\paragraph{Models}
+We compared LightGBM configurations and $L_2$-regularised logistic regression.
+Settings barely mattered ($<$0.004 log-loss), so we chose small randomised trees (7 leaves, 1{,}500 rounds, rate 0.02, 30\% columns, 80\% rows).
+Logistic regression was best at $C{=}0.01$ but errs differently from the trees, so blending helped; the LightGBM weight was searched over $0,0.1,\dots,1$ (flat over 0.6--0.8).
+
+\paragraph{Validation strategy}
+All decisions used 5-fold stratified CV repeated twice (10 splits), with every variant evaluated on the \emph{same} splits.
+Log-loss, less noisy than accuracy, was the main guide, and a change had to win most splits.
+Added alone, only fp and wincon helped clearly, but together the six groups improved log-loss in 10/10 splits; removing any one except the neutral traj hurt (\cref{tab:ablation}).
+
+\begin{table}[t]
+  \caption{Removing one group from the full model (LightGBM, 10 shared CV splits). Bars: log-loss increase ($\times10^{-4}$).}
+  \label{tab:ablation}
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}lcccl@{}}
+    \rowcolor{rocketblue}
+    \textcolor{white}{\textbf{Variant}} & \textcolor{white}{\textbf{Acc.\,\%}} & \textcolor{white}{\textbf{Log-loss}} & \textcolor{white}{\textbf{Worse in}} & \textcolor{white}{\textbf{$\Delta$ log-loss}} \\
+    \rowcolor{rocketblue!8}
+    All six groups & 68.80 & 0.5768 & -- & \\
+    $-$\,\grp{cFp}{fp}         & 68.47 & 0.5806 & 9/10  & \llbar{cFp}{11.4} \,{\scriptsize +38} \\
+    \rowcolor{rocketblue!4}
+    $-$\,\grp{cWincon}{wincon} & 68.64 & 0.5800 & 10/10 & \llbar{cWincon}{9.6} \,{\scriptsize +32} \\
+    $-$\,\grp{cP2inf}{p2inf}   & 68.77 & 0.5781 & 8/10  & \llbar{cP2inf}{3.9} \,{\scriptsize +13} \\
+    \rowcolor{rocketblue!4}
+    $-$\,\grp{cFaint}{faint}   & 68.56 & 0.5779 & 8/10  & \llbar{cFaint}{3.3} \,{\scriptsize +11} \\
+    $-$\,\grp{cItems}{items}   & 68.72 & 0.5775 & 7/10  & \llbar{cItems}{2.1} \,{\scriptsize +7} \\
+    \rowcolor{rocketblue!4}
+    $-$\,\grp{cTraj}{traj}     & 68.79 & 0.5763 & 5/10  & {\scriptsize $-$5 (neutral)} \\
+    \arrayrulecolor{rocketblue}\specialrule{0.8pt}{0pt}{0pt}
+  \end{tabular}
+\end{table}

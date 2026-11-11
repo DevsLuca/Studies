@@ -1,0 +1,8 @@
+\section{Results}
+\noindent\tile{cP2inf}{69.3\%}{CV accuracy}\hfill
+\tile{cWincon}{68.28\%}{full leaderboard}\hfill
+\tile{cFp}{Top 10}{final ranking}\par\medskip
+The final model uses all six groups and predicts a P1 win when $0.7\,p_{\text{LightGBM}} + 0.3\,p_{\text{LogReg}} > 0.5$; LightGBM averages 5 seeds, trained on all 9{,}983 unique battles.
+CV accuracy rose from 68.1\% (baseline) to 68.5--68.8\% (six groups) to 69.0\% (blend). As the blend weight was picked on those same predictions, we re-measured the final pipeline on 5 fresh splits: $69.3\% \pm 0.7$, log-loss 0.571.
+The full leaderboard gave 68.28\%; the 1.0-point gap is within noise (test-set standard error alone $\approx$0.65 points), so CV predicted the leaderboard well.
+We chose it as every component won most splits and further tuning moved scores less than this noise.
