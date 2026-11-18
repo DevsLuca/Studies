@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Inside a 2N data centre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+  --bg:#E8ECEE; --card:#F7F9FA; --ink:#14232B; --muted:#55666F; --line:#C4CED3;
+  --hl:#E4572E;
+  --pa:#1C6FD6; --pb:#16996B; --pc:#0C95B0; --pn:#7A52D1;
+  --z-power:#EAD9B4; --z-it:#D3E0EC; --z-cool:#CBE6EC; --z-net:#DDD5F0; --z-support:#DDE1E3; --z-safe:#EFD3D0;
+  --zs:#8E9CA4; --eq:#FFFFFF; --eqs:#6F7F88; --rack:#7D8E99; --bld:#FAFBFB;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0E181D; --card:#16252C; --ink:#E5EEF1; --muted:#9BB0B8; --line:#2C3F48;
+    --hl:#FF7A4D;
+    --pa:#5AA2FF; --pb:#3CCB95; --pc:#38C3DD; --pn:#A58BFF;
+    --z-power:#4A3E22; --z-it:#1E3347; --z-cool:#17414B; --z-net:#32295A; --z-support:#2A363C; --z-safe:#4B2B2A;
+    --zs:#5C707A; --eq:#22343D; --eqs:#8FA4AD; --rack:#6C8392; --bld:#111E24;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0E181D; --card:#16252C; --ink:#E5EEF1; --muted:#9BB0B8; --line:#2C3F48;
+  --hl:#FF7A4D;
+  --pa:#5AA2FF; --pb:#3CCB95; --pc:#38C3DD; --pn:#A58BFF;
+  --z-power:#4A3E22; --z-it:#1E3347; --z-cool:#17414B; --z-net:#32295A; --z-support:#2A363C; --z-safe:#4B2B2A;
+  --zs:#5C707A; --eq:#22343D; --eqs:#8FA4AD; --rack:#6C8392; --bld:#111E24;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Archivo",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:15px;line-height:1.55}
+.page{max-width:1280px;margin:0 auto;padding:28px 20px 48px}
+h1{font-size:30px;line-height:1.15;margin:0 0 8px;font-weight:700;letter-spacing:-.01em}
+.lede{margin:0 0 22px;color:var(--muted);max-width:68ch}
+.controls{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;margin-bottom:14px}
+.group{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.group-label{font-size:13px;color:var(--muted);margin-right:2px}
+button{font:inherit;color:inherit;cursor:pointer}
+.chip,.tour-btn,.nav-btn{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:500;display:inline-flex;align-items:center;gap:8px}
+.chip .dot{width:11px;height:11px;border-radius:50%;background:var(--c);opacity:.35;border:2px solid var(--c)}
+.chip[aria-pressed="true"]{border-color:var(--c);box-shadow:inset 0 0 0 1px var(--c)}
+.chip[aria-pressed="true"] .dot{opacity:1}
+.tour-btn{border-radius:8px}
+.tour-btn[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button:focus-visible,.zone:focus-visible,.item:focus-visible{outline:3px solid var(--hl);outline-offset:2px}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:start}
+.plan-wrap{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow-x:auto}
+svg{display:block;width:100%;min-width:780px;height:auto}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;position:sticky;top:16px}
+.panel h2{font-size:20px;line-height:1.25;margin:0 0 8px}
+.panel p{margin:0 0 12px}
+.panel h3{font-size:14px;margin:14px 0 4px;font-weight:600}
+.panel ul{margin:0 0 4px;padding-left:20px}
+.panel li{margin-bottom:2px}
+.note{margin-top:14px;padding:10px 12px;border-left:4px solid var(--hl);background:var(--bg);border-radius:0 8px 8px 0;font-size:14px}
+.step-count{font-size:13px;color:var(--muted);margin-bottom:6px}
+.nav{display:flex;gap:8px;margin-top:16px}
+.nav-btn{border-radius:8px}
+.nav-btn[disabled]{opacity:.4;cursor:default}
+.nav-btn.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.hint{color:var(--muted);font-size:14px}
+
+/* svg styling */
+.bld{fill:var(--bld);stroke:var(--zs);stroke-width:2}
+.zone,.item{cursor:pointer}
+.zbg{stroke:var(--zs);stroke-width:1.5}
+.z-power .zbg{fill:var(--z-power)} .z-it .zbg{fill:var(--z-it)} .z-cool .zbg{fill:var(--z-cool)}
+.z-net .zbg{fill:var(--z-net)} .z-support .zbg{fill:var(--z-support)} .z-safe .zbg{fill:var(--z-safe)}
+.zt{font-size:12.5px;font-weight:600;fill:var(--ink)}
+.aisle{font-size:9.5px;fill:var(--muted)}
+.ol{font-size:10.5px;fill:var(--muted)}
+.eq{fill:var(--eq);stroke:var(--eqs);stroke-width:1.2}
+.eqt{font-size:9px;fill:var(--ink);text-anchor:middle;font-weight:500;pointer-events:none}
+.rackrow{fill:url(#racks);stroke:var(--eqs);stroke-width:1}
+.rackp{fill:var(--rack);opacity:.9}
+.pdu-a{fill:var(--pa);stroke:none} .pdu-b{fill:var(--pb);stroke:none}
+.pw{fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.pa{stroke:var(--pa)} .pb{stroke:var(--pb)} .pc{stroke:var(--pc)} .pn{stroke:var(--pn)}
+.dotn{fill:var(--pn)}
+.cold{fill:var(--pc)} .hot{fill:#E0642E}
+.zone.sel .zbg,.item.sel .eq{stroke:var(--hl);stroke-width:3}
+.zone:hover .zbg,.item:hover .eq{stroke:var(--ink);stroke-width:2}
+svg.touring .zone:not(.hl),svg.touring .item:not(.hl){opacity:.45}
+svg.touring .pw:not(.hl):not(.in-hl){opacity:.3}
+.zone.hl .zbg{stroke:var(--hl);stroke-width:3.5}
+.item.hl .eq,g.hl .eq{stroke:var(--hl);stroke-width:3}
+g.hl .cold,g.hl .hot{stroke:var(--hl);stroke-width:2}
+.pw.hl,g.hl .pw{stroke-width:6;stroke-dasharray:12 9;animation:flow .9s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-21}}
+@media (prefers-reduced-motion:reduce){.pw.hl,g.hl .pw{animation:none}}
+
+@media (max-width:980px){
+  .layout{grid-template-columns:1fr}
+  .panel{position:static}
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Inside a 2N data centre</h1>
+  <p class="lede">A theoretical ground-floor plan for CDCP study. Select any room, switch the layers on and off, or follow power, heat or data from start to finish. Real sites differ in layout, but the parts and the logic are the same.</p>
+
+  <div class="controls">
+    <div class="group" role="group" aria-label="Layers">
+      <span class="group-label">Layers</span>
+      <button class="chip" data-layer="A" style="--c:var(--pa)" aria-pressed="true"><span class="dot"></span>Power A</button>
+      <button class="chip" data-layer="B" style="--c:var(--pb)" aria-pressed="true"><span class="dot"></span>Power B</button>
+      <button class="chip" data-layer="C" style="--c:var(--pc)" aria-pressed="false"><span class="dot"></span>Cooling</button>
+      <button class="chip" data-layer="N" style="--c:var(--pn)" aria-pressed="false"><span class="dot"></span>Network</button>
+    </div>
+    <div class="group" role="group" aria-label="Guided tours">
+      <span class="group-label">Tour</span>
+      <button class="tour-btn" data-tour="power" aria-pressed="false">Follow the power</button>
+      <button class="tour-btn" data-tour="heat" aria-pressed="false">Follow the heat</button>
+      <button class="tour-btn" data-tour="data" aria-pressed="false">Follow the data</button>
+    </div>
+  </div>
+
+  <div class="layout">
+    <div class="plan-wrap">
+      <svg id="plan" viewBox="0 0 1060 685" role="img" aria-label="Plan view of a data centre with A and B power paths, cooling plant, network entrance rooms and support rooms">
+        <defs>
+          <pattern id="racks" width="20" height="24" patternUnits="userSpaceOnUse">
+            <rect class="rackp" x="2" y="3" width="16" height="18" rx="1.5"></rect>
+          </pattern>
+        </defs>
+
+        <rect class="bld" x="150" y="60" width="820" height="550" rx="6"></rect>
+        <g id="zones"></g>
+
+        <!-- Electrical room A equipment -->
+        <rect id="ats_A" class="eq" x="195" y="98" width="30" height="36" rx="2"></rect><text class="eqt" x="210" y="119">ATS</text>
+        <rect id="lv_A" class="eq" x="245" y="100" width="75" height="28" rx="2"></rect><text class="eqt" x="282.5" y="118">LV board</text>
+        <!-- UPS room A -->
+        <g id="ups_A">
+          <rect class="eq" x="190" y="200" width="24" height="40" rx="2"></rect><text class="eqt" x="202" y="224">UPS</text>
+          <rect class="eq" x="222" y="200" width="24" height="40" rx="2"></rect><text class="eqt" x="234" y="224">UPS</text>
+          <rect class="eq" x="262" y="200" width="62" height="40" rx="2"></rect><text class="eqt" x="293" y="224">Batteries</text>
+        </g>
+        <!-- UPS room B -->
+        <g id="ups_B">
+          <rect class="eq" x="190" y="436" width="24" height="40" rx="2"></rect><text class="eqt" x="202" y="460">UPS</text>
+          <rect class="eq" x="222" y="436" width="24" height="40" rx="2"></rect><text class="eqt" x="234" y="460">UPS</text>
+          <rect class="eq" x="262" y="436" width="62" height="40" rx="2"></rect><text class="eqt" x="293" y="460">Batteries</text>
+        </g>
+        <!-- Electrical room B equipment -->
+        <rect id="ats_B" class="eq" x="195" y="545" width="30" height="36" rx="2"></rect><text class="eqt" x="210" y="566">ATS</text>
+        <rect id="lv_B" class="eq" x="245" y="548" width="75" height="28" rx="2"></rect><text class="eqt" x="282.5" y="566">LV board</text>
+
+        <!-- White space: CRAH, racks, PDUs, aisle labels -->
+        <g id="crah"></g>
+        <g id="racks">
+          <rect class="rackrow" x="382" y="118" width="320" height="24"></rect>
+          <rect class="rackrow" x="382" y="174" width="320" height="24"></rect>
+          <rect class="rackrow" x="382" y="244" width="320" height="24"></rect>
+          <rect class="rackrow" x="382" y="300" width="320" height="24"></rect>
+        </g>
+        <g id="pdusA">
+          <rect class="pdu-a" x="364" y="118" width="12" height="11"></rect>
+          <rect class="pdu-a" x="364" y="174" width="12" height="11"></rect>
+          <rect class="pdu-a" x="364" y="244" width="12" height="11"></rect>
+          <rect class="pdu-a" x="364" y="300" width="12" height="11"></rect>
+        </g>
+        <g id="pdusB">
+          <rect class="pdu-b" x="708" y="131" width="12" height="11"></rect>
+          <rect class="pdu-b" x="708" y="187" width="12" height="11"></rect>
+          <rect class="pdu-b" x="708" y="257" width="12" height="11"></rect>
+          <rect class="pdu-b" x="708" y="313" width="12" height="11"></rect>
+        </g>
+        <text class="aisle" x="392" y="162">Cold aisle</text>
+        <text class="aisle" x="392" y="227">Hot aisle</text>
+        <text class="aisle" x="392" y="289">Cold aisle</text>
+        <g id="air_cold">
+          <polygon class="cold" points="415,166 425,166 420,152"></polygon>
+          <polygon class="cold" points="465,166 475,166 470,152"></polygon>
+          <polygon class="cold" points="515,166 525,166 520,152"></polygon>
+          <polygon class="cold" points="565,166 575,166 570,152"></polygon>
+          <polygon class="cold" points="665,166 675,166 670,152"></polygon>
+          <polygon class="cold" points="415,292 425,292 420,278"></polygon>
+          <polygon class="cold" points="465,292 475,292 470,278"></polygon>
+          <polygon class="cold" points="515,292 525,292 520,278"></polygon>
+          <polygon class="cold" points="565,292 575,292 570,278"></polygon>
+          <polygon class="cold" points="665,292 675,292 670,278"></polygon>
+        </g>
+        <g id="air_hot">
+          <polygon class="hot" points="465,231 475,231 470,217"></polygon>
+          <polygon class="hot" points="515,231 525,231 520,217"></polygon>
+          <polygon class="hot" points="565,231 575,231 570,217"></polygon>
+          <polygon class="hot" points="665,231 675,231 670,217"></polygon>
+        </g>
+
+        <!-- Cooling plant equipment -->
+        <g id="chillers">
+          <rect class="eq" x="775" y="105" width="50" height="60" rx="3"></rect><text class="eqt" x="800" y="139">Chiller</text>
+          <rect class="eq" x="840" y="105" width="50" height="60" rx="3"></rect><text class="eqt" x="865" y="139">Chiller</text>
+          <rect class="eq" x="905" y="105" width="50" height="60" rx="3"></rect><text class="eqt" x="930" y="139">Chiller</text>
+        </g>
+        <g id="pumps">
+          <circle class="eq" cx="800" cy="332" r="14"></circle><text class="eqt" x="800" y="335">P</text>
+          <circle class="eq" cx="865" cy="332" r="14"></circle><text class="eqt" x="865" y="335">P</text>
+          <circle class="eq" cx="930" cy="332" r="14"></circle><text class="eqt" x="930" y="335">P</text>
+        </g>
+
+        <!-- Outside: utility 1 -->
+        <g id="x_t1" class="item" data-info="x_t1" tabindex="0" role="button" aria-label="Utility transformer 1">
+          <circle class="eq" cx="72" cy="108" r="13"></circle><circle class="eq" cx="88" cy="108" r="13"></circle>
+        </g>
+        <g id="x_g1" class="item" data-info="x_g1" tabindex="0" role="button" aria-label="Generator 1">
+          <rect class="eq" x="55" y="196" width="50" height="28" rx="3"></rect><text class="eqt" x="80" y="214" style="font-size:12px">G</text>
+        </g>
+        <!-- Outside: utility 2 -->
+        <g id="x_t2" class="item" data-info="x_t2" tabindex="0" role="button" aria-label="Utility transformer 2">
+          <circle class="eq" cx="72" cy="553" r="13"></circle><circle class="eq" cx="88" cy="553" r="13"></circle>
+        </g>
+        <g id="x_g2" class="item" data-info="x_g2" tabindex="0" role="button" aria-label="Generator 2">
+          <rect class="eq" x="55" y="466" width="50" height="28" rx="3"></rect><text class="eqt" x="80" y="484" style="font-size:12px">G</text>
+        </g>
+        <text class="ol" x="8" y="94">Grid feed 1</text>
+        <text class="ol" x="42" y="140">Transformer 1</text>
+        <text class="ol" x="44" y="240">Generator 1</text>
+        <text class="ol" x="8" y="539">Grid feed 2</text>
+        <text class="ol" x="42" y="585">Transformer 2</text>
+        <text class="ol" x="44" y="458">Generator 2</text>
+
+        <!-- Outside: dry coolers -->
+        <g id="x_dry" class="item" data-info="x_dry" tabindex="0" role="button" aria-label="Dry coolers">
+          <g id="dry">
+            <circle class="eq" cx="1020" cy="110" r="17"></circle><path d="M1008 110H1032M1020 98V122" stroke="var(--eqs)" stroke-width="1.5" fill="none"></path>
+            <circle class="eq" cx="1020" cy="155" r="17"></circle><path d="M1008 155H1032M1020 143V167" stroke="var(--eqs)" stroke-width="1.5" fill="none"></path>
+            <circle class="eq" cx="1020" cy="200" r="17"></circle><path d="M1008 200H1032M1020 188V212" stroke="var(--eqs)" stroke-width="1.5" fill="none"></path>
+          </g>
+        </g>
+        <text class="ol" x="984" y="238">Dry coolers</text>
+
+        <!-- Network entry labels -->
+        <text class="ol" x="392" y="668" text-anchor="middle">Carrier 1 duct</text>
+        <text class="ol" x="698" y="668" text-anchor="middle">Carrier 2 duct</text>
+
+        <!-- Power A layer -->
+        <g id="gA">
+          <path id="pA_in" class="pw pa" d="M8 108H60"></path>
+          <path id="pA_t" class="pw pa" d="M100 108H195"></path>
+          <path id="pA_g" class="pw pa" d="M105 210H132V124H195"></path>
+          <path id="pA_atslv" class="pw pa" d="M225 116H245"></path>
+          <path id="pA_lv" class="pw pa" d="M312 128V194H232V200"></path>
+          <path id="pA_out" class="pw pa" d="M234 240V250H352"></path>
+          <g id="pA_dist">
+            <path class="pw pa" d="M352 250V123.5"></path>
+            <path class="pw pa" d="M352 250V305.5"></path>
+            <path class="pw pa" d="M352 123.5H364"></path>
+            <path class="pw pa" d="M352 179.5H364"></path>
+            <path class="pw pa" d="M352 249.5H364"></path>
+            <path class="pw pa" d="M352 305.5H364"></path>
+          </g>
+        </g>
+        <!-- Power B layer -->
+        <g id="gB">
+          <path id="pB_in" class="pw pb" d="M8 553H60"></path>
+          <path id="pB_t" class="pw pb" d="M100 553H195"></path>
+          <path id="pB_g" class="pw pb" d="M105 480H132V571H195"></path>
+          <path id="pB_atslv" class="pw pb" d="M225 563H245"></path>
+          <path id="pB_lv" class="pw pb" d="M312 548V490H232V476"></path>
+          <path id="pB_out" class="pw pb" d="M234 436V398H738"></path>
+          <g id="pB_dist">
+            <path class="pw pb" d="M738 398V136.5"></path>
+            <path class="pw pb" d="M738 136.5H720"></path>
+            <path class="pw pb" d="M738 192.5H720"></path>
+            <path class="pw pb" d="M738 262.5H720"></path>
+            <path class="pw pb" d="M738 318.5H720"></path>
+          </g>
+        </g>
+        <!-- Cooling layer -->
+        <g id="gC">
+          <g id="pipes">
+            <path class="pw pc" d="M800 175H930"></path>
+            <path class="pw pc" d="M865 175V300"></path>
+            <path class="pw pc" d="M800 300H930"></path>
+            <path class="pw pc" d="M800 300H752V84H396"></path>
+            <path class="pw pc" d="M752 300V377H396"></path>
+          </g>
+          <g id="pipes_out">
+            <path class="pw pc" d="M960 140H982"></path>
+            <path class="pw pc" d="M982 110V200"></path>
+            <path class="pw pc" d="M982 110H1003"></path>
+            <path class="pw pc" d="M982 155H1003"></path>
+            <path class="pw pc" d="M982 200H1003"></path>
+          </g>
+        </g>
+        <!-- Network layer -->
+        <g id="gN">
+          <path id="c1" class="pw pn" d="M392 645V462H500"></path>
+          <path id="c2" class="pw pn" d="M698 645V478H560"></path>
+          <path id="bb" class="pw pn" d="M620 405V108"></path>
+          <g id="bbdots">
+            <circle class="dotn" cx="620" cy="130" r="4.5"></circle>
+            <circle class="dotn" cx="620" cy="186" r="4.5"></circle>
+            <circle class="dotn" cx="620" cy="256" r="4.5"></circle>
+            <circle class="dotn" cx="620" cy="312" r="4.5"></circle>
+          </g>
+        </g>
+      </svg>
+    </div>
+
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </div>
+</div>
+
+<script>
+(function(){
+  var svg = document.getElementById('plan');
+  var panel = document.getElementById('panel');
+
+  var ZONES = [
+    {id:'z_elecA', x:160,y:70, w:175,h:95, cat:'power', lines:['Electrical room A']},
+    {id:'z_upsA',  x:160,y:170,w:175,h:95, cat:'power', lines:['UPS & battery room A']},
+    {id:'z_dock',  x:160,y:270,w:175,h:122,cat:'support',lines:['Loading dock','& staging']},
+    {id:'z_upsB',  x:160,y:405,w:175,h:95, cat:'power', lines:['UPS & battery room B']},
+    {id:'z_elecB', x:160,y:505,w:175,h:95, cat:'power', lines:['Electrical room B']},
+    {id:'z_white', x:345,y:70, w:400,h:322,cat:'it',    lines:['Computer room (white space)'], lp:{x:392,y:348}},
+    {id:'z_entA',  x:345,y:405,w:95, h:95, cat:'net',   lines:['Entrance','room A']},
+    {id:'z_mda',   x:445,y:405,w:195,h:95, cat:'net',   lines:['Main distribution','area (MDA)']},
+    {id:'z_entB',  x:645,y:405,w:100,h:95, cat:'net',   lines:['Entrance','room B']},
+    {id:'z_noc',   x:445,y:505,w:95, h:95, cat:'support',lines:['NOC /','control room']},
+    {id:'z_sec',   x:545,y:505,w:95, h:95, cat:'safe',  lines:['Security','room']},
+    {id:'z_chill', x:760,y:70, w:200,h:180,cat:'cool',  lines:['Chiller plant']},
+    {id:'z_pump',  x:760,y:255,w:200,h:137,cat:'cool',  lines:['Pumps & piping']},
+    {id:'z_office',x:760,y:405,w:200,h:95, cat:'support',lines:['Offices &','support']},
+    {id:'z_gas',   x:760,y:505,w:200,h:95, cat:'safe',  lines:['Fire suppression','gas cylinders']}
+  ];
+
+  var NS = 'http://www.w3.org/2000/svg';
+  var zg = document.getElementById('zones');
+  ZONES.forEach(function(z){
+    var g = document.createElementNS(NS,'g');
+    g.setAttribute('class','zone z-'+z.cat);
+    g.setAttribute('id',z.id);
+    g.setAttribute('data-info',z.id);
+    g.setAttribute('tabindex','0');
+    g.setAttribute('role','button');
+    g.setAttribute('aria-label',z.lines.join(' '));
+    var r = document.createElementNS(NS,'rect');
+    r.setAttribute('class','zbg');
+    r.setAttribute('x',z.x); r.setAttribute('y',z.y); r.setAttribute('width',z.w); r.setAttribute('height',z.h); r.setAttribute('rx',4);
+    g.appendChild(r);
+    z.lines.forEach(function(line,i){
+      var t = document.createElementNS(NS,'text');
+      t.setAttribute('class','zt');
+      var lx = z.lp ? z.lp.x : z.x+8;
+      var ly = z.lp ? z.lp.y : z.y+16+14*i;
+      t.setAttribute('x',lx); t.setAttribute('y',ly);
+      t.textContent = line;
+      g.appendChild(t);
+    });
+    zg.appendChild(g);
+  });
+
+  // CRAH units
+  var cg = document.getElementById('crah');
+  for (var i=0;i<7;i++){
+    [75,368].forEach(function(y){
+      var r = document.createElementNS(NS,'rect');
+      r.setAttribute('class','eq');
+      r.setAttribute('x',390+46*i); r.setAttribute('y',y); r.setAttribute('width',38); r.setAttribute('height',18); r.setAttribute('rx',2);
+      cg.appendChild(r);
+    });
+  }
+  var ct = document.createElementNS(NS,'text');
+  ct.setAttribute('class','aisle'); ct.setAttribute('x',392); ct.setAttribute('y',104); ct.textContent='CRAH units line the walls';
+  cg.appendChild(ct);
+
+  var INFO = {
+    z_elecA:{t:'Electrical room A', w:'The control point of the A power path. It chooses between the utility and the generator, then distributes low-voltage power onward.',
+      inside:['ATS (automatic transfer switch)','LV main switchboard with breakers','Metering and protection'],
+      conn:['In: transformer 1 and generator 1','Out: UPS room A'],
+      note:'A and B electrical rooms sit in separate fire compartments, so one incident cannot take out both paths.'},
+    z_upsA:{t:'UPS & battery room A', w:'Keeps the load running on batteries between a utility failure and the generator taking over, and cleans the power in normal operation.',
+      inside:['UPS modules in parallel (N+1)','Battery strings (VRLA or lithium-ion)','Static bypass'],
+      conn:['In: LV switchboard A','Out: PDUs at the ends of the rack rows'],
+      note:'Battery runtime is only minutes. Battery rooms need temperature control and ventilation.'},
+    z_elecB:{t:'Electrical room B', w:'The mirror of room A for the B path: its own ATS and LV board, fed by its own grid connection and generator.',
+      inside:['ATS','LV main switchboard','Metering and protection'],
+      conn:['In: transformer 2 and generator 2','Out: UPS room B'],
+      note:'Independence is the point of 2N: nothing in the A path should be needed by the B path.'},
+    z_upsB:{t:'UPS & battery room B', w:'The B path’s UPS and batteries, identical in role to room A.',
+      inside:['UPS modules in parallel (N+1)','Battery strings','Static bypass'],
+      conn:['In: LV switchboard B','Out: PDUs at the other end of the rack rows'],
+      note:'Because both paths are complete, either side can be taken out for maintenance while the other carries the whole load.'},
+    z_dock:{t:'Loading dock & staging', w:'Where equipment arrives and is unpacked, built and tested before it goes into the live computer room.',
+      inside:['Ramp and landing platform','Staging and storage area','Wide doors and a freight lift'],
+      conn:['Leads to the computer room through a controlled corridor'],
+      note:'Keeping cardboard, dust and deliveries out of the white space is a fire and cleanliness control.'},
+    z_white:{t:'Computer room (white space)', w:'The room that holds the IT equipment. Racks stand in rows on a raised floor, facing each other across cold aisles, with hot aisles behind them.',
+      inside:['Racks in 4 rows, each with an A PDU and a B PDU','CRAH units along the walls','Raised floor with perforated tiles','Detection in the floor and ceiling voids'],
+      conn:['Power from both A and B paths','Chilled water to the CRAH units','Network from the MDA'],
+      note:'No windows, fire-rated walls running slab to slab, and a high floor loading are typical requirements.'},
+    z_entA:{t:'Entrance room A', w:'Where the first telecom carrier’s cable enters the building and is handed over.',
+      inside:['Carrier demarcation','Fibre termination','Carrier-owned equipment'],
+      conn:['In: carrier 1 duct from outside','Out: MDA'],
+      note:'Kept outside the computer room so that carriers’ staff and gear don’t need to enter it.'},
+    z_mda:{t:'Main distribution area (MDA)', w:'The heart of the network: the core switches and routers, and the main cross-connects that tie the whole building to the outside world.',
+      inside:['Core routers and switches','Main cross-connects','Patching'],
+      conn:['In: entrance rooms A and B','Out: backbone cabling to each row'],
+      note:'Two entrance rooms and two carriers remove the single point of failure at the building boundary.'},
+    z_entB:{t:'Entrance room B', w:'A second entrance room for a second carrier arriving by a different route.',
+      inside:['Carrier demarcation','Fibre termination'],
+      conn:['In: carrier 2 duct','Out: MDA'],
+      note:'This is the network equivalent of the A/B power paths.'},
+    z_noc:{t:'NOC / control room', w:'Where staff monitor and manage the facility and the IT systems around the clock.',
+      inside:['Monitoring screens','Building management system (BMS)','DCIM software'],
+      conn:['Receives alarms from power, cooling, fire and security'],
+      note:'Human error is a major cause of outages, so procedures and monitoring matter as much as hardware.'},
+    z_sec:{t:'Security room', w:'The control point for access control and CCTV.',
+      inside:['Access control servers','CCTV recorders and monitors','Alarm panels'],
+      conn:['Doors, cameras and intrusion alarms across the site'],
+      note:'Security is layered: perimeter, building, floor, room, rack.'},
+    z_chill:{t:'Chiller plant', w:'Makes the chilled water that cools the computer room by removing heat from the water that returns from the CRAH units.',
+      inside:['Chillers (with spare capacity)','Controls and sensors'],
+      conn:['Chilled water to the pumps and CRAH units','Heat rejected to the dry coolers outside'],
+      note:'Free cooling, when the outside air is cold enough, lets chillers be switched off and lowers PUE.'},
+    z_pump:{t:'Pumps & piping', w:'Circulates the chilled water around the loop between the chillers and the CRAH units.',
+      inside:['Pumps with spares (N+1 or better)','Valves, headers and expansion tanks','Water treatment'],
+      conn:['Supplies the CRAH units in the white space'],
+      note:'Leak detection runs under the raised floor wherever pipes enter the computer room.'},
+    z_office:{t:'Offices & support', w:'Staff areas, meeting rooms and storage, kept separate from the critical area.',
+      inside:['Offices','Break areas','General storage'],
+      conn:['Separated from the white space by controlled doors'],
+      note:'Support spaces are outside the critical area so that normal activity can’t affect the IT equipment.'},
+    z_gas:{t:'Fire suppression gas cylinders', w:'Stores the clean-agent gas that is released to put out a fire in the computer room without water.',
+      inside:['Gas cylinders','Detection and control panels'],
+      conn:['Piped to nozzles in the white space and the floor and ceiling voids'],
+      note:'Early smoke detection gives time to act before the gas is released. Suppression is usually zoned.'},
+    x_t1:{t:'Utility transformer 1', w:'Steps the medium-voltage grid supply down to low voltage for the A path.',
+      inside:['Windings and iron core','Cooling by oil or air','Protection and metering'],
+      conn:['In: grid feed 1','Out: ATS in electrical room A'],
+      note:'Transformer losses of about 1 to 2% become heat and count toward PUE.'},
+    x_t2:{t:'Utility transformer 2', w:'The same job for the B path, from a second, independent grid feed.',
+      inside:['Windings and iron core','Cooling by oil or air','Protection and metering'],
+      conn:['In: grid feed 2','Out: ATS in electrical room B'],
+      note:'Ideally the two feeds come from different substations, so a single grid fault doesn’t hit both.'},
+    x_g1:{t:'Generator 1', w:'Backup power for long outages. It starts when the utility fails and takes the load within about 10 to 15 seconds.',
+      inside:['Diesel engine and alternator','Fuel tank and storage','Control panel and starter batteries'],
+      conn:['Out: ATS in electrical room A'],
+      note:'Sized for the UPS load (× 1.0 or × 1.2 for harmonics) plus the cooling and lighting load. Fuel storage sets how long it can run.'},
+    x_g2:{t:'Generator 2', w:'The B path’s generator, independent of generator 1.',
+      inside:['Diesel engine and alternator','Fuel tank and storage','Control panel and starter batteries'],
+      conn:['Out: ATS in electrical room B'],
+      note:'Each path has its own generator, so one failing to start doesn’t leave the whole site on batteries.'},
+    x_dry:{t:'Dry coolers', w:'Outdoor heat exchangers where the heat from the chilled-water system is finally released to the air.',
+      inside:['Large fans','Finned coils'],
+      conn:['Linked to the chillers by pipework'],
+      note:'Cooling towers do the same job using evaporation. They use water, which shows up in WUE.'}
+  };
+
+  var TOURS = {
+    power:{label:'Follow the power', steps:[
+      {t:'Grid feed', x:'Power arrives from the utility at medium voltage, often 10 to 33 kV. A resilient site takes two independent feeds, one for each side of the building. Here, feed 1 serves the A path and feed 2 serves the B path.', ids:['pA_in'], L:{A:1,B:0,C:0,N:0}},
+      {t:'Transformer', x:'The transformer steps the medium voltage down to low voltage (400/230 V in Europe, 415/240 V on your slides). This is where the current jumps to over 1,000 A for a 1 MW site, so everything after it is kept close together.', ids:['x_t1','pA_t'], L:{A:1,B:0,C:0,N:0}},
+      {t:'Generator', x:'The generator is the backup for long outages. It takes about 10 to 15 seconds to start and pick up the load, and it needs on-site fuel storage. It is sized for the UPS load (× 1.0 or × 1.2) plus cooling and lighting.', ids:['x_g1','pA_g'], L:{A:1,B:0,C:0,N:0}},
+      {t:'ATS', x:'The automatic transfer switch watches the utility. If the supply fails, it starts the generator and, once that is stable, switches the building over to it.', ids:['ats_A','z_elecA'], L:{A:1,B:0,C:0,N:0}},
+      {t:'LV main switchboard', x:'The low-voltage board distributes the power and protects each circuit with breakers. Its output feeds the UPS.', ids:['lv_A','pA_atslv'], L:{A:1,B:0,C:0,N:0}},
+      {t:'UPS and batteries', x:'The UPS carries the load on batteries for the seconds or minutes until the generator is ready, and conditions the power in normal operation. The modules run in parallel, so one can fail or be serviced without dropping the load.', ids:['z_upsA','ups_A','pA_lv'], L:{A:1,B:0,C:0,N:0}},
+      {t:'Distribution to the rows', x:'The UPS output travels to the PDUs at the ends of the rack rows, often through a static transfer switch or busway. Each row has an A PDU and a B PDU.', ids:['pA_out','pA_dist','pdusA'], L:{A:1,B:0,C:0,N:0}},
+      {t:'Racks', x:'Servers have two power supplies. One plugs into the A PDU and the other into the B PDU. If a whole path fails, the server carries on using the other.', ids:['racks','pdusA','pdusB'], L:{A:1,B:1,C:0,N:0}},
+      {t:'The B path mirrors A', x:'The B side is a complete second copy, in separate rooms and fire compartments. That is 2N: either path alone can carry the full load, so one can fail or be maintained while the other runs the site.', ids:['z_elecB','z_upsB','pB_in','pB_t','pB_g','pB_atslv','pB_lv','pB_out','pB_dist','x_t2','x_g2'], L:{A:1,B:1,C:0,N:0}}
+    ]},
+    heat:{label:'Follow the heat', steps:[
+      {t:'Servers make heat', x:'Almost every watt the servers draw becomes heat. A 1 MW IT load gives off about 1 MW of heat, and it has to be removed continuously or the equipment overheats quickly.', ids:['racks'], L:{A:0,B:0,C:1,N:0}},
+      {t:'Cold aisle', x:'Cold air from the CRAH units flows through the raised floor and rises through perforated tiles in the cold aisle. The servers pull it in through their fronts.', ids:['air_cold'], L:{A:0,B:0,C:1,N:0}},
+      {t:'Hot aisle', x:'The servers blow hot air out of their backs into the hot aisle. Containment with doors or curtains stops hot and cold air mixing, which improves efficiency.', ids:['air_hot'], L:{A:0,B:0,C:1,N:0}},
+      {t:'CRAH units', x:'CRAH units pull in the hot air and pass it over coils of cold water. The air leaves cool and the water leaves warm. (A CRAC instead uses its own refrigerant compressor.)', ids:['crah'], L:{A:0,B:0,C:1,N:0}},
+      {t:'Chilled water pipes', x:'Pipes carry the heat out of the white space as warm water. Keeping the water pipework to a minimum and protecting it with leak detection under the floor limits the risk to the IT equipment.', ids:['pipes'], L:{A:0,B:0,C:1,N:0}},
+      {t:'Pumps', x:'Pumps circulate the water around the loop. They are installed with spares, so a pump failure doesn’t stop the cooling.', ids:['z_pump','pumps'], L:{A:0,B:0,C:1,N:0}},
+      {t:'Chillers', x:'Chillers take the heat out of the returning warm water and send cold water out again. When the outside air is cold enough, some sites use free cooling to save energy and lower PUE.', ids:['z_chill','chillers'], L:{A:0,B:0,C:1,N:0}},
+      {t:'Dry coolers', x:'The heat finally leaves the building through dry coolers or cooling towers outside, which release it to the air. With a heat-reuse scheme it can instead warm a nearby building.', ids:['x_dry','pipes_out'], L:{A:0,B:0,C:1,N:0}}
+    ]},
+    data:{label:'Follow the data', steps:[
+      {t:'Carrier 1', x:'Fibre from the first telecom carrier enters the property underground, along its own route.', ids:['c1'], L:{A:0,B:0,C:0,N:1}},
+      {t:'Entrance room A', x:'The carrier’s cable ends here, outside the computer room. This keeps outside equipment and staff away from your racks, and it is where the carrier hands the service over to you.', ids:['z_entA'], L:{A:0,B:0,C:0,N:1}},
+      {t:'Main distribution area', x:'The MDA holds the core routers, switches and main cross-connects that link everything in the building to the outside world.', ids:['z_mda'], L:{A:0,B:0,C:0,N:1}},
+      {t:'Backbone to the rows', x:'Cabling runs from the MDA through overhead trays to each row, where it ends at network cabinets or top-of-rack switches.', ids:['bb','bbdots'], L:{A:0,B:0,C:0,N:1}},
+      {t:'Racks', x:'Servers connect to the switch in or at the end of their row. Their traffic goes up the backbone, through the MDA and out to the carrier.', ids:['racks','bbdots'], L:{A:0,B:0,C:0,N:1}},
+      {t:'Carrier 2 and entrance room B', x:'A second carrier arrives by a different route into a second entrance room, so one cable cut or one incident cannot isolate the site. It is the network version of the A/B power paths.', ids:['c2','z_entB'], L:{A:0,B:0,C:0,N:1}}
+    ]}
+  };
+
+  var layers = {A:true,B:true,C:false,N:false};
+  var tour = null, step = 0, selected = null, lastHL = [];
+
+  function applyLayers(){
+    ['A','B','C','N'].forEach(function(k){
+      document.getElementById('g'+k).style.display = layers[k] ? '' : 'none';
+      document.querySelector('.chip[data-layer="'+k+'"]').setAttribute('aria-pressed', layers[k] ? 'true':'false');
+    });
+  }
+  function clearHL(){
+    lastHL.forEach(function(el){ el.classList.remove('hl'); });
+    lastHL = [];
+    svg.classList.remove('touring');
+  }
+  function clearSel(){
+    if (selected){ selected.classList.remove('sel'); selected = null; }
+  }
+  function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+  function list(arr){ return '<ul>'+arr.map(function(i){return '<li>'+esc(i)+'</li>';}).join('')+'</ul>'; }
+
+  function showDefault(){
+    panel.innerHTML =
+      '<h2>Start anywhere</h2>' +
+      '<p>Select a room or piece of equipment on the plan to see what it does and what it connects to.</p>' +
+      '<p class="hint">Or use a tour to follow one thing through the whole building: the power from the grid to the server, the heat from the server to the outside air, or the data from the street to the rack.</p>' +
+      '<div class="note">This is a 2N layout: two complete, independent power paths (A in blue, B in green), each with its own grid feed, transformer, generator, ATS and UPS.</div>';
+  }
+  function showInfo(id){
+    var d = INFO[id]; if (!d) return;
+    var html = '<h2>'+esc(d.t)+'</h2><p>'+esc(d.w)+'</p>';
+    html += '<h3>Inside</h3>'+list(d.inside);
+    html += '<h3>Connects to</h3>'+list(d.conn);
+    if (d.note) html += '<div class="note">'+esc(d.note)+'</div>';
+    panel.innerHTML = html;
+  }
+  function endTour(){
+    tour = null;
+    document.querySelectorAll('.tour-btn').forEach(function(b){ b.setAttribute('aria-pressed','false'); });
+    clearHL();
+  }
+  function select(el){
+    if (tour) endTour();
+    clearSel();
+    selected = el; el.classList.add('sel');
+    showInfo(el.getAttribute('data-info'));
+  }
+  function renderStep(){
+    var T = TOURS[tour], s = T.steps[step];
+    clearHL(); clearSel();
+    svg.classList.add('touring');
+    layers = {A:!!s.L.A, B:!!s.L.B, C:!!s.L.C, N:!!s.L.N};
+    applyLayers();
+    s.ids.forEach(function(id){
+      var el = document.getElementById(id);
+      if (el){ el.classList.add('hl'); lastHL.push(el); }
+    });
+    var last = step === T.steps.length-1;
+    panel.innerHTML =
+      '<div class="step-count">'+esc(T.label)+': step '+(step+1)+' of '+T.steps.length+'</div>' +
+      '<h2>'+esc(s.t)+'</h2><p>'+esc(s.x)+'</p>' +
+      '<div class="nav">' +
+        '<button class="nav-btn" id="prev"'+(step===0?' disabled':'')+'>Back</button>' +
+        '<button class="nav-btn primary" id="next">'+(last?'Finish':'Next')+'</button>' +
+      '</div>';
+    document.getElementById('prev').onclick = function(){ if(step>0){ step--; renderStep(); } };
+    document.getElementById('next').onclick = function(){
+      if (last){ endTour(); showDefault(); } else { step++; renderStep(); }
+    };
+  }
+  function startTour(name){
+    if (tour === name){ endTour(); showDefault(); return; }
+    endTour();
+    tour = name; step = 0;
+    document.querySelector('.tour-btn[data-tour="'+name+'"]').setAttribute('aria-pressed','true');
+    renderStep();
+  }
+
+  document.querySelectorAll('.chip').forEach(function(b){
+    b.addEventListener('click', function(){
+      var k = b.getAttribute('data-layer');
+      layers[k] = !layers[k];
+      applyLayers();
+    });
+  });
+  document.querySelectorAll('.tour-btn').forEach(function(b){
+    b.addEventListener('click', function(){ startTour(b.getAttribute('data-tour')); });
+  });
+  svg.addEventListener('click', function(e){
+    var el = e.target.closest ? e.target.closest('[data-info]') : null;
+    if (el) select(el);
+  });
+  svg.addEventListener('keydown', function(e){
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    var el = e.target.closest ? e.target.closest('[data-info]') : null;
+    if (el){ e.preventDefault(); select(el); }
+  });
+
+  applyLayers();
+  showDefault();
+})();
+</script>
+</body>
+</html>
