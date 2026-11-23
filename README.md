@@ -7,10 +7,10 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 
 ### 🔗 Quick Access
 - 🎓 **[Master's in Data Science — Sapienza (33519)](MasterDataScience/)**
-- 📜 **[My Professional Certifications](Courses/01Certifications.md)**
-   - Financial Risk Management
-   - Artificial Intelligence
-   - Data Centers
+- 📜 **[My Professional Certifications](Professional%20Certifications/)**
+  - [Financial Risk Management](Professional%20Certifications/FRM.md)
+  - [Artificial Intelligence](Professional%20Certifications/RAI.md)
+  - [Data Centers](Professional%20Certifications/CDCP.md)
 - 💻 **[LeetCode](LeetCode/)**
 - 02 Mathematics and Statistics
   - 02.01 [Statistics](Books/02.01Statistics.md)
