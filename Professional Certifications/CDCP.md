@@ -1,4 +1,5 @@
 # CDCP (Certified Data Centre Professional)
+[CDCP Course (EPI)](https://www.epi-ap.com/services/1/3/4/Certified_Data_Centre_Professional_%28CDCP%29)
 
 [View Certificate](ADD-YOUR-CERTIFICATE-LINK-HERE)
 
