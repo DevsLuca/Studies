@@ -1,4 +1,4 @@
-# FRM (Financial Risk Manager)
+# [GARP FRM (Financial Risk Manager)](https://www.garp.org/frm)
 
 [View Certificate](https://garp.my.site.com/DigitalBadgeFRM?id=0031W00002gKKADQA4)
 
