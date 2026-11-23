@@ -49,16 +49,3 @@ Study notes for the EPI Academy CDCP course. The notes follow the course's **les
                                                                           │
                                   12 Fire ──► 13 Security ──► 14 Auxiliary systems
 ```
-
-## Related material
-
-- **Inside a 2N data centre**: an interactive plan of a theoretical data centre showing the power, cooling and network flows (`data_centre_walkthrough.html`).
-- **CDCP Study Notes: Electrical Physics Foundations**: the same physics notes as `06a_electrical_physics_foundations.md`, kept as an editable document.
-
-## Study routine
-
-1. Read one module, using the objectives and the lesson table at the top of each file as a checklist.
-2. Open `00_knowledge_tests.md`, go to the module, **cover the answer column**, answer the questions, then check.
-3. For Module 6, use `06_power_infrastructure.md` to find the right file and its formula sheet, and the **mixed review** section of `00_knowledge_tests.md` for revision.
-4. Re-read the **Exam takeaways** the day before the exam.
-5. Revisit every **[CHECK]** figure against the course slides.
