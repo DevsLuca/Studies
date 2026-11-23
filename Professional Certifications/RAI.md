@@ -45,6 +45,3 @@ The Innovation and Artificial Intelligence Training online programme aims at ins
 • Learn about processes that AI accelerates: Innovation, Automation, Flattening • Understand business and societal AI risks, upcoming regulations and what they mean for you and your business • Learn about planning for AI governance • Wrap up around skills for you and your teams and organisations to develop, linked to the overall course
 
 - **Week 6 - 7**: Final Assignment and Peer Review
----
-
-*Thanks for checking out my professional certifications tracker! This repository helps me stay organized and motivated while pursuing additional certifications and professional development.*
