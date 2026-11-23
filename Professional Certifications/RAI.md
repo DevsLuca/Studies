@@ -1,4 +1,4 @@
-# Professional Certifications: RAI and INSEAD
+# Artificial Intelligence
 
 ## RAI (Risk and AI)
 [View Certificate](https://garp.my.site.com/DigitalBadgeRAI?id=0031W00002gKKADQA4)
