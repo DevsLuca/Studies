@@ -1,8 +1,6 @@
 # [GARP FRM (Financial Risk Manager)](https://www.garp.org/frm)
 
-[![GARP FRM Certified](https://img.shields.io/badge/GARP-FRM%20Certified-1f6feb)](https://garp.my.site.com/DigitalBadgeFRM?id=0031W00002gKKADQA4)
-
-[View Certificate](https://garp.my.site.com/DigitalBadgeFRM?id=0031W00002gKKADQA4)
+[![GARP FRM Certificate](https://img.shields.io/badge/GARP-FRM%20Certified-1f6feb)](https://garp.my.site.com/DigitalBadgeFRM?id=0031W00002gKKADQA4)
 
 The **Financial Risk Manager (FRM)** certification, awarded by the Global Association of Risk Professionals (GARP), is a globally recognized designation for professionals in risk management. It demonstrates expertise in identifying, analyzing, and mitigating financial risks.
 
