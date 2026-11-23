@@ -1,6 +1,6 @@
 # Artificial Intelligence
 
-## RAI (Risk and AI)
+## [GARP RAI (Risk and AI)](https://www.garp.org/rai)
 [View Certificate](https://garp.my.site.com/DigitalBadgeRAI?id=0031W00002gKKADQA4)
 
 The **Risk and AI (RAI)** certification, also from GARP, focuses on knowledge areas necessary for individuals and organizations to successfully manage the impact of AI on organizations
