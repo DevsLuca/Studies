@@ -1,21 +1,65 @@
-# CDCP Certification
+# CDCP (Certified Data Centre Professional)
 
-[View Certificate](PASTE_CERTIFICATE_LINK_HERE)
+[View Certificate](ADD-YOUR-CERTIFICATE-LINK-HERE)
 
-**Issuing body:** TBD
-**Date passed:** TBD
+The **Certified Data Centre Professional (CDCP)** certification, awarded by EPI, is a vendor-neutral certification in the design, operation, and management of mission-critical data centre facilities.
 
-## Overview
-TBD: a short description of what the CDCP certification is and what it demonstrates.
+### Site, Standards, and Building (Modules 1-5)
+Covers what makes a facility mission critical, the standards that classify it, and the building and room requirements.
 
-## Exam Details
-- **Format:** TBD
-- **Domains / Topics:** TBD
-- **Study materials used:** TBD
+- **The Mission Critical Site**
+  • Availability, MTBF, MTTR, and the cost of downtime
+  • Risk assessment, RTO, RPO, and business continuity
 
-## Progress
-- [x] Exam passed
+- **Data Centre Standards**
+  • Uptime Tier Standard, ANSI/TIA-942-C, EN 50600, and BICSI 002
+  • Compliance and management frameworks (ISO/IEC 27001, PCI DSS, NIS2)
 
----
+- **Location, Building, and Construction**
+  • Site selection and hazards, building and room requirements
 
-*Thanks for checking out my professional certifications tracker! This repository helps me stay organized and motivated while pursuing additional certifications and professional development.*
+- **Raised Access Flooring and Suspended Ceiling**
+  • Floor classes and loads, ESD and grounding, ramps and ceilings
+
+- **Light**
+  • Lighting levels, LED, and emergency lighting
+
+### Power and Electromagnetic Environment (Modules 6-7)
+Covers the power chain from utility to rack, and the electromagnetic environment around it.
+
+- **Power Infrastructure**
+  • Utility supply, transformers, generators, ATS/STS, and redundancy (N+1, 2N)
+  • UPS, batteries, BESS, grounding, and bonding
+  • Power quality, harmonics, power factor, and power sizing
+
+- **Electro Magnetic Fields**
+  • EMF sources, impact, norms, EMP, and shielding
+
+### IT Space, Cooling, and Water (Modules 8-10)
+Covers the equipment space and the systems that remove its heat.
+
+- **Equipment Racks**
+  • 19-inch standard, 2-post versus 4-post, rack security, and rack PDUs
+
+- **Cooling Infrastructure**
+  • ASHRAE guidelines, CRAC/CRAH, free cooling, and refrigerants
+  • Raised floor cooling, containment, and liquid cooling
+
+- **Water Supply**
+  • Water use (WUE), storage tanks, wells, and backup supply
+
+### Network, Protection, and Operations (Modules 11-14)
+Covers connectivity, protection of the facility and its people, and monitoring.
+
+- **Scalable Network Infrastructure**
+  • Structured cabling, copper and fibre, TIA-942 topology, testing, and redundancy
+
+- **Fire Protection**
+  • Detection, sprinklers, clean agents, and extinguishers
+  • NFPA 75/76, signage, and regulations
+
+- **Physical Security and Safety**
+  • Layered security, CCTV, entry control, and safety hazards
+
+- **Auxiliary Systems**
+  • EMS, BMS, DCIM, leak detection, and alarm notification
