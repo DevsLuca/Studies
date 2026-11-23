@@ -27,7 +27,6 @@ Study notes for the EPI Academy CDCP course. The notes follow the course's **les
 | [12_fire_protection.md](12_fire_protection.md) | **12.** Fire Protection (12.1 to 12.11) | Done |
 | [13_physical_security_and_safety.md](13_physical_security_and_safety.md) | **13.** Physical Security and Safety (13.1 to 13.4) | Done |
 | [14_auxiliary_systems.md](14_auxiliary_systems.md) | **14.** Auxiliary Systems (14.1 to 14.5) | Done |
-| | Exam | |
 
 ## How to read the markers
 
