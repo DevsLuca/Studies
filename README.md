@@ -21,7 +21,7 @@ The goal is to maintain an up-to-date, transparent, and organized collection of 
 - 04 [Data Science with Python Applications](Courses/04DataScience.md)
 - 05 [Data Visualisation](Courses/05DataVisualisation.md)
 - 06 [Cybersecurity](Courses/06CyberSecurity.md)
-- 07 [Artificial Inteligence and Machine Learning](Courses/07AIML.md)
+- 07 [Artificial Intelligence and Machine Learning](Courses/07AIML.md)
 - 08 Other Topics
 
 ---
