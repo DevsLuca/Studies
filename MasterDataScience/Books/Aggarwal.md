@@ -1,7 +1,9 @@
 # Aggarwal, *Data Mining: The Textbook*
  
 [⬅ Back to tracker](../README.md)
- 
+
+<img src="../../images/datamining.png" width="200">
+
 <a id="top"></a>
  
 ## 📑 Table of Contents
