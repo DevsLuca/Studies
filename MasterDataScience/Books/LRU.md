@@ -2,6 +2,8 @@
 
 [⬅ Back to tracker](../README.md)
 
+<img src="../../images/mmd.jpg" width="200">
+
 <a id="top"></a>
 
 ## 📑 Table of Contents
